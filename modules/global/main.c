@@ -109,7 +109,7 @@ static void gs_cmd_global(sourceinfo_t *si, const int parc, char *parv[])
 		{
 			global = (struct global_ *)n->data;
 
-			snprintf(buf, sizeof buf, "[Network Notice] %s%s%s",
+			snprintf(buf, sizeof buf, "[네트워크 공지] %s%s%s",
 					isfirst ? get_source_name(si) : "",
 					isfirst ? " - " : "",
 					global->text);
@@ -117,6 +117,17 @@ static void gs_cmd_global(sourceinfo_t *si, const int parc, char *parv[])
 			 * should come from global even if /os global was
 			 * used. */
 			notice_global_sts(globsvs->me, "*", buf);
+
+			// --devunt 20120919 start
+			mychan_t *mc = mychan_find("*");
+			mowgli_patricia_iteration_state_t state;
+
+			MOWGLI_PATRICIA_FOREACH(mc, &state, mclist)
+			{
+				msg(globsvs->me->nick, mc->name, "%s", buf);
+			}
+			// --devunt 20120919 end
+
 			isfirst = false;
 			/* log everything */
 			logcommand(si, CMDLOG_ADMIN, "GLOBAL: \2%s\2", global->text);
