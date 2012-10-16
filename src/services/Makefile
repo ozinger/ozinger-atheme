@@ -1,5 +1,5 @@
 PROG		= atheme-services${PROG_SUFFIX}
-HELP_LINGUAS	= es ru
+HELP_LINGUAS	= es ru ko
 
 SRCS = main.c
 

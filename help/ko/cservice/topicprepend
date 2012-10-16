@@ -1,0 +1,9 @@
+TOPICPREPEND 명령 도움말:
+
+TOPICPREPEND 명령은 기존의 대화 주제(토픽) 앞에 원하는 내용을
+덧붙입니다.
+
+사용법: TOPICPREPEND <#채널> <덧붙일 내용>
+
+예:
+    /msg &nick& TOPICPREPEND #ozinger 이곳은 서포터즈 채널이 아닙니다.

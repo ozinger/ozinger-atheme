@@ -1,0 +1,8 @@
+FTRANSFER 명령 도움말:
+
+FTRANSFER 명령은 채널 주인을 강제로 변경합니다.
+
+사용법: FTRANSFER <#채널> <새주인>
+
+예:
+    /msg &nick& FTRANSFER #내채널 철수

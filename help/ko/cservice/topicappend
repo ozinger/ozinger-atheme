@@ -1,0 +1,9 @@
+TOPICAPPEND 명령 도움말:
+
+TOPICAPPEND 명령은 기존의 대화 주제(토픽) 뒤에 원하는 내용을
+덧붙입니다.
+
+사용법: TOPICAPPEND <#채널> <덧붙일 내용>
+
+예:
+    /msg &nick& TOPICAPPEND #ozinger 비속어 사용금지

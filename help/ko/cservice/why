@@ -1,0 +1,8 @@
+WHY 명령 도움말:
+
+WHY 명령은 채널에 걸린 특정 사용자의 권한(플래그)을 보여 줍니다.
+
+사용법: WHY <#채널> <대화명>
+
+예:
+    /msg &nick& WHY #ozinger lifthrasiir

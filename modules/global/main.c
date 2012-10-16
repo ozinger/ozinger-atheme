@@ -109,6 +109,8 @@ static void gs_cmd_global(sourceinfo_t *si, const int parc, char *parv[])
 		{
 			global = (struct global_ *)n->data;
 
+			// --lifthrasiir 20120920: localization
+			/*snprintf(buf, sizeof buf, "[Network Notice] %s%s%s",*/
 			snprintf(buf, sizeof buf, "[네트워크 공지] %s%s%s",
 					isfirst ? get_source_name(si) : "",
 					isfirst ? " - " : "",

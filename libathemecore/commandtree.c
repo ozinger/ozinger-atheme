@@ -221,8 +221,18 @@ void command_help_short(sourceinfo_t *si, mowgli_patricia_t *commandtree, const 
 	lv = 0;
 	for (p = buf; *p != '\0'; p++)
 	{
+#if 0
 		if (!(*p >= '\1' && *p < ' '))
 			lv++;
+#else /* temporary fix for korean message --lifthrasiir 20101211 */
+		if (*p >= '\352' && *p <= '\355')
+		{
+			lv += 2;
+			p += 2;
+		}
+		else if (!(*p >= '\1' && *p < ' '))
+			lv++;
+#endif
 	}
 
 	MOWGLI_PATRICIA_FOREACH(c, &state, commandtree)

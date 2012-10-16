@@ -1,0 +1,9 @@
+SET PRIVATE 명령 도움말:
+
+SET PRIVATE 명령은 채널 정보를 다른 사용자들이 볼 수 없도록
+숨깁니다.
+
+사용법: SET <#channel> PRIVATE ON|OFF
+
+예:
+    /msg &nick& SET #비밀채널 PRIVATE ON

@@ -1,0 +1,6090 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Korean Localization for Atheme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-11 01:39+0900\n"
+"PO-Revision-Date: 2010-12-11 01:33+0900\n"
+"Last-Translator: Kang Seonghoon <public+l10n@mearie.org>\n"
+"Language-Team: Ozinger Network\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/alis/main.c:426 modules/botserv/help.c:47
+#: modules/chanserv/help.c:55 modules/chanserv/help.c:108
+#: modules/gameserv/help.c:47 modules/hostserv/help.c:47
+#: modules/memoserv/help.c:47 modules/nickserv/help.c:46
+#: modules/nickserv/help.c:95 modules/operserv/help.c:54 src/help.c:151
+#: src/help.c:195
+#, c-format
+msgid "***** %s Help *****"
+msgstr "*** %s 도움말 ***"
+
+#: modules/alis/main.c:427
+#, c-format
+msgid ""
+"%s allows searching for channels with more\n"
+"flexibility than the /list command."
+msgstr ""
+"%s 봇은 보통의 /LIST 명령보다 더 자세하게 채널을 검색하는\n"
+"기능을 제공합니다."
+
+#: modules/alis/main.c:431 modules/botserv/help.c:50
+#: modules/chanserv/help.c:84 modules/gameserv/help.c:50
+#: modules/hostserv/help.c:50 modules/memoserv/help.c:50
+#: modules/nickserv/help.c:71
+msgid "For more information on a command, type:"
+msgstr "각 명령에 대해 자세히 알고 싶다면 이렇게 입력하세요:"
+
+#: modules/alis/main.c:435 modules/botserv/help.c:56
+#: modules/chanserv/help.c:92 modules/chanserv/help.c:110
+#: modules/gameserv/help.c:56 modules/hostserv/help.c:56
+#: modules/memoserv/help.c:56 modules/nickserv/help.c:79
+#: modules/nickserv/help.c:97 modules/operserv/help.c:66 src/help.c:191
+#: src/help.c:199
+msgid "***** End of Help *****"
+msgstr "*** 도움말 끝 ***"
+
+#: modules/backend/flatfile.c:116
+#, c-format
+msgid "DATABASE ERROR: db_save(): cannot create atheme.db.new: %s"
+msgstr "데이터베이스 오류: db_save(): atheme.db.new를 생성할 수 없음: %s"
+
+#: modules/backend/flatfile.c:308
+#, c-format
+msgid "DATABASE ERROR: db_save(): cannot write to atheme.db.new: %s"
+msgstr "데이터베이스 오류: db_save(): atheme.db.new에 쓸 수 없음: %s"
+
+#: modules/backend/flatfile.c:321
+#, c-format
+msgid "DATABASE ERROR: db_save(): cannot rename atheme.db.new to atheme.db: %s"
+msgstr ""
+"데이터베이스 오류: db_save(): atheme.db.new의 이름을 atheme.db로 바꿀 수 없"
+"음: %s"
+
+#: modules/backend/opensex.c:1041
+#, c-format
+msgid "DATABASE ERROR: db-open-read: cannot open '%s' for reading: %s"
+msgstr "데이터베이스 오류: db-open-read: '%s'를 읽기 용으로 열 수 없음: %s"
+
+#: modules/backend/opensex.c:1075
+#, c-format
+msgid "DATABASE ERROR: db-open-write: cannot open '%s' for writing: %s"
+msgstr "데이터베이스 오류: db-open-write: '%s'를 쓰기 용으로 열 수 없음: %s"
+
+#: modules/backend/opensex.c:1121
+#, c-format
+msgid ""
+"DATABASE ERROR: db_save(): cannot rename services.db.new to services.db: %s"
+msgstr ""
+"데이터베이스 오류: db_save(): services.db.new의 이름을 services.db로 바꿀 수 "
+"없음: %s"
+
+#: modules/botserv/bottalk.c:22
+msgid "Makes the bot say the given text on the given channel."
+msgstr "채널에 봇이 주어진 내용을 말하도록 합니다."
+
+#: modules/botserv/bottalk.c:23
+msgid "Makes the bot do the equivalent of a \"/me\" command."
+msgstr "봇이 \"/me\" 명령과 똑같은 일을 하도록 합니다."
+
+#: modules/botserv/bottalk.c:62
+msgid "Syntax: SAY <#channel> <msg>"
+msgstr "사용법: SAY <#채널> <메시지>"
+
+#: modules/botserv/bottalk.c:68 modules/botserv/bottalk.c:122
+#: modules/botserv/set_fantasy.c:73 modules/botserv/set_nobot.c:58
+#: modules/chanserv/akick.c:98 modules/chanserv/ban.c:68
+#: modules/chanserv/ban.c:158 modules/chanserv/clear_bans.c:73
+#: modules/chanserv/clear_users.c:60 modules/chanserv/close.c:95
+#: modules/chanserv/count.c:63 modules/chanserv/drop.c:91
+#: modules/chanserv/drop.c:173 modules/chanserv/fflags.c:62
+#: modules/chanserv/flags.c:115 modules/chanserv/ftransfer.c:66
+#: modules/chanserv/getkey.c:56 modules/chanserv/halfop.c:81
+#: modules/chanserv/halfop.c:162 modules/chanserv/hold.c:62
+#: modules/chanserv/info.c:69 modules/chanserv/invite.c:69
+#: modules/chanserv/kick.c:70 modules/chanserv/kick.c:138
+#: modules/chanserv/mark.c:63 modules/chanserv/op.c:75
+#: modules/chanserv/op.c:150 modules/chanserv/owner.c:81
+#: modules/chanserv/owner.c:162 modules/chanserv/protect.c:81
+#: modules/chanserv/protect.c:162 modules/chanserv/quiet.c:154
+#: modules/chanserv/quiet.c:246 modules/chanserv/recover.c:63
+#: modules/chanserv/set_email.c:50 modules/chanserv/set_entrymsg.c:49
+#: modules/chanserv/set_fantasy.c:64 modules/chanserv/set_founder.c:86
+#: modules/chanserv/set_gameserv.c:51 modules/chanserv/set_guard.c:64
+#: modules/chanserv/set_keeptopic.c:49 modules/chanserv/set_limitflags.c:53
+#: modules/chanserv/set_mlock.c:64 modules/chanserv/set_private.c:53
+#: modules/chanserv/set_property.c:67 modules/chanserv/set_restricted.c:49
+#: modules/chanserv/set_secure.c:49 modules/chanserv/set_topiclock.c:49
+#: modules/chanserv/set_url.c:50 modules/chanserv/set_verbose.c:49
+#: modules/chanserv/status.c:58 modules/chanserv/template.c:81
+#: modules/chanserv/topic.c:76 modules/chanserv/topic.c:140
+#: modules/chanserv/topic.c:215 modules/chanserv/unban_self.c:79
+#: modules/chanserv/voice.c:75 modules/chanserv/voice.c:143
+#: modules/chanserv/why.c:75 modules/chanserv/xop.c:120
+#: modules/chanserv/xop.c:553 modules/gameserv/dice.c:103
+#, c-format
+msgid "Channel %s is not registered."
+msgstr "%s 채널은 아직 등록되어 있지 않습니다."
+
+#: modules/botserv/bottalk.c:74 modules/botserv/bottalk.c:128
+#: modules/chanserv/ban.c:74 modules/chanserv/ban.c:164
+#: modules/chanserv/clear_bans.c:79 modules/chanserv/clear_users.c:66
+#: modules/chanserv/getkey.c:74 modules/chanserv/invite.c:93
+#: modules/chanserv/quiet.c:160 modules/chanserv/quiet.c:252
+#: modules/chanserv/recover.c:89 modules/chanserv/topic.c:83
+#: modules/chanserv/topic.c:147 modules/chanserv/topic.c:222
+#: modules/chanserv/unban_self.c:85 modules/gameserv/dice.c:108
+#, c-format
+msgid "%s is currently empty."
+msgstr "%s은(는) 현재 비어 있습니다."
+
+#: modules/botserv/bottalk.c:80 modules/botserv/bottalk.c:134
+#: modules/botserv/set_fantasy.c:79 modules/botserv/set_nobot.c:64
+#: modules/botserv/set_private.c:71 modules/chanserv/akick.c:90
+#: modules/chanserv/ban.c:80 modules/chanserv/ban.c:170
+#: modules/chanserv/flags.c:171 modules/chanserv/quiet.c:166
+#: modules/chanserv/quiet.c:258 modules/chanserv/register.c:79
+#: modules/chanserv/set_founder.c:68 modules/chanserv/status.c:85
+#: modules/chanserv/template.c:140 modules/chanserv/unban_self.c:91
+#: modules/chanserv/xop.c:112 modules/hostserv/group.c:94
+#: modules/hostserv/offer.c:193 modules/hostserv/onoff.c:68
+#: modules/hostserv/onoff.c:110 modules/hostserv/request.c:225
+#: modules/memoserv/delete.c:69 modules/memoserv/forward.c:71
+#: modules/memoserv/ignore.c:80 modules/memoserv/list.c:56
+#: modules/memoserv/read.c:69 modules/memoserv/send.c:69
+#: modules/memoserv/sendops.c:70 modules/nickserv/access.c:222
+#: modules/nickserv/access.c:274 modules/nickserv/access.c:400
+#: modules/nickserv/cert.c:62 modules/nickserv/cert.c:117
+#: modules/nickserv/cert.c:153 modules/nickserv/enforce.c:101
+#: modules/nickserv/group.c:71 modules/nickserv/group.c:124
+#: modules/nickserv/listchans.c:71 modules/nickserv/listownmail.c:70
+#: modules/nickserv/logout.c:49 modules/nickserv/set_accountname.c:56
+#: modules/nickserv/set_core.c:53 modules/nickserv/status.c:94
+#: modules/nickserv/subscribe.c:60 modules/nickserv/vacation.c:26
+#: modules/operserv/identify.c:72
+msgid "You are not logged in."
+msgstr "먼저 로그인하셔야 합니다."
+
+#: modules/botserv/bottalk.c:86 modules/botserv/bottalk.c:140
+#: modules/botserv/info.c:109 modules/botserv/set_fantasy.c:85
+#: modules/botserv/set_nobot.c:70 modules/botserv/set_private.c:77
+#: modules/chanserv/akick.c:113 modules/chanserv/akick.c:206
+#: modules/chanserv/akick.c:262 modules/chanserv/ban.c:86
+#: modules/chanserv/ban.c:176 modules/chanserv/clear_bans.c:85
+#: modules/chanserv/clear_users.c:72 modules/chanserv/count.c:73
+#: modules/chanserv/drop.c:103 modules/chanserv/flags.c:135
+#: modules/chanserv/getkey.c:68 modules/chanserv/halfop.c:87
+#: modules/chanserv/halfop.c:115 modules/chanserv/halfop.c:168
+#: modules/chanserv/invite.c:81 modules/chanserv/kick.c:76
+#: modules/chanserv/kick.c:144 modules/chanserv/op.c:81
+#: modules/chanserv/op.c:109 modules/chanserv/op.c:156
+#: modules/chanserv/owner.c:87 modules/chanserv/owner.c:115
+#: modules/chanserv/owner.c:168 modules/chanserv/protect.c:87
+#: modules/chanserv/protect.c:115 modules/chanserv/protect.c:168
+#: modules/chanserv/quiet.c:172 modules/chanserv/quiet.c:264
+#: modules/chanserv/recover.c:75 modules/chanserv/template.c:93
+#: modules/chanserv/topic.c:95 modules/chanserv/topic.c:153
+#: modules/chanserv/topic.c:228 modules/chanserv/unban_self.c:97
+#: modules/chanserv/voice.c:100 modules/chanserv/voice.c:149
+#: modules/chanserv/why.c:86 modules/chanserv/xop.c:150
+#: modules/chanserv/xop.c:156 modules/chanserv/xop.c:174
+#: modules/chanserv/xop.c:180 modules/chanserv/xop.c:194
+#: modules/chanserv/xop.c:565 modules/gameserv/dice.c:144
+#: modules/memoserv/sendops.c:121 modules/nickserv/sendpass_user.c:66
+#: modules/operserv/soper.c:69 src/commandtree.c:133
+msgid "You are not authorized to perform this operation."
+msgstr "이 명령을 실행할 권한이 없습니다."
+
+#: modules/botserv/bottalk.c:96 modules/botserv/bottalk.c:150
+#: modules/botserv/main.c:1010
+#, c-format
+msgid "%s does not have a bot assigned."
+msgstr "%s에는 할당된 봇이 없습니다."
+
+#: modules/botserv/bottalk.c:116
+msgid "Syntax: ACT <#channel> <msg>"
+msgstr "사용법: ACT <#채널> <메시지>"
+
+#: modules/botserv/help.c:23 modules/chanserv/help.c:20
+#: modules/gameserv/help.c:23 modules/global/main.c:32
+#: modules/hostserv/help.c:23 modules/memoserv/help.c:23
+#: modules/nickserv/help.c:22 modules/operserv/help.c:21
+msgid "Displays contextual help information."
+msgstr "각 명령들의 도움말을 보여 줍니다."
+
+#: modules/botserv/help.c:48
+#, c-format
+msgid "%s allows users to request a custom bot for their channel."
+msgstr ""
+
+#: modules/botserv/info.c:22
+msgid "Allows you to see BotServ information about a channel or a bot."
+msgstr ""
+
+#: modules/botserv/info.c:67 modules/botserv/info.c:135
+#: modules/chanserv/info.c:56 modules/chanserv/info.c:63
+msgid "Syntax: INFO <#channel>"
+msgstr "사용법: INFO <#채널>"
+
+#: modules/botserv/info.c:68 modules/botserv/info.c:136
+msgid "Syntax: INFO <botnick>"
+msgstr "사용법: INFO <봇대화명>"
+
+#: modules/botserv/info.c:83
+#, c-format
+msgid "Information for bot %s:"
+msgstr "--- %s 봇 정보 ---"
+
+#: modules/botserv/info.c:84
+#, c-format
+msgid "     Mask : %s@%s"
+msgstr "마스크: %s@%s"
+
+#: modules/botserv/info.c:85
+#, c-format
+msgid "Real name : %s"
+msgstr ""
+
+#: modules/botserv/info.c:89
+#, c-format
+msgid "  Created : %s (%s ago)"
+msgstr ""
+
+#: modules/botserv/info.c:91
+msgid "  Options : Private"
+msgstr ""
+
+#: modules/botserv/info.c:93
+msgid "  Options : None"
+msgstr ""
+
+#: modules/botserv/info.c:94
+#, c-format
+msgid "  Used on : %d channel(s)"
+msgstr "사용 현황: %d개 채널에서 사용중"
+
+#: modules/botserv/info.c:101
+#, c-format
+msgid "%d: %s"
+msgstr "%d: %s"
+
+#: modules/botserv/info.c:113
+#, c-format
+msgid "Information for channel %s:"
+msgstr "--- %s 채널 정보 ---"
+
+#: modules/botserv/info.c:115
+#, c-format
+msgid "         Bot nick : %s"
+msgstr "봇 대화명: %s"
+
+#: modules/botserv/info.c:117
+msgid "         Bot nick : not assigned yet"
+msgstr "봇 대화명: 아직 할당되지 않음"
+
+#: modules/botserv/info.c:130
+#, c-format
+msgid "          Options : %s"
+msgstr "설정된 옵션: %s"
+
+#: modules/botserv/main.c:440
+#, c-format
+msgid ""
+"DATABASE ERROR: botserv_save_database(): cannot create botserv.db.new: %s"
+msgstr ""
+"데이터베이스 오류: botserv_save_database(): botserv.db.new를 생성할 수 없음: %s"
+
+#: modules/botserv/main.c:464
+#, c-format
+msgid ""
+"DATABASE ERROR: botserv_save_database(): cannot rename botserv.db.new to "
+"botserv.db: %s"
+msgstr ""
+"데이터베이스 오류: botserv_save_database(): botserv.db.new의 이름을 "
+"botserv.db로 바꿀 수 없음: %s"
+
+#: modules/botserv/main.c:591 modules/botserv/main.c:612
+#: modules/botserv/main.c:751
+msgid "Syntax: BOT ADD <nick> <user> <host> <real>"
+msgstr ""
+
+#: modules/botserv/main.c:592 modules/botserv/main.c:613
+#: modules/botserv/main.c:648 modules/botserv/main.c:713
+msgid "Syntax: BOT CHANGE <oldnick> <newnick> [<user> [<host> [<real>]]]"
+msgstr ""
+
+#: modules/botserv/main.c:593 modules/botserv/main.c:614
+#: modules/botserv/main.c:825
+msgid "Syntax: BOT DEL <nick>"
+msgstr ""
+
+#: modules/botserv/main.c:655 modules/botserv/main.c:831
+#: modules/botserv/main.c:948
+#, c-format
+msgid "%s is not a bot"
+msgstr ""
+
+#: modules/botserv/main.c:661 modules/botserv/main.c:765
+#, c-format
+msgid "%s is a registered nick."
+msgstr ""
+
+#: modules/botserv/main.c:670 modules/botserv/main.c:758
+#, c-format
+msgid "%s is already a bot or service."
+msgstr ""
+
+#: modules/botserv/main.c:679 modules/botserv/main.c:777
+#, c-format
+msgid "%s is an invalid nickname."
+msgstr ""
+
+#: modules/botserv/main.c:696
+#, c-format
+msgid "%s is an invalid realname, not changing it"
+msgstr ""
+
+#: modules/botserv/main.c:706
+#, c-format
+msgid "%s is an invalid username, not changing it."
+msgstr ""
+
+#: modules/botserv/main.c:783
+#, c-format
+msgid "%s is an invalid username."
+msgstr ""
+
+#: modules/botserv/main.c:792
+#, c-format
+msgid "%s is an invalid realname."
+msgstr ""
+
+#: modules/botserv/main.c:874
+#, c-format
+msgid "Listing of bots available on %s:"
+msgstr ""
+
+#: modules/botserv/main.c:884
+#, c-format
+msgid "%d bots available."
+msgstr ""
+
+#: modules/botserv/main.c:888
+#, c-format
+msgid "Listing of private bots available on %s:"
+msgstr ""
+
+#: modules/botserv/main.c:896
+#, c-format
+msgid "%d private bots available."
+msgstr ""
+
+#: modules/botserv/main.c:915
+msgid "Syntax: ASSIGN <#channel> <nick>"
+msgstr "사용법: ASSIGN <#채널> <대화명>"
+
+#: modules/botserv/main.c:921 modules/botserv/main.c:998
+#: modules/chanserv/fflags.c:94 modules/chanserv/flags.c:188
+#: modules/chanserv/flags.c:259 modules/chanserv/ftransfer.c:60
+#: modules/chanserv/set_founder.c:80 modules/hostserv/vhost.c:102
+#: modules/hostserv/vhostnick.c:70 modules/memoserv/forward.c:91
+#: modules/memoserv/ignore.c:120 modules/nickserv/access.c:236
+#: modules/nickserv/cert.c:76 modules/nickserv/drop.c:70
+#: modules/nickserv/drop.c:139 modules/nickserv/freeze.c:61
+#: modules/nickserv/hold.c:55 modules/nickserv/info.c:95
+#: modules/nickserv/listchans.c:62 modules/nickserv/logout.c:59
+#: modules/nickserv/mark.c:65 modules/nickserv/resetpass.c:55
+#: modules/nickserv/return.c:59 modules/nickserv/sendpass.c:80
+#: modules/nickserv/sendpass_user.c:83 modules/nickserv/setpass.c:67
+#: modules/nickserv/subscribe.c:73 modules/nickserv/taxonomy.c:57
+#: modules/nickserv/verify.c:64 modules/nickserv/verify.c:174
+#: modules/nickserv/vhost.c:92 modules/operserv/soper.c:150
+#: modules/operserv/soper.c:207 modules/operserv/soper.c:252
+#, c-format
+msgid "%s is not registered."
+msgstr ""
+
+#: modules/botserv/main.c:927
+#, c-format
+msgid "There are not enough users in %s to be able to assign a bot."
+msgstr ""
+
+#: modules/botserv/main.c:933
+#, c-format
+msgid "You cannot assign bots to %s."
+msgstr ""
+
+#: modules/botserv/main.c:939
+#, c-format
+msgid "You are not authorised to assign bots on %s."
+msgstr ""
+
+#: modules/botserv/main.c:954
+#, c-format
+msgid "You are not authorised to assign the bot %s to a channel."
+msgstr ""
+
+#: modules/botserv/main.c:960
+#, c-format
+msgid "%s is already assigned to %s."
+msgstr ""
+
+#: modules/botserv/main.c:978
+#, c-format
+msgid "Assigned the bot %s to %s."
+msgstr ""
+
+#: modules/botserv/main.c:992
+msgid "Syntax: UNASSIGN <#channel>"
+msgstr "사용법: UNASSIGN <#채널>"
+
+#: modules/botserv/main.c:1004
+#, c-format
+msgid "You are not authorised to unassign a bot on %s."
+msgstr ""
+
+#: modules/botserv/main.c:1022
+#, c-format
+msgid "Unassigned the bot from %s."
+msgstr ""
+
+#: modules/botserv/set_core.c:23
+msgid "Configures bot options."
+msgstr ""
+
+#: modules/botserv/set_core.c:50 modules/chanserv/set_core.c:46
+#: modules/nickserv/set_core.c:29
+msgid "Help for SET:"
+msgstr "SET 명령 도움말:"
+
+#: modules/botserv/set_core.c:52
+msgid "Configures different botserv bot options."
+msgstr ""
+
+#: modules/botserv/set_core.c:56 modules/chanserv/set_core.c:54
+#, c-format
+msgid "For more specific help use /msg %s HELP SET command."
+msgstr "세부 사용법은 /msg %s HELP SET 명령으로 확인하세요."
+
+#: modules/botserv/set_core.c:68
+msgid "Syntax: SET <destination> <setting> <parameters>"
+msgstr ""
+
+#: modules/botserv/set_core.c:77 modules/chanserv/akick.c:299
+#: modules/chanserv/clear.c:82 modules/chanserv/set_core.c:85
+#: modules/memoserv/ignore.c:87 modules/operserv/akill.c:114
+#: modules/operserv/clones.c:324 modules/operserv/ignore.c:82
+#: modules/operserv/rwatch.c:207 modules/operserv/sgline.c:119
+#: modules/operserv/soper.c:83 modules/operserv/sqline.c:147
+#: src/commandtree.c:158
+#, c-format
+msgid "Invalid command. Use /%s%s help for a command listing."
+msgstr ""
+
+#: modules/botserv/set_fantasy.c:26
+msgid "Enable fantasy commands."
+msgstr ""
+
+#: modules/botserv/set_fantasy.c:66 modules/botserv/set_fantasy.c:107
+msgid "Syntax: SET <#channel> FANTASY {ON|OFF}"
+msgstr "사용법: SET <#채널> FANTASY {ON|OFF}"
+
+#: modules/botserv/set_fantasy.c:96
+#, c-format
+msgid "Fantasy mode is now ON on channel %s."
+msgstr ""
+
+#: modules/botserv/set_fantasy.c:102
+#, c-format
+msgid "Fantasy mode is now OFF on channel %s."
+msgstr ""
+
+#: modules/botserv/set_nobot.c:24
+msgid "Prevent a bot from being assigned to a channel."
+msgstr ""
+
+#: modules/botserv/set_nobot.c:51 modules/botserv/set_nobot.c:100
+msgid "Syntax: SET <#channel> NOBOT {ON|OFF}"
+msgstr "사용법: SET <#채널> NOBOT {ON|OFF}"
+
+#: modules/botserv/set_nobot.c:89
+#, c-format
+msgid "No Bot mode is now ON on channel %s."
+msgstr ""
+
+#: modules/botserv/set_nobot.c:95
+#, c-format
+msgid "No Bot mode is now OFF on channel %s."
+msgstr ""
+
+#: modules/botserv/set_private.c:28
+msgid "Prevent a bot from being assigned by non IRC operators."
+msgstr ""
+
+#: modules/botserv/set_private.c:58 modules/botserv/set_private.c:98
+msgid "Syntax: SET <botnick> PRIVATE {ON|OFF}"
+msgstr "사용법: SET <#채널> PRIVATE {ON|OFF}"
+
+#: modules/botserv/set_private.c:65
+#, c-format
+msgid "%s is not a bot."
+msgstr ""
+
+#: modules/botserv/set_private.c:86
+#, c-format
+msgid "Private mode of bot %s is now ON."
+msgstr ""
+
+#: modules/botserv/set_private.c:93
+#, c-format
+msgid "Private mode of bot %s is now OFF."
+msgstr ""
+
+#: modules/chanserv/akick.c:20
+msgid "Manipulates a channel's AKICK list."
+msgstr "채널에서 강제 퇴장 및 차단될 사용자의 목록을 수정합니다."
+
+#: modules/chanserv/akick.c:59 modules/chanserv/akick.c:70
+#: modules/chanserv/akick.c:77
+msgid "Syntax: AKICK <#channel> ADD|DEL|LIST <nickname|hostmask> [reason]"
+msgstr "사용법: AKICK <#채널> ADD|DEL|LIST <대화명|마스크> [이유]"
+
+#: modules/chanserv/akick.c:104 modules/chanserv/ban.c:92
+#: modules/chanserv/clear_bans.c:91 modules/chanserv/clear_users.c:78
+#: modules/chanserv/count.c:80 modules/chanserv/flags.c:121
+#: modules/chanserv/getkey.c:62 modules/chanserv/halfop.c:93
+#: modules/chanserv/halfop.c:174 modules/chanserv/invite.c:75
+#: modules/chanserv/kick.c:82 modules/chanserv/op.c:87
+#: modules/chanserv/op.c:162 modules/chanserv/owner.c:93
+#: modules/chanserv/owner.c:174 modules/chanserv/protect.c:93
+#: modules/chanserv/protect.c:174 modules/chanserv/quiet.c:178
+#: modules/chanserv/recover.c:69 modules/chanserv/status.c:66
+#: modules/chanserv/template.c:100 modules/chanserv/template.c:160
+#: modules/chanserv/topic.c:89 modules/chanserv/topic.c:159
+#: modules/chanserv/topic.c:234 modules/chanserv/voice.c:81
+#: modules/chanserv/why.c:93 modules/chanserv/xop.c:126
+#: modules/chanserv/xop.c:559
+#, c-format
+msgid "%s is closed."
+msgstr "%s 채널은 폐쇄되었습니다."
+
+#: modules/chanserv/akick.c:123 modules/chanserv/xop.c:474
+#, c-format
+msgid "%s is neither a nickname nor a hostmask."
+msgstr "%s은(는) 대화명도 마스크도 아닙니다."
+
+#: modules/chanserv/akick.c:133 modules/chanserv/akick.c:173
+#, c-format
+msgid "%s is already on the AKICK list for %s"
+msgstr ""
+
+#: modules/chanserv/akick.c:135 modules/chanserv/akick.c:175
+#, c-format
+msgid "%s already has flags %s on %s"
+msgstr ""
+
+#: modules/chanserv/akick.c:142
+#, c-format
+msgid "The more general mask %s is already on the AKICK list for %s"
+msgstr ""
+
+#: modules/chanserv/akick.c:150 modules/chanserv/akick.c:183
+#: modules/chanserv/flags.c:307 modules/chanserv/flags.c:330
+#: modules/chanserv/set_founder.c:116 modules/chanserv/set_founder.c:198
+#: modules/chanserv/xop.c:259 modules/chanserv/xop.c:381
+#, c-format
+msgid "Channel %s access list is full."
+msgstr ""
+
+#: modules/chanserv/akick.c:164 modules/chanserv/akick.c:194
+#, c-format
+msgid "%s has been added to the AKICK list for %s."
+msgstr ""
+
+#: modules/chanserv/akick.c:219
+#, c-format
+msgid "%s is not on the AKICK list for %s, however %s is."
+msgstr ""
+
+#: modules/chanserv/akick.c:221 modules/chanserv/akick.c:238
+#, c-format
+msgid "%s is not on the AKICK list for %s."
+msgstr ""
+
+#: modules/chanserv/akick.c:231 modules/chanserv/akick.c:245
+#, c-format
+msgid "%s has been removed from the AKICK list for %s."
+msgstr ""
+
+#: modules/chanserv/akick.c:266
+#, c-format
+msgid "AKICK list for %s:"
+msgstr ""
+
+#: modules/chanserv/akick.c:277
+#, c-format
+msgid "%d: %s  %s [modified: %s ago]"
+msgstr ""
+
+#: modules/chanserv/akick.c:281
+#, c-format
+msgid "%d: %s (logged in)  %s [modified: %s ago]"
+msgstr ""
+
+#: modules/chanserv/akick.c:285
+#, c-format
+msgid "%d: %s (not logged in)  %s [modified: %s ago]"
+msgstr ""
+
+#: modules/chanserv/akick.c:292
+#, c-format
+msgid "Total of %d %s in %s's AKICK list."
+msgstr ""
+
+#: modules/chanserv/ban.c:21
+msgid "Sets a ban on a channel."
+msgstr "채널에서 사용자를 차단(밴)합니다."
+
+#: modules/chanserv/ban.c:23
+msgid "Removes a ban on a channel."
+msgstr "채널에서 사용자에게 걸려 있던 차단(밴)을 풉니다."
+
+#: modules/chanserv/ban.c:62 modules/chanserv/ban.c:124
+msgid "Syntax: BAN <#channel> <nickname|hostmask>"
+msgstr "사용법: BAN <#채널> <대화명|마스크>"
+
+#: modules/chanserv/ban.c:102 modules/chanserv/ban.c:118
+#, c-format
+msgid "Banned %s on %s."
+msgstr ""
+
+#: modules/chanserv/ban.c:123 modules/chanserv/ban.c:221
+#: modules/chanserv/quiet.c:211 modules/chanserv/quiet.c:315
+#, c-format
+msgid "Invalid nickname/hostmask provided: %s"
+msgstr ""
+
+#: modules/chanserv/ban.c:141 modules/chanserv/ban.c:150
+msgid "Syntax: UNBAN <#channel> <nickname|hostmask>"
+msgstr "사용법: UNBAN <#채널> <대화명|마스크>"
+
+#: modules/chanserv/ban.c:198 modules/chanserv/unban_self.c:119
+#, c-format
+msgid "Unbanned %s on %s (%d ban%s removed)."
+msgstr ""
+
+#: modules/chanserv/ban.c:201 modules/chanserv/unban_self.c:122
+#, c-format
+msgid "No bans found matching %s on %s."
+msgstr ""
+
+#: modules/chanserv/ban.c:212
+#, c-format
+msgid "Unbanned %s on %s."
+msgstr ""
+
+#: modules/chanserv/ban.c:215
+#, c-format
+msgid "No such ban %s on %s."
+msgstr ""
+
+#: modules/chanserv/ban.c:222
+msgid "Syntax: UNBAN <#channel> [nickname|hostmask]"
+msgstr "사용법: UNBAN <#채널> [대화명|마스크]"
+
+#: modules/chanserv/clear_bans.c:20
+msgid "Clears bans or other lists of a channel."
+msgstr "채널에서 차단 목록 등을 삭제합니다."
+
+#: modules/chanserv/clear_bans.c:61 modules/chanserv/clear_bans.c:67
+#, c-format
+msgid "Invalid mode; valid ones are %s."
+msgstr ""
+
+#: modules/chanserv/clear_bans.c:112
+#, c-format
+msgid "Cleared %s modes on %s (%d removed)."
+msgstr ""
+
+#: modules/chanserv/clear.c:21
+msgid "Channel removal toolkit."
+msgstr "채널에 있는 여러 목록을 삭제합니다."
+
+#: modules/chanserv/clear.c:46
+msgid "Help for CLEAR:"
+msgstr "CLEAR 명령 도움말:"
+
+#: modules/chanserv/clear.c:48
+msgid "CLEAR allows you to clear various aspects of a channel."
+msgstr "CLEAR 명령으로 채널에 있는 여러 목록을 삭제할 수 있습니다."
+
+#: modules/chanserv/clear.c:52
+#, c-format
+msgid "For more information, use /msg %s HELP CLEAR command."
+msgstr "세부 사용법은 /msg %s HELP CLEAR 명령으로 확인하세요."
+
+#: modules/chanserv/clear.c:64 modules/chanserv/clear.c:75
+msgid "Syntax: CLEAR <#channel> <command> [parameters]"
+msgstr "사용법: CLEAR <#채널> <명령> [인자들]"
+
+#: modules/chanserv/clear_users.c:20
+msgid "Kicks all users from a channel."
+msgstr "채널에서 모든 사용자를 강제 퇴장시킵니다."
+
+#: modules/chanserv/clear_users.c:140
+#, c-format
+msgid "Cleared users from %s."
+msgstr "%s 채널에서 사용자들을 모두 강제 퇴장시켰습니다."
+
+#: modules/chanserv/close.c:21
+msgid "Closes a channel."
+msgstr "채널을 폐쇄합니다."
+
+#: modules/chanserv/close.c:89 modules/chanserv/close.c:180
+msgid "Usage: CLOSE <#channel> <ON|OFF> [reason]"
+msgstr "사용법: CLOSE <#채널> <ON|OFF> [이유]"
+
+#: modules/chanserv/close.c:104
+msgid "Usage: CLOSE <#channel> ON <reason>"
+msgstr "사용법: CLOSE <#채널> ON <이유>"
+
+#: modules/chanserv/close.c:110
+#, c-format
+msgid "%s cannot be closed."
+msgstr "%s 채널을 폐쇄할 수 없습니다."
+
+#: modules/chanserv/close.c:116
+#, c-format
+msgid "%s is already closed."
+msgstr "%s 채널은 이미 폐쇄된 상태입니다."
+
+#: modules/chanserv/close.c:147
+#, c-format
+msgid "%s is now closed."
+msgstr "%s 채널은 이제 폐쇄되었습니다."
+
+#: modules/chanserv/close.c:153
+#, c-format
+msgid "%s is not closed."
+msgstr "%s 채널은 폐쇄되지 않았습니다."
+
+#: modules/chanserv/close.c:175
+#, c-format
+msgid "%s has been reopened."
+msgstr "%s 채널이 다시 개방되었습니다."
+
+#: modules/chanserv/count.c:21
+msgid "Shows number of entries in access lists."
+msgstr "서비스 봇 관리 권한에 대한 통계를 보여 줍니다."
+
+#: modules/chanserv/count.c:57
+msgid "Syntax: COUNT <#channel>"
+msgstr "사용법: COUNT <#채널>"
+
+#: modules/chanserv/count.c:107
+#, c-format
+msgid "%s: VOp: %d, AOp: %d, SOp: %d, AKick: %d, other: %d"
+msgstr ""
+
+#: modules/chanserv/count.c:110
+#, c-format
+msgid "%s: VOp: %d, HOp: %d, AOp: %d, SOp: %d, AKick: %d, other: %d"
+msgstr ""
+
+#: modules/chanserv/drop.c:21
+msgid "Drops a channel registration."
+msgstr "채널 등록을 취소합니다."
+
+#: modules/chanserv/drop.c:23
+msgid "Forces dropping of a channel registration."
+msgstr "강제로 채널 등록을 취소합니다."
+
+#: modules/chanserv/drop.c:78 modules/chanserv/drop.c:85
+msgid "Syntax: DROP <#channel>"
+msgstr "사용법: DROP <#채널>"
+
+#: modules/chanserv/drop.c:97 modules/chanserv/drop.c:179
+msgid ""
+"For security reasons, you may not drop a channel registration with a fantasy "
+"command."
+msgstr ""
+
+#: modules/chanserv/drop.c:110
+#, c-format
+msgid "The channel %s is closed; it cannot be dropped."
+msgstr "%s 채널은 폐쇄된 상태이므로 등록을 취소할 수 없습니다."
+
+#: modules/chanserv/drop.c:116 modules/chanserv/drop.c:185
+#, c-format
+msgid "The channel %s is held; it cannot be dropped."
+msgstr "%s 채널은 보존 처리된 상태이므로 등록을 취소할 수 없습니다."
+
+#: modules/chanserv/drop.c:128
+#, c-format
+msgid ""
+"To avoid accidental use of this command, this operation has to be confirmed. "
+"Please confirm by replying with %s"
+msgstr ""
+"실수로 등록을 취소하는 상황을 막고자 다시 한 번 확인합니다. %s(이)라고 "
+"대답해서 정말로 등록을 취소합니다."
+
+#: modules/chanserv/drop.c:137
+#, c-format
+msgid "Invalid key for %s."
+msgstr ""
+
+#: modules/chanserv/drop.c:148 modules/chanserv/drop.c:196
+#, c-format
+msgid "The channel %s has been dropped."
+msgstr "%s 채널의 등록을 취소했습니다."
+
+#: modules/chanserv/drop.c:160 modules/chanserv/drop.c:167
+msgid "Syntax: FDROP <#channel>"
+msgstr "사용법: FDROP <#채널>"
+
+#: modules/chanserv/fflags.c:21
+msgid "Forces a flags change on a channel."
+msgstr "강제로 채널의 플래그를 설정합니다."
+
+#: modules/chanserv/fflags.c:55
+msgid "Syntax: FFLAGS <channel> <target> <flags>"
+msgstr "사용법: FFLAGS <#채널> <대상> <플래그>"
+
+#: modules/chanserv/fflags.c:71 modules/chanserv/flags.c:236
+#: modules/chanserv/template.c:188
+#, c-format
+msgid "No valid flags given, use /%s%s HELP FLAGS for a list"
+msgstr ""
+
+#: modules/chanserv/fflags.c:82
+#, c-format
+msgid "Usage: FFLAGS %s <target> <flags>"
+msgstr "사용법: FFLAGS %s <대상> <플래그>"
+
+#: modules/chanserv/fflags.c:84 modules/chanserv/flags.c:249
+#: modules/chanserv/template.c:198
+#, c-format
+msgid "Invalid template name given, use /%s%s TEMPLATE %s for a list"
+msgstr ""
+
+#: modules/chanserv/fflags.c:106 modules/chanserv/flags.c:273
+msgid "You may not remove the last founder."
+msgstr ""
+
+#: modules/chanserv/fflags.c:113 modules/chanserv/fflags.c:127
+#: modules/chanserv/flags.c:314 modules/chanserv/flags.c:336
+#, c-format
+msgid "You are not allowed to set %s on %s in %s."
+msgstr ""
+
+#: modules/chanserv/fflags.c:121 modules/chanserv/flags.c:324
+msgid "You may not set founder status on a hostmask."
+msgstr ""
+
+#: modules/chanserv/fflags.c:134 modules/chanserv/flags.c:345
+#, c-format
+msgid "Channel access to %s for %s unchanged."
+msgstr ""
+
+#: modules/chanserv/fflags.c:139 modules/chanserv/flags.c:349
+#, c-format
+msgid "Flags %s were set on %s in %s."
+msgstr ""
+
+#: modules/chanserv/flags.c:21
+msgid "Manipulates specific permissions on a channel."
+msgstr "채널의 세밀한 관리 권한(플래그)을 설정합니다."
+
+#: modules/chanserv/flags.c:108
+msgid "Syntax: FLAGS <channel> [target] [flags]"
+msgstr "사용법: FLAGS <#채널> [대상] [플래그]"
+
+#: modules/chanserv/flags.c:140
+msgid "Entry Nickname/Host          Flags"
+msgstr "번호  대화명/호스트          플래그"
+
+#: modules/chanserv/flags.c:149
+#, c-format
+msgid "%-5d %-22s %s (%s) [modified %s ago]"
+msgstr "%-5d %-22s %s (%s) [%s 전 고침]"
+
+#: modules/chanserv/flags.c:152
+#, c-format
+msgid "%-5d %-22s %s [modified %s ago]"
+msgstr "%-5d %-22s %s [%s 전 고침]"
+
+#: modules/chanserv/flags.c:158
+#, c-format
+msgid "End of %s FLAGS listing."
+msgstr "--- %s 플래그 목록 끝 ---"
+
+#: modules/chanserv/flags.c:179 modules/chanserv/flags.c:223
+#: modules/chanserv/set_email.c:56 modules/chanserv/set_entrymsg.c:55
+#: modules/chanserv/set_url.c:56 modules/chanserv/template.c:152
+msgid "You are not authorized to execute this command."
+msgstr "이 명령을 실행할 권한이 없습니다."
+
+#: modules/chanserv/flags.c:197
+#, c-format
+msgid "Flags for %s in %s are %s."
+msgstr ""
+
+#: modules/chanserv/flags.c:202
+#, c-format
+msgid "No flags for %s in %s."
+msgstr ""
+
+#: modules/chanserv/flags.c:247
+#, c-format
+msgid "Usage: FLAGS %s [target] [flags]"
+msgstr "사용법: FLAGS %s [대상] [플래그]"
+
+#: modules/chanserv/flags.c:268
+msgid "You may not remove a founder's +f access."
+msgstr ""
+
+#: modules/chanserv/flags.c:280
+#, c-format
+msgid "Only %d founders allowed per channel."
+msgstr ""
+
+#: modules/chanserv/flags.c:286 modules/chanserv/set_founder.c:125
+#, c-format
+msgid "%s has too many channels registered."
+msgstr ""
+
+#: modules/chanserv/flags.c:300 modules/chanserv/xop.c:366
+#, c-format
+msgid "%s does not wish to be added to access lists (NEVEROP set)."
+msgstr ""
+
+#: modules/chanserv/ftransfer.c:20
+msgid "Forces foundership transfer of a channel."
+msgstr "채널 주인을 강제로 변경합니다."
+
+#: modules/chanserv/ftransfer.c:54
+msgid "Syntax: FTRANSFER <#channel> <newfounder>"
+msgstr "사용법: FTRANSFER <#채널> <새주인>"
+
+#: modules/chanserv/ftransfer.c:73 modules/chanserv/set_founder.c:182
+#, c-format
+msgid "%s is already the founder of %s."
+msgstr "%s 사용자는 이미 %s 채널의 주인입니다."
+
+#: modules/chanserv/ftransfer.c:82
+#, c-format
+msgid "Foundership of %s has been transferred from %s to %s."
+msgstr ""
+
+#: modules/chanserv/getkey.c:20
+msgid "Returns the key (+k) of a channel."
+msgstr "채널에 설정된 암호(+k)를 알려 줍니다."
+
+#: modules/chanserv/getkey.c:49
+msgid "Syntax: GETKEY <#channel>"
+msgstr "사용법: GETKEY <#채널>"
+
+#: modules/chanserv/getkey.c:80
+#, c-format
+msgid "%s is not keyed."
+msgstr "%s 채널에는 암호가 설정되어 있지 않습니다."
+
+#: modules/chanserv/getkey.c:84
+#, c-format
+msgid "Channel %s key is: %s"
+msgstr "%s 채널의 암호는 \"%s\"입니다."
+
+#: modules/chanserv/halfop.c:21
+msgid "Gives channel halfops to a user."
+msgstr "사용자에게 하프옵(+h, 준관리 권한)을 줍니다."
+
+#: modules/chanserv/halfop.c:23
+msgid "Removes channel halfops from a user."
+msgstr "사용자에게서 하프옵(+h, 준관리 권한)을 뺏습니다."
+
+#: modules/chanserv/halfop.c:67 modules/chanserv/halfop.c:148
+msgid "Your IRC server does not support halfops."
+msgstr "이 IRC 서버는 하프옵을 지원하지 않습니다."
+
+#: modules/chanserv/halfop.c:74
+msgid "Syntax: HALFOP <#channel> [nickname]"
+msgstr "사용법: HALFOP <#채널> [대화명]"
+
+#: modules/chanserv/halfop.c:104 modules/chanserv/halfop.c:185
+#: modules/chanserv/kick.c:89 modules/chanserv/kick.c:151
+#: modules/chanserv/op.c:98 modules/chanserv/op.c:173
+#: modules/chanserv/owner.c:104 modules/chanserv/owner.c:185
+#: modules/chanserv/protect.c:104 modules/chanserv/protect.c:185
+#: modules/chanserv/voice.c:92 modules/chanserv/voice.c:160
+#: modules/chanserv/why.c:66 modules/nickserv/ghost.c:70
+#, c-format
+msgid "%s is not online."
+msgstr "%s 사용자는 접속하고 있지 않습니다."
+
+#: modules/chanserv/halfop.c:116 modules/chanserv/op.c:110
+#: modules/chanserv/owner.c:116 modules/chanserv/protect.c:116
+#, c-format
+msgid ""
+"%s has the SECURE option enabled, and %s does not have appropriate access."
+msgstr ""
+
+#: modules/chanserv/halfop.c:123 modules/chanserv/halfop.c:196
+#: modules/chanserv/kick.c:100 modules/chanserv/kick.c:162
+#: modules/chanserv/op.c:117 modules/chanserv/op.c:184
+#: modules/chanserv/owner.c:123 modules/chanserv/owner.c:196
+#: modules/chanserv/protect.c:123 modules/chanserv/protect.c:196
+#: modules/chanserv/voice.c:110 modules/chanserv/voice.c:171
+#, c-format
+msgid "%s is not on %s."
+msgstr "%s 사용자가 %s 채널에 없습니다."
+
+#: modules/chanserv/halfop.c:135
+#, c-format
+msgid "%s has been halfopped on %s."
+msgstr "%s 사용자에게 %s 채널의 하프옵을 주었습니다."
+
+#: modules/chanserv/halfop.c:155
+msgid "Syntax: DEHALFOP <#channel> [nickname]"
+msgstr "사용법: DEHALFOP <#채널> [대화명]"
+
+#: modules/chanserv/halfop.c:208
+#, c-format
+msgid "%s has been dehalfopped on %s."
+msgstr "%s 사용자에게서 %s 채널의 하프옵을 빼앗았습니다."
+
+#: modules/chanserv/help.c:56
+#, c-format
+msgid ""
+"%s gives normal users the ability to maintain control\n"
+"of a channel, without the need of a bot. Channel takeovers are\n"
+"virtually impossible when a channel is registered with %s.\n"
+"Registration is a quick and painless process. Once registered,\n"
+"the founder can maintain complete and total control over the channel."
+msgstr ""
+"%s 봇은 일반 사용자가 별도로 봇을 운영할 필요 없이 채널 관리를\n"
+"할 수 있도록 합니다. 따라서 %s 봇에 채널이 등록되어 있으면\n"
+"채널을 탈취하는 건 사실상 불가능합니다. 간단한 절차를 걸쳐서\n"
+"채널 등록을 할 수 있고, 한 번 등록되면 채널 주인은 그 채널에 대한\n"
+"완벽한 제어를 할 수 있게 됩니다."
+
+#: modules/chanserv/help.c:64
+#, c-format
+msgid ""
+"Please note that channels will expire after %d days of inactivity,\n"
+"or if there are no eligible channel successors.\n"
+"Activity is defined as a user with one of %s being on the channel."
+msgstr ""
+" \n"
+"다만 채널이 %d일동안 활동이 없거나, 채널 후계자가 없을 경우\n"
+"채널 등록이 만료됩니다. 여기서 %s 플래그 중 하나를 가진\n"
+"사용자가 채널에 들어와 있으면 \"활동이 있다\"고 간주하며,"
+
+#: modules/chanserv/help.c:70
+msgid ""
+"Please note that channels will expire if there are no eligible channel "
+"successors."
+msgstr ""
+" \n"
+"다만 채널 후계자가 없으면 채널 등록은 만료됩니다."
+
+#: modules/chanserv/help.c:72
+msgid ""
+"Successors are primarily those who have the +R flag\n"
+"set on their account in the channel, although other\n"
+"people may be chosen depending on their access\n"
+"level and activity."
+msgstr ""
+"\"채널 후계자\"란 보통 +R 플래그를 가진 사용자이지만 사용자의 활동 정도나\n"
+"권한에 따라서 다른 사용자가 선택될 수도 있습니다."
+
+#: modules/chanserv/help.c:79
+#, c-format
+msgid ""
+"Commands can also be given on channel by prefixing one of '%s'\n"
+"and omitting the channel name. These are called \"fantasy\"\n"
+"commands and can also be disabled on a per-channel basis."
+msgstr ""
+"명령을 직접 채널에서 내릴 수도 있는데, 이 때는 채널 이름을 생략하고\n"
+"대신 명령 앞에 '%s'를 붙여야 합니다. 이를 \"판타지\" 명령이라 하고\n"
+"채널에 따라서는 사용하지 않게 할 수도 있습니다."
+
+#: modules/chanserv/help.c:86 modules/nickserv/help.c:73
+msgid "For a verbose listing of all commands, type:"
+msgstr "덜 쓰이는 명령까지 모두 보고 싶다면 이렇게 입력하세요:"
+
+#: modules/chanserv/help.c:96 modules/nickserv/help.c:83
+#, c-format
+msgid ""
+"If you're having trouble or you need some additional help, you may want to "
+"join the help channel %s or visit the help webpage %s"
+msgstr ""
+
+#: modules/chanserv/help.c:99 modules/nickserv/help.c:86
+#, c-format
+msgid ""
+"If you're having trouble or you need some additional help, you may want to "
+"join the help channel %s"
+msgstr ""
+
+#: modules/chanserv/help.c:101 modules/nickserv/help.c:88
+#, c-format
+msgid ""
+"If you're having trouble or you need some additional help, you may want to "
+"visit the help webpage %s"
+msgstr ""
+
+#: modules/chanserv/hold.c:20
+msgid "Prevents a channel from expiring."
+msgstr "채널 등록이 만료되지 않도록 보존합니다."
+
+#: modules/chanserv/hold.c:50 modules/chanserv/hold.c:97
+msgid "Usage: HOLD <#channel> <ON|OFF>"
+msgstr "사용법: HOLD <#채널> <ON|OFF>"
+
+#: modules/chanserv/hold.c:70 modules/nickserv/hold.c:63
+#, c-format
+msgid "%s is already held."
+msgstr "%s은(는) 이미 등록이 만료되지 않도록 보존되어 있습니다."
+
+#: modules/chanserv/hold.c:78 modules/nickserv/hold.c:71
+#, c-format
+msgid "%s is now held."
+msgstr "%s은(는) 이제 보존 처리되어 등록이 만료되지 않습니다."
+
+#: modules/chanserv/hold.c:84 modules/nickserv/hold.c:77
+#, c-format
+msgid "%s is not held."
+msgstr "%s은(는) 보존 처리되지 않은 상태로, 활동이 없다면 일정 기간 후 등록이 만료됩니다."
+
+#: modules/chanserv/hold.c:92 modules/nickserv/hold.c:85
+#, c-format
+msgid "%s is no longer held."
+msgstr "%s은(는) 이제 보존이 풀려서 활동이 없다면 일정 기간 후 등록이 만료됩니다."
+
+#: modules/chanserv/info.c:20 modules/nickserv/info.c:20
+msgid "Displays information on registrations."
+msgstr "등록 정보를 보여 줍니다."
+
+#: modules/chanserv/info.c:75
+#, c-format
+msgid "%s has been closed down by the %s administration."
+msgstr ""
+
+#: modules/chanserv/info.c:86 modules/nickserv/info.c:121
+#: modules/operserv/modinspect.c:69
+#, c-format
+msgid "Information on %s:"
+msgstr "--- %s 채널 정보 ---"
+
+#: modules/chanserv/info.c:89
+#, c-format
+msgid "Founder    : %s"
+msgstr "주인: %s"
+
+#: modules/chanserv/info.c:96
+#, c-format
+msgid "Successor  : %s"
+msgstr "후계자: %s"
+
+#: modules/chanserv/info.c:98
+msgid "Successor  : (none)"
+msgstr "후계자: (없음)"
+
+#: modules/chanserv/info.c:101 modules/nickserv/info.c:126
+#, c-format
+msgid "Registered : %s (%s ago)"
+msgstr "등록일: %s (%s 전)"
+
+#: modules/chanserv/info.c:106
+#, c-format
+msgid "Last used  : (about %d weeks ago)"
+msgstr "마지막 활동: (약 %d주 전)"
+
+#: modules/chanserv/info.c:111
+#, c-format
+msgid "Last used  : %s (%s ago)"
+msgstr "마지막 활동: %s (%s 전)"
+
+#: modules/chanserv/info.c:121
+msgid "Mode lock is too long, not entirely shown"
+msgstr "잠긴 모드가 너무 길어서 일부만 표시합니다."
+
+#: modules/chanserv/info.c:125
+#, c-format
+msgid "Mode lock  : %s"
+msgstr "잠긴 모드: %s"
+
+#: modules/chanserv/info.c:148 modules/nickserv/info.c:261
+#, c-format
+msgid "Metadata   : %s = %s"
+msgstr "세부 속성: %s = %s"
+
+#: modules/chanserv/info.c:238 modules/nickserv/info.c:314
+#, c-format
+msgid "Flags      : %s"
+msgstr "플래그: %s"
+
+#: modules/chanserv/info.c:255 modules/nickserv/info.c:378
+#, c-format
+msgid "%s was MARKED by %s on %s (%s)"
+msgstr ""
+
+#: modules/chanserv/info.c:259
+#, c-format
+msgid "%s is temporarily holding this channel."
+msgstr ""
+
+#: modules/chanserv/info.c:276
+#, c-format
+msgid "%s was CLOSED by %s on %s (%s)"
+msgstr ""
+
+#: modules/chanserv/info.c:283
+msgid "*** End of Info ***"
+msgstr "--- 정보 끝 ---"
+
+#: modules/chanserv/invite.c:20
+msgid "Invites you to a channel."
+msgstr "봇이 당신을 채널에 초대하도록 합니다."
+
+#: modules/chanserv/invite.c:48 modules/chanserv/unban_self.c:57
+#: modules/hostserv/group.c:88 modules/hostserv/onoff.c:62
+#: modules/hostserv/onoff.c:104 modules/nickserv/group.c:59
+#: modules/nickserv/identify.c:76 modules/operserv/identify.c:59
+#, c-format
+msgid "%s can only be executed via IRC."
+msgstr "%s 명령은 IRC 상에서만 실행할 수 있습니다."
+
+#: modules/chanserv/invite.c:62
+msgid "Syntax: INVITE <#channel>"
+msgstr "사용법: INVITE <#채널>"
+
+#: modules/chanserv/invite.c:87
+#, c-format
+msgid "You're already on %s."
+msgstr "당신은 이미 %s 채널에 있습니다."
+
+#: modules/chanserv/invite.c:99
+#, c-format
+msgid "You have been invited to %s."
+msgstr "%s 채널에서 당신을 초대하도록 했습니다."
+
+#: modules/chanserv/kick.c:21
+msgid "Removes a user from a channel."
+msgstr "사용자를 채널에서 강제로 퇴장(킥)시킵니다."
+
+#: modules/chanserv/kick.c:23
+msgid "Removes and bans a user from a channel."
+msgstr "사용자를 채널에서 강제로 퇴장시키고 차단(킥밴)합니다."
+
+#: modules/chanserv/kick.c:63
+msgid "Syntax: KICK <#channel> <nickname> [reason]"
+msgstr "사용법: KICK <#채널> <대화명> [이유]"
+
+#: modules/chanserv/kick.c:106 modules/chanserv/kick.c:168
+#, c-format
+msgid "%s is protected from kicks; you cannot kick them."
+msgstr "%s 사용자는 보호되어 있으므로 퇴장시킬 수 없습니다."
+
+#: modules/chanserv/kick.c:114
+#, c-format
+msgid "%s has been kicked from %s."
+msgstr "%s 사용자가 %s 채널에서 강제로 퇴장당했습니다."
+
+#: modules/chanserv/kick.c:131
+msgid "Syntax: KICKBAN <#channel> <nickname> [reason]"
+msgstr "사용법: KICKBAN <#채널> <대화명> [이유]"
+
+#: modules/chanserv/kick.c:176
+#, c-format
+msgid ""
+"To avoid rejoin, %d ban exception(s) matching %s have been removed from %s."
+msgstr ""
+"재입장을 막기 위해, %d개의 차단 예외가 %s 패턴에 해당되어 %s 채널에서 삭제되었습니다."
+
+#: modules/chanserv/kick.c:180
+#, c-format
+msgid "%s has been kickbanned from %s."
+msgstr "%s 사용자가 %s 채널에서 강제로 퇴장 및 차단되었습니다."
+
+#: modules/chanserv/list.c:20
+msgid "Lists channels registered matching a given pattern."
+msgstr "주어진 패턴을 만족하는 채널을 나열합니다."
+
+#: modules/chanserv/list.c:51
+msgid "Syntax: LIST <channel pattern>"
+msgstr "사용법: LIST <채널 패턴>"
+
+#: modules/chanserv/list.c:55
+#, c-format
+msgid "Channels matching pattern %s:"
+msgstr "--- %s 패턴을 만족하는 채널 목록 ---"
+
+#: modules/chanserv/list.c:87
+#, c-format
+msgid "No channel matched pattern %s"
+msgstr "아무 채널도 %s 패턴을 만족하지 않습니다."
+
+#: modules/chanserv/list.c:89 modules/hostserv/vhost.c:166
+#: modules/nickserv/list.c:162 modules/nickserv/vhost.c:236
+#: modules/operserv/greplog.c:215
+#, c-format
+# %.0s for ignore pattern string
+msgid "%d match for pattern %s"
+msgstr "--- 총 %d개 채널 ---%.0s"
+
+#: modules/chanserv/list.c:89 modules/hostserv/vhost.c:167
+#: modules/nickserv/list.c:162 modules/nickserv/vhost.c:237
+#: modules/operserv/greplog.c:216
+#, c-format
+# %.0s for ignore pattern string
+msgid "%d matches for pattern %s"
+msgstr "--- 총 %d개 채널 ---%.0s"
+
+#: modules/chanserv/mark.c:20
+msgid "Adds a note to a channel."
+msgstr "채널에 모든 사용자가 볼 수 있는 메모를 남깁니다."
+
+#: modules/chanserv/mark.c:51 modules/chanserv/mark.c:109
+msgid "Usage: MARK <#channel> <ON|OFF> [note]"
+msgstr "사용법: MARK <#채널> <ON|OFF> [메모]"
+
+#: modules/chanserv/mark.c:72
+msgid "Usage: MARK <#channel> ON <note>"
+msgstr "사용법: MARK <#채널> ON <메모>"
+
+#: modules/chanserv/mark.c:78 modules/nickserv/mark.c:80
+#, c-format
+msgid "%s is already marked."
+msgstr "%s 채널은 이미 메모가 남겨져 있습니다."
+
+#: modules/chanserv/mark.c:88 modules/nickserv/mark.c:90
+#, c-format
+msgid "%s is now marked."
+msgstr "%s 채널에 메모를 남겼습니다."
+
+#: modules/chanserv/mark.c:94 modules/nickserv/mark.c:96
+#, c-format
+msgid "%s is not marked."
+msgstr "%s 채널에 남겨진 메모가 없습니다."
+
+#: modules/chanserv/mark.c:104 modules/nickserv/mark.c:62
+#: modules/nickserv/mark.c:106
+#, c-format
+msgid "%s is now unmarked."
+msgstr "%s 채널에 남겨진 메모를 지웠습니다."
+
+#: modules/chanserv/op.c:21
+msgid "Gives channel ops to a user."
+msgstr "사용자에게 옵(+o, 관리 권한)을 줍니다."
+
+#: modules/chanserv/op.c:23
+msgid "Removes channel ops from a user."
+msgstr "사용자에게서 옵(+o, 관리 권한)을 뺏습니다."
+
+#: modules/chanserv/op.c:61
+msgid "Syntax: OP <#channel> [nickname]"
+msgstr "사용법: OP <#채널> [대화명]"
+
+#: modules/chanserv/op.c:129
+#, c-format
+msgid "%s has been opped on %s."
+msgstr "%s 사용자에게 %s 채널의 옵을 주었습니다."
+
+#: modules/chanserv/op.c:143
+msgid "Syntax: DEOP <#channel> [nickname]"
+msgstr "사용법: DEOP <#채널> [대화명]"
+
+#: modules/chanserv/op.c:196
+#, c-format
+msgid "%s has been deopped on %s."
+msgstr "%s 사용자에게서 %s 채널의 옵을 빼앗았습니다."
+
+#: modules/chanserv/owner.c:21
+msgid "Gives channel owner flag to a user."
+msgstr "사용자에게 창설자 모드(+q)를 줍니다."
+
+#: modules/chanserv/owner.c:23
+msgid "Removes channel owner flag from a user."
+msgstr "사용자에게서 창설자 모드(+q)를 빼앗습니다."
+
+#: modules/chanserv/owner.c:67 modules/chanserv/owner.c:148
+#: modules/chanserv/protect.c:67 modules/chanserv/protect.c:148
+msgid "The IRCd software you are running does not support this feature."
+msgstr "이 IRC 서버는 해당 기능을 지원하지 않습니다."
+
+#: modules/chanserv/owner.c:74
+msgid "Syntax: OWNER <#channel> [nickname]"
+msgstr "사용법: OWNER <#채널> [대화명]"
+
+#: modules/chanserv/owner.c:135
+#, c-format
+msgid "%s has been set as owner on %s."
+msgstr "%s 사용자에게 %s 채널의 창설자 모드를 주었습니다."
+
+#: modules/chanserv/owner.c:155
+msgid "Syntax: DEOWNER <#channel> [nickname]"
+msgstr "사용법: DEOWNER <#채널> [대화명]"
+
+#: modules/chanserv/owner.c:208
+#, c-format
+msgid "%s has been unset as owner on %s."
+msgstr "%s 사용자에게 %s 채널의 창설자 모드를 빼앗았습니다."
+
+#: modules/chanserv/protect.c:21
+msgid "Gives channel protection flag to a user."
+msgstr "사용자를 보호된 사용자(+a)로 만듭니다."
+
+#: modules/chanserv/protect.c:23
+msgid "Removes channel protection flag from a user."
+msgstr "사용자를 보호되지 않은 사용자로 만듭니다."
+
+#: modules/chanserv/protect.c:74
+msgid "Syntax: PROTECT <#channel> [nickname]"
+msgstr "사용법: PROTECT <#채널> [대화명]"
+
+#: modules/chanserv/protect.c:135
+#, c-format
+msgid "%s has been set as protected on %s."
+msgstr "%s 사용자를 %s 채널에서 보호된 사용자로 만들었습니다."
+
+#: modules/chanserv/protect.c:155
+msgid "Syntax: DEPROTECT <#channel> [nickname]"
+msgstr "사용법: DEPROTECT <#채널> [대화명]"
+
+#: modules/chanserv/protect.c:208
+#, c-format
+msgid "%s has been unset as protected on %s."
+msgstr "%s 사용자를 %s 채널에서 보호되지 않은 사용자로 만들었습니다."
+
+#: modules/chanserv/quiet.c:21
+msgid "Sets a quiet on a channel."
+msgstr ""
+
+#: modules/chanserv/quiet.c:23
+msgid "Removes a quiet on a channel."
+msgstr ""
+
+#: modules/chanserv/quiet.c:148 modules/chanserv/quiet.c:212
+msgid "Syntax: QUIET <#channel> <nickname|hostmask>"
+msgstr "사용법: QUIET <#채널> <대화명|마스크>"
+
+#: modules/chanserv/quiet.c:189 modules/chanserv/quiet.c:206
+#, c-format
+msgid "Quieted %s on %s."
+msgstr ""
+
+#: modules/chanserv/quiet.c:229 modules/chanserv/quiet.c:238
+msgid "Syntax: UNQUIET <#channel> <nickname|hostmask>"
+msgstr "사용법: UNQUIET <#채널> <대화명|마스크>"
+
+#: modules/chanserv/quiet.c:290
+#, c-format
+msgid "Unquieted %s on %s (%d ban%s removed)."
+msgstr ""
+
+#: modules/chanserv/quiet.c:294
+#, c-format
+msgid "No quiets found matching %s on %s."
+msgstr ""
+
+#: modules/chanserv/quiet.c:306
+#, c-format
+msgid "Unquieted %s on %s."
+msgstr ""
+
+#: modules/chanserv/quiet.c:309
+#, c-format
+msgid "No such quiet %s on %s."
+msgstr ""
+
+#: modules/chanserv/quiet.c:316
+msgid "Syntax: UNQUIET <#channel> [nickname|hostmask]"
+msgstr "사용법: UNQUIET <#채널> [대화명|마스크]"
+
+#: modules/chanserv/recover.c:20
+msgid "Regain control of your channel."
+msgstr "등록한 채널의 제어권을 되찾습니다."
+
+#: modules/chanserv/recover.c:57
+msgid "Syntax: RECOVER <#channel>"
+msgstr "사용법: RECOVER <#채널>"
+
+#: modules/chanserv/recover.c:207
+#, c-format
+msgid "Recover complete for %s, ban exception %s added."
+msgstr "%s 채널의 제어권을 되찾았고, 차단 예외 목록에 %s을(를) 추가했습니다."
+
+#: modules/chanserv/recover.c:209
+#, c-format
+msgid "Recover complete for %s."
+msgstr "%s 채널의 제어권을 되찾았습니다."
+
+#: modules/chanserv/register.c:23
+msgid "Registers a channel."
+msgstr "채널을 등록합니다."
+
+#: modules/chanserv/register.c:65
+msgid "To register a channel: REGISTER <#channel>"
+msgstr "채널을 등록하려면 \"REGISTER <#채널>\"이라고 입력하세요."
+
+#: modules/chanserv/register.c:72
+msgid "Syntax: REGISTER <#channel>"
+msgstr "사용법: REGISTER <#채널>"
+
+#: modules/chanserv/register.c:85
+msgid "You need to verify your email address before you may register channels."
+msgstr ""
+
+#: modules/chanserv/register.c:93
+#, c-format
+msgid "%s is already registered to %s."
+msgstr "%s 채널은 이미 %s 사용자가 등록했습니다."
+
+#: modules/chanserv/register.c:95 modules/nickserv/register.c:136
+#, c-format
+msgid "%s is already registered."
+msgstr "%s 채널은 이미 등록되어 있습니다."
+
+#: modules/chanserv/register.c:102
+#, c-format
+msgid "The channel %s must exist in order to register it."
+msgstr "등록할 %s 채널이 존재하지 않습니다."
+
+#: modules/chanserv/register.c:109
+#, c-format
+msgid "You must be in %s in order to register it."
+msgstr "%s 채널을 등록하려면 먼저 그 채널에 들어가 있어야 합니다."
+
+#: modules/chanserv/register.c:116
+#, c-format
+msgid "You must be a channel operator in %s in order to register it."
+msgstr "%s 채널을 등록하려면 그 채널에서 옵(관리 권한)을 갖고 있어야 합니다."
+
+#: modules/chanserv/register.c:125 modules/nickserv/register.c:146
+msgid ""
+"The system is currently too busy to process your registration, please try "
+"again later."
+msgstr ""
+
+#: modules/chanserv/register.c:140
+msgid "You have too many channels registered."
+msgstr "한 사용자가 등록할 수 있는 채널 수는 제한되어 있습니다."
+
+#: modules/chanserv/register.c:171
+#, c-format
+msgid "%s is now registered to %s."
+msgstr "%s 채널은 이제 %s 사용자에게 등록되었습니다."
+
+#: modules/chanserv/set_core.c:21 modules/nickserv/set_core.c:22
+msgid "Sets various control flags."
+msgstr "각종 옵션을 변경합니다."
+
+#: modules/chanserv/set_core.c:48
+msgid ""
+"SET allows you to set various control flags\n"
+"for channels that change the way certain\n"
+"operations are performed on them."
+msgstr ""
+"SET 명령으로 채널의 각종 옵션을 변경하여 특정 명령이 동작하는\n"
+"방식을 변경할 수 있습니다."
+
+#: modules/chanserv/set_core.c:67 modules/chanserv/set_core.c:78
+msgid "Syntax: SET <#channel> <setting> [parameters]"
+msgstr "사용법: SET <#채널> <설정> [인자들]"
+
+#: modules/chanserv/set_email.c:21
+msgid "Sets the channel e-mail address."
+msgstr "채널의 메일 주소를 고칩니다."
+
+#: modules/chanserv/set_email.c:65
+#, c-format
+msgid "The e-mail address for channel %s was deleted."
+msgstr "%s 채널의 메일 주소를 지웠습니다."
+
+#: modules/chanserv/set_email.c:70
+#, c-format
+msgid "The e-mail address for channel %s was not set."
+msgstr "%s 채널의 메일 주소가 설정되어 있지 않습니다."
+
+#: modules/chanserv/set_email.c:76 modules/nickserv/return.c:72
+#, c-format
+msgid "%s is not a valid e-mail address."
+msgstr "%s은(는) 올바른 메일 주소가 아닙니다."
+
+#: modules/chanserv/set_email.c:84
+#, c-format
+msgid "The e-mail address for channel %s has been set to %s."
+msgstr "%s 채널의 메일 주소를 이렇게 고쳤습니다: %s"
+
+#: modules/chanserv/set_entrymsg.c:21
+msgid "Sets the channel's entry message."
+msgstr "채널 인삿말을 고칩니다."
+
+#: modules/chanserv/set_entrymsg.c:68
+#, c-format
+msgid "The entry message for %s has been cleared."
+msgstr "%s 채널 인삿말을 비웠습니다."
+
+#: modules/chanserv/set_entrymsg.c:72
+#, c-format
+msgid "The entry message for %s was not set."
+msgstr "%s 채널 인삿말이 비어 있습니다."
+
+#: modules/chanserv/set_entrymsg.c:80
+#, c-format
+msgid "The entry message for %s has been set to %s"
+msgstr "%s 채널 인삿말을 이렇게 고쳤습니다: %s"
+
+#: modules/chanserv/set_fantasy.c:23
+msgid "Allows or disallows in-channel commands."
+msgstr "채널 안에서 서비스 봇 명령을 내릴 수 있는지 여부를 선택합니다."
+
+#: modules/chanserv/set_fantasy.c:76 modules/chanserv/set_gameserv.c:63
+#: modules/chanserv/set_guard.c:76 modules/chanserv/set_keeptopic.c:61
+#: modules/chanserv/set_limitflags.c:65 modules/chanserv/set_mlock.c:74
+#: modules/chanserv/set_private.c:65 modules/chanserv/set_property.c:73
+#: modules/chanserv/set_restricted.c:61 modules/chanserv/set_secure.c:61
+#: modules/chanserv/set_topiclock.c:61 modules/chanserv/set_verbose.c:61
+msgid "You are not authorized to perform this command."
+msgstr "이 명령을 실행할 권한이 없습니다."
+
+#: modules/chanserv/set_fantasy.c:86 modules/chanserv/set_guard.c:84
+#: modules/chanserv/set_keeptopic.c:69 modules/chanserv/set_restricted.c:69
+#: modules/chanserv/set_secure.c:69 modules/chanserv/set_topiclock.c:69
+#: modules/chanserv/set_verbose.c:69 modules/chanserv/set_verbose.c:87
+#, c-format
+msgid "The %s flag is already set for channel %s."
+msgstr "%s 옵션은 %s 채널에서 이미 사용하고 있습니다."
+
+#: modules/chanserv/set_fantasy.c:93 modules/chanserv/set_guard.c:101
+#: modules/chanserv/set_keeptopic.c:77 modules/chanserv/set_restricted.c:77
+#: modules/chanserv/set_secure.c:77 modules/chanserv/set_topiclock.c:77
+#: modules/chanserv/set_verbose.c:79 modules/chanserv/set_verbose.c:105
+#, c-format
+msgid "The %s flag has been set for channel %s."
+msgstr "앞으로는 %s 옵션을 %s 채널에서 사용합니다."
+
+#: modules/chanserv/set_fantasy.c:102 modules/chanserv/set_guard.c:108
+#: modules/chanserv/set_keeptopic.c:84 modules/chanserv/set_restricted.c:84
+#: modules/chanserv/set_secure.c:84 modules/chanserv/set_topiclock.c:85
+#: modules/chanserv/set_verbose.c:112
+#, c-format
+msgid "The %s flag is not set for channel %s."
+msgstr "%s 옵션은 %s 채널에서 사용하지 않습니다."
+
+#: modules/chanserv/set_fantasy.c:109 modules/chanserv/set_guard.c:119
+#: modules/chanserv/set_keeptopic.c:92 modules/chanserv/set_restricted.c:92
+#: modules/chanserv/set_secure.c:92 modules/chanserv/set_topiclock.c:93
+#: modules/chanserv/set_verbose.c:124
+#, c-format
+msgid "The %s flag has been removed for channel %s."
+msgstr "앞으로는 %s 옵션을 %s 채널에서 사용하지 않습니다."
+
+#: modules/chanserv/set_founder.c:21
+msgid "Transfers foundership of a channel."
+msgstr ""
+
+#: modules/chanserv/set_founder.c:131
+#, c-format
+msgid "%s is closed; it cannot be transferred."
+msgstr ""
+
+#: modules/chanserv/set_founder.c:155
+#, c-format
+msgid "Transfer complete: %s has been set as founder for %s."
+msgstr ""
+
+#: modules/chanserv/set_founder.c:160
+#, c-format
+msgid "You are not the founder of %s."
+msgstr ""
+
+#: modules/chanserv/set_founder.c:177
+#, c-format
+msgid "The transfer of %s has been cancelled."
+msgstr ""
+
+#: modules/chanserv/set_founder.c:209
+#, c-format
+msgid "The previous transfer request for %s has been cancelled."
+msgstr ""
+
+#: modules/chanserv/set_founder.c:217
+#, c-format
+msgid "%s can now take ownership of %s."
+msgstr ""
+
+#: modules/chanserv/set_founder.c:218
+#, c-format
+msgid ""
+"In order to complete the transfer, %s must perform the following command:"
+msgstr ""
+
+#: modules/chanserv/set_founder.c:220
+msgid "After that command is issued, the channel will be transferred."
+msgstr ""
+
+#: modules/chanserv/set_founder.c:221
+#, c-format
+msgid "To cancel the transfer, use /msg %s SET %s FOUNDER %s"
+msgstr ""
+
+#: modules/chanserv/set_gameserv.c:21
+msgid "Allows or disallows gaming services."
+msgstr ""
+
+#: modules/chanserv/set_gameserv.c:87
+#, c-format
+msgid "%s is already set to %s for %s."
+msgstr ""
+
+#: modules/chanserv/set_gameserv.c:94
+#, c-format
+msgid "%s has been set to %s for %s."
+msgstr ""
+
+#: modules/chanserv/set_gameserv.c:102
+#, c-format
+msgid "%s was not set for %s."
+msgstr ""
+
+#: modules/chanserv/set_gameserv.c:110
+#, c-format
+msgid "%s has been disabled for %s."
+msgstr ""
+
+#: modules/chanserv/set_guard.c:23
+msgid "Sets whether or not services will inhabit the channel."
+msgstr "서비스 봇이 채널에 상주할 지의 여부를 결정합니다."
+
+#: modules/chanserv/set_guard.c:90
+#, c-format
+msgid ""
+"Channel %s already has a BotServ bot assigned to it.  You need to unassign "
+"it first."
+msgstr ""
+
+#: modules/chanserv/set_keeptopic.c:21
+msgid "Enables topic retention."
+msgstr "채널이 비어버릴 때도 채널 주제(토픽)을 유지하도록 합니다."
+
+#: modules/chanserv/set_limitflags.c:21
+msgid "Limits the power of the +f flag."
+msgstr "플래그를 고치는 플래그(+f)에 제약을 가합니다."
+
+#: modules/chanserv/set_limitflags.c:73 modules/chanserv/set_private.c:73
+#: modules/nickserv/set_private.c:37 modules/nickserv/set_privmsg.c:37
+#, c-format
+msgid "The %s flag is already set for %s."
+msgstr ""
+
+#: modules/chanserv/set_limitflags.c:81 modules/chanserv/set_private.c:81
+#: modules/nickserv/set_private.c:46 modules/nickserv/set_privmsg.c:45
+#, c-format
+msgid "The %s flag has been set for %s."
+msgstr ""
+
+#: modules/chanserv/set_limitflags.c:90 modules/chanserv/set_private.c:90
+#: modules/nickserv/set_private.c:54 modules/nickserv/set_privmsg.c:53
+#, c-format
+msgid "The %s flag is not set for %s."
+msgstr ""
+
+#: modules/chanserv/set_limitflags.c:98 modules/chanserv/set_private.c:98
+#: modules/nickserv/set_private.c:62 modules/nickserv/set_privmsg.c:61
+#, c-format
+msgid "The %s flag has been removed for %s."
+msgstr ""
+
+#: modules/chanserv/set_mlock.c:21
+msgid "Sets channel mode lock."
+msgstr "채널 모드를 바꿀 수 없게 잠급니다."
+
+#: modules/chanserv/set_mlock.c:118 modules/chanserv/set_mlock.c:149
+#: modules/chanserv/set_mlock.c:191
+#, c-format
+msgid "You need to specify a value for mode +%c."
+msgstr ""
+
+#: modules/chanserv/set_mlock.c:123
+#, c-format
+msgid "MLOCK key is too long (%d > %d)."
+msgstr ""
+
+#: modules/chanserv/set_mlock.c:128
+msgid "MLOCK key contains invalid characters."
+msgstr ""
+
+#: modules/chanserv/set_mlock.c:155
+msgid "You must specify a positive integer for limit."
+msgstr ""
+
+#: modules/chanserv/set_mlock.c:196 modules/chanserv/set_mlock.c:201
+#, c-format
+msgid "Invalid value %s for mode +%c."
+msgstr ""
+
+#: modules/chanserv/set_mlock.c:219
+msgid "Mode lock is too long."
+msgstr ""
+
+#: modules/chanserv/set_mlock.c:230
+#, c-format
+msgid "You may only alter +%s modes."
+msgstr ""
+
+#: modules/chanserv/set_mlock.c:306
+#, c-format
+msgid "The MLOCK for %s has been set to %s."
+msgstr ""
+
+#: modules/chanserv/set_mlock.c:311
+#, c-format
+msgid "The MLOCK for %s has been removed."
+msgstr ""
+
+#: modules/chanserv/set_mlock.c:315
+#, c-format
+msgid "SET:MLOCK: %s to %s by %s"
+msgstr ""
+
+#: modules/chanserv/set_private.c:21
+msgid "Hides information about a channel."
+msgstr "채널에 대한 정보를 비공개로 숨깁니다."
+
+#: modules/chanserv/set_property.c:21
+msgid "Manipulates channel metadata."
+msgstr "채널의 세부 속성을 변경합니다."
+
+#: modules/chanserv/set_property.c:54
+msgid "Syntax: SET <#channel> PROPERTY <property> [value]"
+msgstr "사용법: SET <#채널> PROPERTY <속성> [설정할 값]"
+
+#: modules/chanserv/set_property.c:61 modules/nickserv/set_property.c:62
+msgid "Invalid property name."
+msgstr "속성 이름이 잘못되었습니다."
+
+#: modules/chanserv/set_property.c:86 modules/nickserv/set_property.c:75
+#, c-format
+msgid "Metadata entry %s was not set."
+msgstr ""
+
+#: modules/chanserv/set_property.c:92 modules/nickserv/set_property.c:86
+#, c-format
+msgid "Metadata entry %s has been deleted."
+msgstr ""
+
+#: modules/chanserv/set_property.c:105 modules/nickserv/set_property.c:99
+#, c-format
+msgid "Cannot add %s to %s metadata table, it is full."
+msgstr ""
+
+#: modules/chanserv/set_property.c:112 modules/nickserv/set_property.c:106
+msgid "Parameters are too long. Aborting."
+msgstr ""
+
+#: modules/chanserv/set_property.c:118 modules/nickserv/set_property.c:119
+#, c-format
+msgid "Metadata entry %s added."
+msgstr ""
+
+#: modules/chanserv/set_restricted.c:21
+msgid ""
+"Restricts access to the channel to users on the access list. (Other users "
+"are kickbanned.)"
+msgstr ""
+
+#: modules/chanserv/set_secure.c:21
+msgid "Prevents unauthorized users from gaining operator status."
+msgstr ""
+
+#: modules/chanserv/set_topiclock.c:21
+msgid "Restricts who can change the topic."
+msgstr "채널 주제를 고칠 수 있는 사람을 제한합니다."
+
+#: modules/chanserv/set_url.c:21
+msgid "Sets the channel URL."
+msgstr "채널 URL을 고칩니다."
+
+#: modules/chanserv/set_url.c:69
+#, c-format
+msgid "The URL for %s has been cleared."
+msgstr "%s 채널의 URL을 비웠습니다."
+
+#: modules/chanserv/set_url.c:73
+#, c-format
+msgid "The URL for %s was not set."
+msgstr "%s 채널의 URL이 비어 있습니다."
+
+#: modules/chanserv/set_url.c:81
+#, c-format
+msgid "The URL of %s has been set to %s."
+msgstr "%s 채널의 URL을 이렇게 고쳤습니다: %s"
+
+#: modules/chanserv/set_verbose.c:21
+msgid "Notifies channel about access list modifications."
+msgstr "서비스 봇 권한을 고칠 때마다 채널에 알립니다."
+
+#: modules/chanserv/status.c:20
+msgid "Displays your status in services."
+msgstr "서비스 봇 내에서의 당신의 상태를 보여 줍니다."
+
+#: modules/chanserv/status.c:72
+#, c-format
+msgid "You are banned from %s."
+msgstr "당신은 %s 채널에서 차단당했습니다."
+
+#: modules/chanserv/status.c:75
+#, c-format
+msgid "You have access flags %s on %s."
+msgstr "당신은 %s 플래그를 %s 채널에서 갖고 있습니다."
+
+#: modules/chanserv/status.c:78
+#, c-format
+msgid "You have no special access to %s."
+msgstr "당신은 %s 채널에서 특별한 권한이 없습니다."
+
+#: modules/chanserv/status.c:88 modules/nickserv/status.c:97
+#, c-format
+msgid "You are logged in as %s."
+msgstr "당신은 %s 사용자로 로그인되어 있습니다."
+
+#: modules/chanserv/status.c:94 modules/nickserv/status.c:103
+#, c-format
+msgid "You are a services operator of class %s."
+msgstr ""
+
+#: modules/chanserv/status.c:105 modules/nickserv/status.c:114
+#, c-format
+msgid "You are recognized as %s."
+msgstr ""
+
+#: modules/chanserv/status.c:109 modules/nickserv/status.c:118
+msgid "You are a server administrator."
+msgstr "당신은 서버 관리자입니다."
+
+#: modules/chanserv/status.c:112 modules/nickserv/status.c:121
+msgid "You are an IRC operator."
+msgstr "당신은 IRC 관리자(오퍼)입니다."
+
+#: modules/chanserv/taxonomy.c:20
+msgid "Displays a channel's metadata."
+msgstr "채널의 세부 속성을 보여 줍니다."
+
+#: modules/chanserv/taxonomy.c:51
+msgid "Syntax: TAXONOMY <#channel>"
+msgstr "사용법: TAXONOMY <#채널>"
+
+#: modules/chanserv/taxonomy.c:57 modules/operserv/override.c:180
+#, c-format
+msgid "%s is not a registered channel."
+msgstr "%s 채널은 등록되어 있지 않습니다."
+
+#: modules/chanserv/taxonomy.c:66
+#, c-format
+msgid "Channel %s is private."
+msgstr ""
+
+#: modules/chanserv/taxonomy.c:75 modules/nickserv/taxonomy.c:67
+#, c-format
+msgid "Taxonomy for %s:"
+msgstr "--- %s 채널의 세부 정보 ---"
+
+#: modules/chanserv/taxonomy.c:87 modules/nickserv/taxonomy.c:79
+#, c-format
+msgid "End of %s taxonomy."
+msgstr "--- %s 채널의 세부 정보 끝 ---"
+
+#: modules/chanserv/template.c:23
+msgid "Manipulates predefined sets of flags."
+msgstr "미리 지정된 플래그 목록(템플릿)을 고칩니다."
+
+#: modules/chanserv/template.c:46 modules/chanserv/template.c:108
+msgid "Name"
+msgstr ""
+
+#: modules/chanserv/template.c:46 modules/chanserv/template.c:108
+msgid "Flags"
+msgstr ""
+
+#: modules/chanserv/template.c:54
+msgid "End of network wide template list."
+msgstr ""
+
+#: modules/chanserv/template.c:125
+#, c-format
+msgid "End of %s TEMPLATE listing."
+msgstr ""
+
+#: modules/chanserv/template.c:128
+#, c-format
+msgid "No templates set on channel %s."
+msgstr ""
+
+#: modules/chanserv/template.c:166
+#, c-format
+msgid "Usage: TEMPLATE %s [target flags]"
+msgstr ""
+
+#: modules/chanserv/template.c:172 modules/chanserv/template.c:309
+#, c-format
+msgid "Invalid template name %s."
+msgstr ""
+
+#: modules/chanserv/template.c:289
+#, c-format
+msgid "Redefining built-in template %s."
+msgstr ""
+
+#: modules/chanserv/template.c:315
+#, c-format
+msgid "Template %s on %s unchanged."
+msgstr ""
+
+#: modules/chanserv/template.c:317
+#, c-format
+msgid "No such template %s on %s."
+msgstr ""
+
+#: modules/chanserv/template.c:322
+#, c-format
+msgid "You are not allowed to set %s on template %s in %s."
+msgstr ""
+
+#: modules/chanserv/template.c:327
+#, c-format
+msgid "Sorry, too many templates on %s."
+msgstr ""
+
+#: modules/chanserv/template.c:335
+#, c-format
+msgid "Added template %s with flags %s in %s."
+msgstr ""
+
+#: modules/chanserv/template.c:337
+#, c-format
+msgid "Removed template %s from %s."
+msgstr ""
+
+#: modules/chanserv/template.c:339
+#, c-format
+msgid "Changed template %s to %s in %s."
+msgstr ""
+
+#: modules/chanserv/template.c:367
+#, c-format
+msgid "%d access entries updated accordingly."
+msgstr ""
+
+#: modules/chanserv/template.c:369
+#, c-format
+msgid ""
+"Not updating %d access entries involving founder status. Please do it "
+"manually."
+msgstr ""
+
+#: modules/chanserv/topic.c:22
+msgid "Sets a topic on a channel."
+msgstr "채널 주제(토픽)를 설정합니다."
+
+#: modules/chanserv/topic.c:24
+msgid "Appends a topic on a channel."
+msgstr "채널 주제(토픽) 뒤에 새 내용을 덧붙입니다."
+
+#: modules/chanserv/topic.c:26
+msgid "Prepends a topic on a channel."
+msgstr "채널 주제(토픽) 앞에 새 내용을 덧붙입니다."
+
+#: modules/chanserv/topic.c:69
+msgid "Syntax: TOPIC <#channel> <topic>"
+msgstr "사용법: TOPIC <#채널> <주제>"
+
+#: modules/chanserv/topic.c:101 modules/chanserv/topic.c:176
+#: modules/chanserv/topic.c:251
+msgid "The new topic is invalid or too long."
+msgstr "새 주제가 사용할 수 없거나 너무 깁니다."
+
+#: modules/chanserv/topic.c:117 modules/chanserv/topic.c:192
+#: modules/chanserv/topic.c:267
+#, c-format
+msgid "Topic set to %s on %s."
+msgstr "새 주제 \"%s\"가 %s 채널에 설정되었습니다."
+
+#: modules/chanserv/topic.c:133
+msgid "Syntax: TOPICAPPEND <#channel> <topic>"
+msgstr "사용법: TOPICAPPEND <#채널> <주제>"
+
+#: modules/chanserv/topic.c:208
+msgid "Syntax: TOPICPREPEND <#channel> <topic>"
+msgstr "사용법: TOPICPREPEND <#채널> <주제>"
+
+#: modules/chanserv/unban_self.c:22
+msgid "Unbans you on a channel."
+msgstr "채널에서 자신에게 걸린 차단(밴)을 풉니다."
+
+#: modules/chanserv/unban_self.c:64
+msgid "Syntax: UNBAN <#channel>"
+msgstr "사용법: UNBAN <#채널>"
+
+#: modules/chanserv/unban_self.c:70
+#, c-format
+msgid "You may only unban yourself via %s."
+msgstr "%s 서비스 봇으로는 자기 자신의 차단만 풀 수 있습니다."
+
+#: modules/chanserv/unban_self.c:72
+#, c-format
+msgid "Try /mode %s -b %s"
+msgstr "/mode %s -b %s 명령도 한 번 해 보세요."
+
+#: modules/chanserv/version.c:12
+msgid "Displays version information of the services."
+msgstr "서비스 봇의 버전 정보를 보여 줍니다."
+
+#: modules/chanserv/voice.c:21
+msgid "Gives channel voice to a user."
+msgstr "사용자에게 보이스(+v, 발언 권한)를 줍니다."
+
+#: modules/chanserv/voice.c:23
+msgid "Removes channel voice from a user."
+msgstr "사용자에게서 보이스(+v, 발언 권한)를 뺏습니다."
+
+#: modules/chanserv/voice.c:61
+msgid "Syntax: VOICE <#channel> [nickname]"
+msgstr "사용법: VOICE <#채널> [대화명]"
+
+#: modules/chanserv/voice.c:122
+#, c-format
+msgid "%s has been voiced on %s."
+msgstr "%s 사용자에게 %s 채널의 보이스를 주었습니다."
+
+#: modules/chanserv/voice.c:136
+msgid "Syntax: DEVOICE <#channel> [nickname]"
+msgstr "사용법: DEVOICE <#채널> [대화명]"
+
+#: modules/chanserv/voice.c:183
+#, c-format
+msgid "%s has been devoiced on %s."
+msgstr "%s 사용자에게서 %s 채널의 보이스를 빼앗았습니다."
+
+#: modules/chanserv/why.c:20
+msgid "Explains channel access logic."
+msgstr "해당 채널에서 사용자의 권한이 주어진 과정을 보여 줍니다."
+
+#: modules/chanserv/why.c:57
+msgid "Syntax: WHY <channel> <user>"
+msgstr "사용법: WHY <#채널> <대화명>"
+
+#: modules/chanserv/why.c:136
+msgid "+r exempts from +b."
+msgstr ""
+
+#: modules/chanserv/why.c:138
+#, c-format
+msgid "%s has no special access to %s."
+msgstr ""
+
+#: modules/chanserv/xop.c:30
+msgid "Manipulates a channel SOP list."
+msgstr ""
+
+#: modules/chanserv/xop.c:32
+msgid "Manipulates a channel AOP list."
+msgstr ""
+
+#: modules/chanserv/xop.c:34
+msgid "Manipulates a channel HOP list."
+msgstr ""
+
+#: modules/chanserv/xop.c:36
+msgid "Manipulates a channel VOP list."
+msgstr ""
+
+#: modules/chanserv/xop.c:38
+msgid "Forces access levels to xOP levels."
+msgstr ""
+
+#: modules/chanserv/xop.c:92 modules/chanserv/xop.c:99
+msgid "Syntax: SOP|AOP|HOP|VOP <#channel> ADD|DEL|LIST <nickname>"
+msgstr "사용법: SOP|AOP|HOP|VOP <#채널> ADD|DEL|LIST <대화명>"
+
+#: modules/chanserv/xop.c:133
+#, c-format
+msgid "%s %s template has founder flag, not allowing xOP command."
+msgstr ""
+
+#: modules/chanserv/xop.c:244
+#, c-format
+msgid "%s is neither a registered account nor a hostmask."
+msgstr ""
+
+#: modules/chanserv/xop.c:252
+#, c-format
+msgid "%s is already on the %s list for %s"
+msgstr ""
+
+#: modules/chanserv/xop.c:266 modules/chanserv/xop.c:388
+#, c-format
+msgid "You are not authorized to modify the access entry for %s on %s."
+msgstr ""
+
+#: modules/chanserv/xop.c:275 modules/chanserv/xop.c:398
+#, c-format
+msgid "%s's access on %s has been changed to %s."
+msgstr ""
+
+#: modules/chanserv/xop.c:281 modules/chanserv/xop.c:405
+#, c-format
+msgid "%s has been added to the %s list for %s."
+msgstr ""
+
+#: modules/chanserv/xop.c:351
+#, c-format
+msgid "%s is the founder for %s and may not be added to the %s list."
+msgstr ""
+
+#: modules/chanserv/xop.c:357
+#, c-format
+msgid "%s is already on the %s list for %s."
+msgstr ""
+
+#: modules/chanserv/xop.c:481 modules/chanserv/xop.c:494
+#, c-format
+msgid "%s is not on the %s list for %s."
+msgstr ""
+
+#: modules/chanserv/xop.c:488 modules/chanserv/xop.c:499
+#, c-format
+msgid "%s has been removed from the %s list for %s."
+msgstr ""
+
+#: modules/chanserv/xop.c:511
+#, c-format
+msgid "%s list for %s:"
+msgstr ""
+
+#: modules/chanserv/xop.c:520
+#, c-format
+msgid "%d: %s (logged in)"
+msgstr ""
+
+#: modules/chanserv/xop.c:522
+#, c-format
+msgid "%d: %s (not logged in)"
+msgstr ""
+
+#: modules/chanserv/xop.c:526
+#, c-format
+msgid "Total of %d %s in %s list of %s."
+msgstr ""
+
+#: modules/chanserv/xop.c:547
+msgid "Syntax: FORCEXOP <#channel>"
+msgstr "사용법: FORCEXOP <#채널>"
+
+#: modules/chanserv/xop.c:614
+#, c-format
+msgid "FORCEXOP %s done (%d changes)"
+msgstr ""
+
+#: modules/gameserv/dice.c:24
+msgid "Rolls one or more dice."
+msgstr ""
+
+#: modules/gameserv/dice.c:25
+msgid "WOD-style dice generation."
+msgstr ""
+
+#: modules/gameserv/dice.c:26
+msgid "Fudge-style dice generation."
+msgstr ""
+
+#: modules/gameserv/dice.c:116 modules/gameserv/dice.c:139
+#, c-format
+msgid "%s is not enabled on %s."
+msgstr ""
+
+#: modules/gameserv/dice.c:122
+#, c-format
+msgid "You are not on %s."
+msgstr ""
+
+#: modules/gameserv/dice.c:169
+msgid "Syntax: ROLL [dice]d<sides>"
+msgstr ""
+
+#: modules/gameserv/dice.c:246
+msgid "Syntax: WOD <dice> <difficulty>"
+msgstr ""
+
+#: modules/gameserv/dice.c:262 modules/gameserv/dice.c:337
+msgid "Only 1-30 dice may be thrown at one time."
+msgstr ""
+
+#: modules/gameserv/dice.c:267
+msgid "Difficulty setting must be between 1 and 10."
+msgstr ""
+
+#: modules/gameserv/dice.c:297
+#, c-format
+msgid "%s rolls %d dice at difficulty %d: %s"
+msgstr ""
+
+#: modules/gameserv/dice.c:300
+#, c-format
+msgid ""
+"Successes: %d, Failures: %d, Botches: %d, Total: %d. You may reroll %d if "
+"you have a specialty."
+msgstr ""
+
+#: modules/gameserv/dice.c:303
+#, c-format
+msgid "Successes: %d, Failures: %d, Botches: %d, Total: %d."
+msgstr ""
+
+#: modules/gameserv/dice.c:327
+msgid "Syntax: DF <dice>"
+msgstr ""
+
+#: modules/gameserv/dice.c:351
+#, c-format
+msgid "Result: %s"
+msgstr ""
+
+#: modules/gameserv/eightball.c:20
+msgid "Ask the 8-Ball a question."
+msgstr ""
+
+#: modules/gameserv/eightball.c:75
+msgid "Absolutely yes!"
+msgstr ""
+
+#: modules/gameserv/eightball.c:76
+msgid "Prospect looks hopeful."
+msgstr ""
+
+#: modules/gameserv/eightball.c:77
+msgid "I'd like to think so."
+msgstr ""
+
+#: modules/gameserv/eightball.c:78
+msgid "Yes, yes, yes, and yes again."
+msgstr ""
+
+#: modules/gameserv/eightball.c:79
+msgid "Most likely."
+msgstr ""
+
+#: modules/gameserv/eightball.c:80
+msgid "All signs point to yes."
+msgstr ""
+
+#: modules/gameserv/eightball.c:81
+msgid "Yes."
+msgstr ""
+
+#: modules/gameserv/eightball.c:82
+msgid "Without a doubt."
+msgstr ""
+
+#: modules/gameserv/eightball.c:83
+msgid "Sometime in the near future."
+msgstr ""
+
+#: modules/gameserv/eightball.c:84
+msgid "Of course!"
+msgstr ""
+
+#: modules/gameserv/eightball.c:85
+msgid "Definitely."
+msgstr ""
+
+#: modules/gameserv/eightball.c:86
+msgid "Answer hazy."
+msgstr ""
+
+#: modules/gameserv/eightball.c:87
+msgid "Prospect looks bleak."
+msgstr ""
+
+#: modules/gameserv/eightball.c:88
+msgid "That's a question you should ask yourself."
+msgstr ""
+
+#: modules/gameserv/eightball.c:89
+msgid "Maybe."
+msgstr ""
+
+#: modules/gameserv/eightball.c:90
+msgid "That question is better remained unanswered."
+msgstr ""
+
+#: modules/gameserv/eightball.c:91
+msgid "The stars would have to align for that to happen."
+msgstr ""
+
+#: modules/gameserv/eightball.c:92
+msgid "No."
+msgstr ""
+
+#: modules/gameserv/eightball.c:93
+msgid "Not even on a GOOD day."
+msgstr ""
+
+#: modules/gameserv/eightball.c:94
+msgid "It would take a disturbed person to even ask."
+msgstr ""
+
+#: modules/gameserv/eightball.c:95
+msgid "You wish."
+msgstr ""
+
+#: modules/gameserv/eightball.c:96
+msgid "Not bloody likely."
+msgstr ""
+
+#: modules/gameserv/eightball.c:97
+msgid "No way."
+msgstr ""
+
+#: modules/gameserv/eightball.c:98
+msgid "Never."
+msgstr ""
+
+#: modules/gameserv/eightball.c:99
+msgid "NO!"
+msgstr ""
+
+#: modules/gameserv/eightball.c:100
+msgid "Over my dead body."
+msgstr ""
+
+#: modules/gameserv/eightball.c:101
+msgid "We won't go there"
+msgstr ""
+
+#: modules/gameserv/eightball.c:102
+msgid "No chance at all!"
+msgstr ""
+
+#: modules/gameserv/help.c:48
+#, c-format
+msgid "%s provides games and tools for playing games to the network."
+msgstr ""
+
+#: modules/gameserv/namegen.c:21
+msgid "Generates some names to ponder."
+msgstr ""
+
+#: modules/gameserv/rps.c:20
+msgid "Rock Paper Scissors."
+msgstr ""
+
+#: modules/gameserv/rps.c:65
+msgid "Rock"
+msgstr ""
+
+#: modules/gameserv/rps.c:66
+msgid "Paper"
+msgstr ""
+
+#: modules/gameserv/rps.c:67
+msgid "Scissors"
+msgstr ""
+
+#: modules/global/main.c:34
+msgid "Sends a global notice."
+msgstr "네트워크 전체 공지를 보냅니다."
+
+#: modules/global/main.c:71
+msgid "Syntax: GLOBAL <parameters>|SEND|CLEAR"
+msgstr "사용법: GLOBAL <공지 내용>|SEND|CLEAR"
+
+#: modules/global/main.c:79
+msgid "No message to clear."
+msgstr "지울 공지가 없습니다."
+
+#: modules/global/main.c:107
+msgid "No message to send."
+msgstr "보낼 공지가 없습니다."
+
+#: modules/global/main.c:158
+#, c-format
+msgid "There is already a GLOBAL in progress by %s."
+msgstr "%s 사용자가 이미 GLOBAL 명령으로 공지를 쓰고 있어 쓸 수 없습니다."
+
+#: modules/hostserv/group.c:22
+msgid "Syncs the vhost for all nicks in a group."
+msgstr ""
+
+#: modules/hostserv/group.c:100 modules/hostserv/onoff.c:75
+#: modules/hostserv/onoff.c:117 modules/hostserv/request.c:238
+#: modules/nickserv/group.c:138 modules/nickserv/group.c:177
+#: modules/nickserv/group.c:204 modules/nickserv/set_accountname.c:69
+#, c-format
+msgid "Nick %s is not registered."
+msgstr "%s 대화명은 등록되어 있지 않습니다."
+
+#: modules/hostserv/group.c:105 modules/hostserv/request.c:243
+#: modules/nickserv/group.c:143 modules/nickserv/set_accountname.c:74
+#, c-format
+msgid "Nick %s is not registered to your account."
+msgstr "%s 대화명은 당신이 등록한 게 아닙니다."
+
+#: modules/hostserv/group.c:114 modules/hostserv/onoff.c:89
+#: modules/hostserv/onoff.c:131
+msgid "Please contact an Operator to get a vhost assigned to this nick."
+msgstr ""
+
+#: modules/hostserv/group.c:120
+#, c-format
+msgid "All vhosts in the group %s have been set to %s."
+msgstr ""
+
+#: modules/hostserv/help.c:48
+#, c-format
+msgid "%s allows users to request a virtual hostname."
+msgstr ""
+
+#: modules/hostserv/offer.c:27
+msgid "Sets vhosts available for users to take."
+msgstr ""
+
+#: modules/hostserv/offer.c:28
+msgid "Removes a vhost from the list that users can take."
+msgstr ""
+
+#: modules/hostserv/offer.c:29
+msgid "Lists all available vhosts."
+msgstr ""
+
+#: modules/hostserv/offer.c:30
+msgid "Take an offered vhost for use."
+msgstr ""
+
+#: modules/hostserv/offer.c:187
+msgid "Syntax: OFFER <vhost>"
+msgstr ""
+
+#: modules/hostserv/offer.c:206
+#, c-format
+msgid "You have offered vhost %s."
+msgstr ""
+
+#: modules/hostserv/offer.c:222
+msgid "Syntax: UNOFFER <vhost>"
+msgstr ""
+
+#: modules/hostserv/offer.c:240
+#, c-format
+msgid "You have unoffered vhost %s."
+msgstr ""
+
+#: modules/hostserv/offer.c:244 modules/hostserv/offer.c:282
+#, c-format
+msgid "vhost %s not found in vhost offer database."
+msgstr ""
+
+#: modules/hostserv/offer.c:257
+msgid "Syntax: TAKE <vhost>"
+msgstr ""
+
+#: modules/hostserv/offer.c:275
+#, c-format
+msgid "You have taken vhost %s."
+msgstr ""
+
+#: modules/hostserv/onoff.c:23
+msgid "Activates your assigned vhost."
+msgstr ""
+
+#: modules/hostserv/onoff.c:24
+msgid "Deactivates your assigned vhost."
+msgstr ""
+
+#: modules/hostserv/onoff.c:80 modules/hostserv/onoff.c:122
+#, c-format
+msgid "You are not recognized as %s."
+msgstr ""
+
+#: modules/hostserv/onoff.c:93
+#, c-format
+msgid "Your vhost of %s is now activated."
+msgstr ""
+
+#: modules/hostserv/onoff.c:135
+#, c-format
+msgid "Your vhost of %s is now deactivated."
+msgstr ""
+
+#: modules/hostserv/request.c:33
+msgid "Requests new virtual hostname for current nick."
+msgstr ""
+
+#: modules/hostserv/request.c:34
+msgid "Lists vhosts currently waiting for activation."
+msgstr ""
+
+#: modules/hostserv/request.c:35
+msgid "Reject the requested vhost for the given nick."
+msgstr ""
+
+#: modules/hostserv/request.c:36
+msgid "Activate the requested vhost for a given nick."
+msgstr ""
+
+#: modules/hostserv/request.c:219
+msgid "Syntax: REQUEST <vhost>"
+msgstr ""
+
+#: modules/hostserv/request.c:262
+#, c-format
+msgid "You have already requested vhost %s."
+msgstr ""
+
+#: modules/hostserv/request.c:267 modules/hostserv/request.c:287
+msgid ""
+"The system is currently too busy to process your vHost request, please try "
+"again later."
+msgstr ""
+
+#: modules/hostserv/request.c:277 modules/hostserv/request.c:301
+#, c-format
+msgid "You have requested vhost %s."
+msgstr ""
+
+#: modules/hostserv/request.c:320
+msgid "Syntax: ACTIVATE <nick>"
+msgstr ""
+
+#: modules/hostserv/request.c:348 modules/hostserv/request.c:391
+#, c-format
+msgid "Nick %s not found in vhost request database."
+msgstr ""
+
+#: modules/hostserv/request.c:363
+msgid "Syntax: REJECT <nick>"
+msgstr ""
+
+#: modules/hostserv/vhost.c:23
+msgid "Manages per-account virtual hosts."
+msgstr ""
+
+#: modules/hostserv/vhost.c:24
+msgid "Lists user virtual hosts."
+msgstr ""
+
+#: modules/hostserv/vhost.c:95
+msgid "Syntax: VHOST <nick> [vhost]"
+msgstr ""
+
+#: modules/hostserv/vhost.c:110
+#, c-format
+msgid "Deleted all vhosts for %s."
+msgstr ""
+
+#: modules/hostserv/vhost.c:120
+#, c-format
+msgid "Assigned vhost %s to all nicks in account %s."
+msgstr ""
+
+#: modules/hostserv/vhost.c:164 modules/nickserv/vhost.c:234
+#, c-format
+msgid "No vhosts matched pattern %s"
+msgstr ""
+
+#: modules/hostserv/vhostnick.c:22
+msgid "Manages per-nick virtual hosts."
+msgstr ""
+
+#: modules/hostserv/vhostnick.c:63
+msgid "Syntax: VHOSTNICK <nick> [vhost]"
+msgstr ""
+
+#: modules/hostserv/vhostnick.c:85
+#, c-format
+msgid "%s is not a valid target."
+msgstr ""
+
+#: modules/hostserv/vhostnick.c:93 modules/nickserv/vhost.c:175
+#, c-format
+msgid "Deleted vhost for %s."
+msgstr ""
+
+#: modules/hostserv/vhostnick.c:109 modules/nickserv/vhost.c:197
+#, c-format
+msgid "Assigned vhost %s to %s."
+msgstr ""
+
+#: modules/memoserv/delete.c:20
+msgid "Deletes memos."
+msgstr ""
+
+#: modules/memoserv/delete.c:22
+msgid "Alias for DELETE"
+msgstr ""
+
+#: modules/memoserv/delete.c:62
+msgid "Syntax: DELETE ALL|OLD|message id"
+msgstr ""
+
+#: modules/memoserv/delete.c:76
+msgid "You have no memos to delete."
+msgstr ""
+
+#: modules/memoserv/delete.c:96 modules/memoserv/forward.c:105
+#: modules/memoserv/read.c:84 modules/memoserv/read.c:91
+msgid "Invalid message index."
+msgstr ""
+
+#: modules/memoserv/delete.c:103
+msgid "The specified memo doesn't exist."
+msgstr ""
+
+#: modules/memoserv/delete.c:133
+#, c-format
+msgid "%d memo deleted."
+msgstr ""
+
+#: modules/memoserv/delete.c:133
+#, c-format
+msgid "%d memos deleted."
+msgstr ""
+
+#: modules/memoserv/forward.c:20
+msgid "Forwards a memo."
+msgstr ""
+
+#: modules/memoserv/forward.c:77 modules/memoserv/send.c:75
+#: modules/memoserv/sendops.c:76
+msgid "You need to verify your email address before you may send memos."
+msgstr ""
+
+#: modules/memoserv/forward.c:84
+msgid "You have no memos to forward."
+msgstr ""
+
+#: modules/memoserv/forward.c:98
+msgid "You cannot send yourself a memo."
+msgstr ""
+
+#: modules/memoserv/forward.c:121
+msgid "Invalid memo number."
+msgstr ""
+
+#: modules/memoserv/forward.c:128
+msgid "Target inbox is full."
+msgstr ""
+
+#: modules/memoserv/forward.c:138
+msgid "Too many memos; please wait a while and try again"
+msgstr ""
+
+#: modules/memoserv/forward.c:161 modules/memoserv/forward.c:210
+#, c-format
+msgid "The memo has been successfully forwarded to %s."
+msgstr ""
+
+#: modules/memoserv/forward.c:201 modules/memoserv/send.c:187
+#, c-format
+msgid ""
+"%s is currently online, and you may talk directly, by sending a private "
+"message."
+msgstr ""
+
+#: modules/memoserv/forward.c:207 modules/memoserv/send.c:193
+#: modules/memoserv/sendops.c:193
+#, c-format
+msgid "To read it, type /%s%s READ %d"
+msgstr ""
+
+#: modules/memoserv/help.c:48
+#, c-format
+msgid "%s allows users to send memos to registered users."
+msgstr ""
+
+#: modules/memoserv/ignore.c:24
+msgid "Ignores memos."
+msgstr ""
+
+#: modules/memoserv/ignore.c:25
+msgid "Ignores memos from a user."
+msgstr ""
+
+#: modules/memoserv/ignore.c:26
+msgid "Stops ignoring memos from a user."
+msgstr ""
+
+#: modules/memoserv/ignore.c:27
+msgid "Clears your memo ignore list."
+msgstr ""
+
+#: modules/memoserv/ignore.c:28
+msgid "Shows all users you are ignoring memos from."
+msgstr ""
+
+#: modules/memoserv/ignore.c:73
+msgid "Syntax: IGNORE ADD|DEL|LIST|CLEAR [account]"
+msgstr ""
+
+#: modules/memoserv/ignore.c:106 modules/memoserv/ignore.c:162
+msgid "Syntax: IGNORE ADD|DEL|LIST|CLEAR <account>"
+msgstr ""
+
+#: modules/memoserv/ignore.c:113
+msgid "Silly wabbit, you can't ignore yourself."
+msgstr ""
+
+#: modules/memoserv/ignore.c:128
+msgid "Your ignore list is full, please DEL an account."
+msgstr ""
+
+#: modules/memoserv/ignore.c:140
+#, c-format
+msgid "Account %s is already in your ignore list."
+msgstr ""
+
+#: modules/memoserv/ignore.c:149
+#, c-format
+msgid "Account %s added to your ignore list."
+msgstr ""
+
+#: modules/memoserv/ignore.c:175
+#, c-format
+msgid "Account %s removed from ignore list."
+msgstr ""
+
+#: modules/memoserv/ignore.c:184
+#, c-format
+msgid "%s is not in your ignore list."
+msgstr ""
+
+#: modules/memoserv/ignore.c:194
+msgid "Ignore list already empty."
+msgstr ""
+
+#: modules/memoserv/ignore.c:206
+msgid "Ignore list cleared."
+msgstr ""
+
+#: modules/memoserv/ignore.c:217
+msgid "Ignore list:"
+msgstr ""
+
+#: modules/memoserv/ignore.c:229
+msgid "list empty"
+msgstr ""
+
+#: modules/memoserv/list.c:20
+msgid "Lists all of your memos."
+msgstr ""
+
+#: modules/memoserv/list.c:61
+#, c-format
+msgid "You have %d memo (%d new)."
+msgstr ""
+
+#: modules/memoserv/list.c:62
+#, c-format
+msgid "You have %d memos (%d new)."
+msgstr ""
+
+#: modules/memoserv/list.c:81
+#, c-format
+msgid "- %d From: %s Sent: %s"
+msgstr ""
+
+#: modules/memoserv/list.c:86
+msgid "To:"
+msgstr ""
+
+#: modules/memoserv/list.c:97
+msgid "[unread]"
+msgstr ""
+
+#: modules/memoserv/main.c:100 modules/memoserv/main.c:126
+#, c-format
+msgid "You have %d new memo."
+msgstr ""
+
+#: modules/memoserv/main.c:101 modules/memoserv/main.c:127
+#, c-format
+msgid "You have %d new memos."
+msgstr ""
+
+#: modules/memoserv/main.c:103 modules/memoserv/main.c:129
+#, c-format
+msgid "To read them, type /%s%s READ NEW"
+msgstr ""
+
+#: modules/memoserv/read.c:22
+msgid "Reads a memo."
+msgstr ""
+
+#: modules/memoserv/read.c:62
+msgid "Syntax: READ <memo number>"
+msgstr ""
+
+#: modules/memoserv/read.c:76
+msgid "You have no memos."
+msgstr ""
+
+#: modules/memoserv/read.c:149
+#, c-format
+msgid "Stopping command after %d memos."
+msgstr ""
+
+#: modules/memoserv/read.c:157
+msgid "You have no new memos."
+msgstr ""
+
+#: modules/memoserv/read.c:159
+#, c-format
+msgid "Read %d memos."
+msgstr ""
+
+#: modules/memoserv/send.c:20
+msgid "Sends a memo to a user."
+msgstr ""
+
+#: modules/memoserv/send.c:84 modules/memoserv/sendops.c:85
+msgid ""
+"You have used this command too many times; please wait a while and try again."
+msgstr ""
+
+#: modules/memoserv/send.c:102 modules/memoserv/sendops.c:103
+msgid "Your memo contains invalid characters."
+msgstr ""
+
+#: modules/memoserv/send.c:132
+#, c-format
+msgid "%s's inbox is full"
+msgstr ""
+
+#: modules/memoserv/send.c:154 modules/memoserv/send.c:197
+#, c-format
+msgid "The memo has been successfully sent to %s."
+msgstr ""
+
+#: modules/memoserv/send.c:205
+msgid "Channel memos are administratively disabled."
+msgstr ""
+
+#: modules/memoserv/sendops.c:20
+msgid "Sends a memo to all ops on a channel."
+msgstr ""
+
+#: modules/memoserv/sendops.c:206
+#, c-format
+msgid "The memo has been successfully sent to %d ops on %s."
+msgstr ""
+
+#: modules/nickserv/access.c:20
+msgid "Changes and shows your nickname access list."
+msgstr ""
+
+#: modules/nickserv/access.c:211 modules/nickserv/access.c:415
+msgid "Syntax: ACCESS ADD|DEL|LIST [mask]"
+msgstr ""
+
+#: modules/nickserv/access.c:230 modules/nickserv/cert.c:70
+#: modules/nickserv/listchans.c:54
+msgid "You are not authorized to use the target argument."
+msgstr ""
+
+#: modules/nickserv/access.c:246
+#, c-format
+msgid "Access list for %s:"
+msgstr ""
+
+#: modules/nickserv/access.c:254
+#, c-format
+msgid "End of %s access list."
+msgstr ""
+
+#: modules/nickserv/access.c:264
+msgid "Syntax: ACCESS ADD <mask>"
+msgstr ""
+
+#: modules/nickserv/access.c:281 modules/nickserv/access.c:289
+#: modules/nickserv/access.c:297 modules/nickserv/access.c:310
+#: modules/nickserv/access.c:372
+#, c-format
+msgid "Invalid mask %s."
+msgstr ""
+
+#: modules/nickserv/access.c:316 modules/nickserv/access.c:323
+#: modules/nickserv/access.c:328 modules/nickserv/access.c:340
+#: modules/nickserv/access.c:347 modules/nickserv/access.c:355
+#: modules/nickserv/access.c:366
+#, c-format
+msgid "Too wide mask %s."
+msgstr ""
+
+#: modules/nickserv/access.c:378
+#, c-format
+msgid "Mask %s is already on your access list."
+msgstr ""
+
+#: modules/nickserv/access.c:383
+#, c-format
+msgid "Added mask %s to your access list."
+msgstr ""
+
+#: modules/nickserv/access.c:387
+msgid "Your access list is full."
+msgstr ""
+
+#: modules/nickserv/access.c:394
+msgid "Syntax: ACCESS DEL <mask>"
+msgstr ""
+
+#: modules/nickserv/access.c:405
+#, c-format
+msgid "Mask %s is not on your access list."
+msgstr ""
+
+#: modules/nickserv/access.c:408
+#, c-format
+msgid "Deleted mask %s from your access list."
+msgstr ""
+
+#: modules/nickserv/cert.c:20
+msgid "Changes and shows your nickname CertFP authentication list."
+msgstr ""
+
+#: modules/nickserv/cert.c:51 modules/nickserv/cert.c:169
+msgid "Syntax: CERT ADD|DEL|LIST [fingerprint]"
+msgstr ""
+
+#: modules/nickserv/cert.c:86
+#, c-format
+msgid "Fingerprint list for %s:"
+msgstr ""
+
+#: modules/nickserv/cert.c:94
+#, c-format
+msgid "End of %s fingerprint list."
+msgstr ""
+
+#: modules/nickserv/cert.c:106
+msgid "Syntax: CERT ADD <fingerprint>"
+msgstr ""
+
+#: modules/nickserv/cert.c:126
+#, c-format
+msgid "Fingerprint %s is already on your fingerprint list."
+msgstr ""
+
+#: modules/nickserv/cert.c:131
+#, c-format
+msgid "Fingerprint %s is already on another user's fingerprint list."
+msgstr ""
+
+#: modules/nickserv/cert.c:136
+#, c-format
+msgid "Added fingerprint %s to your fingerprint list."
+msgstr ""
+
+#: modules/nickserv/cert.c:140
+msgid "Your fingerprint list is full."
+msgstr ""
+
+#: modules/nickserv/cert.c:147
+msgid "Syntax: CERT DEL <fingerprint>"
+msgstr ""
+
+#: modules/nickserv/cert.c:159
+#, c-format
+msgid "Fingerprint %s is not on your fingerprint list."
+msgstr ""
+
+#: modules/nickserv/cert.c:162
+#, c-format
+msgid "Deleted fingerprint %s from your fingerprint list."
+msgstr ""
+
+#: modules/nickserv/cracklib.c:33
+#, c-format
+msgid ""
+"The password provided is insecure because %s. You may want to set a "
+"different password with /msg %s set password <password> ."
+msgstr ""
+
+#: modules/nickserv/cracklib.c:36
+#, c-format
+msgid "The password provided is insecure: %s"
+msgstr ""
+
+#: modules/nickserv/drop.c:21
+msgid "Drops an account registration."
+msgstr "계정 등록을 취소합니다."
+
+#: modules/nickserv/drop.c:22
+msgid "Forces dropping an account registration."
+msgstr "강제로 계정 등록을 취소합니다."
+
+#: modules/nickserv/drop.c:55
+msgid "Syntax: DROP <account> <password>"
+msgstr "사용법: DROP <계정명> <암호>"
+
+#: modules/nickserv/drop.c:66 modules/nickserv/drop.c:135
+#, c-format
+msgid "%s is a grouped nick, use %s to remove it."
+msgstr ""
+
+#: modules/nickserv/drop.c:82 modules/nickserv/logout.c:71
+#, c-format
+msgid "Authentication failed. Invalid password for %s."
+msgstr ""
+
+#: modules/nickserv/drop.c:91
+#, c-format
+msgid "Account %s has %d other nick(s) grouped to it, remove those first."
+msgstr ""
+
+#: modules/nickserv/drop.c:98 modules/nickserv/drop.c:145
+#, c-format
+msgid "The nickname %s belongs to a services operator; it cannot be dropped."
+msgstr ""
+
+#: modules/nickserv/drop.c:104 modules/nickserv/drop.c:151
+#, c-format
+msgid "The account %s is held; it cannot be dropped."
+msgstr ""
+
+#: modules/nickserv/drop.c:111 modules/nickserv/drop.c:158
+#, c-format
+msgid "The account %s has been dropped."
+msgstr ""
+
+#: modules/nickserv/drop.c:124
+msgid "Syntax: FDROP <account>"
+msgstr "사용법: FDROP <계정명>"
+
+#: modules/nickserv/enforce.c:46
+msgid "Enables or disables automatic protection of a nickname."
+msgstr ""
+
+#: modules/nickserv/enforce.c:47
+msgid "Releases a services enforcer."
+msgstr ""
+
+#: modules/nickserv/enforce.c:95
+msgid "Syntax: SET ENFORCE ON|OFF"
+msgstr ""
+
+#: modules/nickserv/enforce.c:109 modules/nickserv/set_emailmemos.c:70
+#: modules/nickserv/set_hidemail.c:59 modules/nickserv/set_neverop.c:59
+#: modules/nickserv/set_nomemo.c:59 modules/nickserv/set_noop.c:59
+#: modules/nickserv/set_quietchg.c:59
+#, c-format
+msgid "The %s flag is already set for account %s."
+msgstr ""
+
+#: modules/nickserv/enforce.c:115 modules/nickserv/set_emailmemos.c:76
+#: modules/nickserv/set_hidemail.c:67 modules/nickserv/set_neverop.c:67
+#: modules/nickserv/set_nomemo.c:65 modules/nickserv/set_noop.c:67
+#: modules/nickserv/set_quietchg.c:67
+#, c-format
+msgid "The %s flag has been set for account %s."
+msgstr ""
+
+#: modules/nickserv/enforce.c:125 modules/nickserv/set_emailmemos.c:90
+#: modules/nickserv/set_hidemail.c:83 modules/nickserv/set_neverop.c:84
+#: modules/nickserv/set_nomemo.c:79 modules/nickserv/set_noop.c:83
+#: modules/nickserv/set_quietchg.c:83
+#, c-format
+msgid "The %s flag has been removed for account %s."
+msgstr ""
+
+#: modules/nickserv/enforce.c:129 modules/nickserv/set_emailmemos.c:84
+#: modules/nickserv/set_hidemail.c:75 modules/nickserv/set_neverop.c:76
+#: modules/nickserv/set_nomemo.c:73 modules/nickserv/set_noop.c:75
+#: modules/nickserv/set_quietchg.c:75
+#, c-format
+msgid "The %s flag is not set for account %s."
+msgstr ""
+
+#: modules/nickserv/enforce.c:151
+msgid "RELEASE is disabled."
+msgstr ""
+
+#: modules/nickserv/enforce.c:160
+msgid "Syntax: RELEASE <nick> [password]"
+msgstr "사용법: RELEASE <대화명> [암호]"
+
+#: modules/nickserv/enforce.c:169 modules/nickserv/ghost.c:64
+#: modules/nickserv/identify.c:105
+#, c-format
+msgid "%s is not a registered nickname."
+msgstr "%s 대화명은 등록되어 있지 않습니다."
+
+#: modules/nickserv/enforce.c:175
+msgid "You cannot RELEASE yourself."
+msgstr ""
+
+#: modules/nickserv/enforce.c:202
+#, c-format
+msgid "%s has been released."
+msgstr ""
+
+#: modules/nickserv/enforce.c:212
+#, c-format
+msgid "%s has been released."
+msgstr ""
+
+#: modules/nickserv/enforce.c:220
+msgid "Syntax: RELEASE <nickname> [password]"
+msgstr "사용법: RELEASE <대화명> [암호]"
+
+#: modules/nickserv/enforce.c:226 modules/nickserv/ghost.c:105
+#: modules/nickserv/identify.c:238 modules/nickserv/register.c:201
+#, c-format
+msgid "Invalid password for %s."
+msgstr ""
+
+#: modules/nickserv/freeze.c:22
+msgid "Freezes an account."
+msgstr "계정을 동결시켜 로그인할 수 없게 합니다."
+
+#: modules/nickserv/freeze.c:53 modules/nickserv/freeze.c:126
+msgid "Usage: FREEZE <account> <ON|OFF> [reason]"
+msgstr "사용법: FREEZE <계정명> <ON|OFF> [이유]"
+
+#: modules/nickserv/freeze.c:70
+msgid "Usage: FREEZE <nickname> ON <reason>"
+msgstr "사용법: FREEZE <계정명> ON <이유>"
+
+#: modules/nickserv/freeze.c:76
+#, c-format
+msgid "The account %s belongs to a services operator; it cannot be frozen."
+msgstr ""
+
+#: modules/nickserv/freeze.c:82
+#, c-format
+msgid "%s is already frozen."
+msgstr "%s 계정은 이미 동결되어 있습니다."
+
+#: modules/nickserv/freeze.c:105
+#, c-format
+msgid "%s is now frozen."
+msgstr "%s 계정이 동결되었습니다."
+
+#: modules/nickserv/freeze.c:111
+#, c-format
+msgid "%s is not frozen."
+msgstr "%s 계정은 동결되지 않았습니다." 
+
+#: modules/nickserv/freeze.c:121
+#, c-format
+msgid "%s has been thawed"
+msgstr "%s 계정의 동결이 해제되었습니다."
+
+#: modules/nickserv/ghost.c:20
+msgid "Reclaims use of a nickname."
+msgstr "지정한 대화명을 쓰고 있는 사람을 강제로 종료시킵니다."
+
+#: modules/nickserv/ghost.c:50
+msgid "Syntax: GHOST <target> [password]"
+msgstr "사용법: GHOST <대상> [암호]"
+
+#: modules/nickserv/ghost.c:75
+msgid "You may not ghost yourself."
+msgstr ""
+
+#: modules/nickserv/ghost.c:94
+#, c-format
+msgid "%s has been ghosted."
+msgstr "%s 대화명을 쓰는 사용자를 강제로 종료시켰습니다."
+
+#: modules/nickserv/ghost.c:111
+#, c-format
+msgid "You may not ghost %s."
+msgstr ""
+
+#: modules/nickserv/group.c:22
+msgid "Adds a nickname to your account."
+msgstr "계정에 새 대화명을 연결시킵니다."
+
+#: modules/nickserv/group.c:23
+msgid "Removes a nickname from your account."
+msgstr "계정과 대화명 사이의 연결을 끊습니다."
+
+#: modules/nickserv/group.c:24
+msgid "Forces removal of a nickname from an account."
+msgstr "강제로 계정과 대화명 사이의 연결을 끊습니다."
+
+#: modules/nickserv/group.c:65
+msgid "Nickname ownership is disabled."
+msgstr ""
+
+#: modules/nickserv/group.c:77
+msgid "You have too many nicks registered already."
+msgstr ""
+
+#: modules/nickserv/group.c:85
+#, c-format
+msgid "Nick %s is already registered to your account."
+msgstr ""
+
+#: modules/nickserv/group.c:87
+#, c-format
+msgid "Nick %s is already registered to %s."
+msgstr ""
+
+#: modules/nickserv/group.c:93 modules/nickserv/register.c:109
+msgid "For security reasons, you can't register your UID."
+msgstr ""
+"보안 상의 이유로 주민등록번호나 유사한 번호로 서비스 봇에 등록하는 것은 "
+"금지되어 있습니다."
+
+#: modules/nickserv/group.c:109
+#, c-format
+msgid "Nick %s is now registered to your account."
+msgstr ""
+
+#: modules/nickserv/group.c:148
+#, c-format
+msgid "Nick %s is your account name; you may not remove it."
+msgstr ""
+
+#: modules/nickserv/group.c:157
+#, c-format
+msgid "Nick %s has been removed from your account."
+msgstr ""
+
+#: modules/nickserv/group.c:170
+msgid "Syntax: FUNGROUP <nickname> [newaccountname]"
+msgstr "사용법: FUNGROUP <대화명> [새계정명]"
+
+#: modules/nickserv/group.c:186
+#, c-format
+msgid "Nick %s is an account name; you may not remove it."
+msgstr ""
+
+#: modules/nickserv/group.c:191
+#, c-format
+msgid ""
+"You may not modify %s's account name because their operclass is defined in "
+"the configuration file."
+msgstr ""
+
+#: modules/nickserv/group.c:197
+#, c-format
+msgid "Please specify a new account name for %s."
+msgstr ""
+
+#: modules/nickserv/group.c:198
+msgid "Syntax: FUNGROUP <nickname> <newaccountname>"
+msgstr "사용법: FUNGROUP <대화명> <새계정명>"
+
+#: modules/nickserv/group.c:209
+msgid "The new account name must be different from the nick to be ungrouped."
+msgstr ""
+
+#: modules/nickserv/group.c:214
+#, c-format
+msgid "Nick %s is not registered to %s."
+msgstr ""
+
+#: modules/nickserv/group.c:220
+#, c-format
+msgid "Nick %s is not an account name so no new account name is needed."
+msgstr ""
+
+#: modules/nickserv/group.c:243
+#, c-format
+msgid "Nick %s has been removed from account %s, name changed to %s."
+msgstr ""
+
+#: modules/nickserv/group.c:245
+#, c-format
+msgid "Nick %s has been removed from account %s."
+msgstr ""
+
+#: modules/nickserv/help.c:49
+#, c-format
+msgid "%s allows users to 'register' an account for use with %s."
+msgstr "%s 봇으로 %s에서 사용할 계정을 등록할 수 있습니다."
+
+#: modules/nickserv/help.c:52
+#, c-format
+msgid ""
+"If a registered account is not used by the owner for %d days,\n"
+"%s will drop the account, allowing it to be reregistered."
+msgstr ""
+"만약 계정이 등록된 채로 %d일간 사용되지 않으면, 다른 사용자가\n"
+"%s 봇에 해당 계정을 재등록할 수 있게 됩니다."
+
+#: modules/nickserv/help.c:59
+#, c-format
+msgid ""
+"%s allows users to 'register' a nickname, and stop\n"
+"others from using that nick. %s allows the owner of a\n"
+"nickname to disconnect a user from the network that is using\n"
+"their nickname."
+msgstr ""
+"%s 봇에 사용자가 대화명을 등록하면 다른 사용자가 그 대화명을\n"
+"쓰지 못 하도록 막을 수 있습니다. 또한 누군가가 자기 대화명을\n"
+"쓰고 있다면 %s 봇으로 그 누군가를 네트워크에서 쫓아낼 수도 있습니다."
+
+#: modules/nickserv/help.c:65
+#, c-format
+msgid ""
+"If a registered nick is not used by the owner for %d days,\n"
+"%s will drop the nickname, allowing it to be reregistered."
+msgstr ""
+"만약 대화명이 등록된 채로 %d일간 사용되지 않으면, 다른 사용자가\n"
+"%s 봇에 해당 대화명을 재등록할 수 있게 됩니다."
+
+#: modules/nickserv/hold.c:20
+msgid "Prevents an account from expiring."
+msgstr "계정이 만료하지 않도록 보존합니다."
+
+#: modules/nickserv/hold.c:49 modules/nickserv/hold.c:90
+msgid "Usage: HOLD <account> <ON|OFF>"
+msgstr "사용법: HOLD <계정명> <ON|OFF>"
+
+#: modules/nickserv/identify.c:30
+msgid "Authenticates to a services account."
+msgstr "서비스 봇 계정으로 로그인합니다."
+
+#: modules/nickserv/identify.c:32
+msgid "Identifies to services for a nickname."
+msgstr "현재 대화명으로 로그인합니다."
+
+#: modules/nickserv/identify.c:118 modules/nickserv/identify.c:125
+#: modules/nickserv/register.c:73
+#, c-format
+msgid "You are already logged in as %s."
+msgstr "%s 계정 또는 대화명으로 이미 로그인되어 있습니다."
+
+#: modules/nickserv/identify.c:120
+msgid "Please check your email for instructions to complete your registration."
+msgstr ""
+
+#: modules/nickserv/identify.c:133 src/services.c:585
+#, c-format
+msgid "There are already %d sessions logged in to %s (maximum allowed: %d)."
+msgstr ""
+
+#: modules/nickserv/identify.c:141
+#, c-format
+msgid "Logged in nicks are: %s"
+msgstr ""
+
+#: modules/nickserv/identify.c:165 src/services.c:589
+#, c-format
+msgid "You are now logged in as %s."
+msgstr "%s 계정으로 로그인했습니다."
+
+#: modules/nickserv/identify.c:165 src/services.c:589
+#, c-format
+msgid "You are now identified for %s."
+msgstr "%s 대화명의 주인으로 확인되었습니다."
+
+#: modules/nickserv/info.c:70
+msgid "Syntax: INFO <nickname>"
+msgstr "사용법: INFO <대화명>"
+
+#: modules/nickserv/info.c:92
+#, c-format
+msgid "%s is not registered anymore, but was marked by %s on %s (%s)."
+msgstr ""
+
+#: modules/nickserv/info.c:119
+#, c-format
+msgid "Information on %s (account %s):"
+msgstr "--- %s 사용자 및 %s 계정의 정보 ---"
+
+#: modules/nickserv/info.c:132
+#, c-format
+msgid "User reg.  : %s (%s ago)"
+msgstr "등록일: %s (%s 전)"
+
+#: modules/nickserv/info.c:151
+#, c-format
+msgid "Last addr  : %s"
+msgstr "마지막 호스트: %s"
+
+#: modules/nickserv/info.c:154
+#, c-format
+msgid "vHost      : %s"
+msgstr "가상 호스트: %s"
+
+#: modules/nickserv/info.c:158
+#, c-format
+msgid "Real addr  : %s"
+msgstr "진짜 호스트: %s"
+
+#: modules/nickserv/info.c:162
+msgid "Recognized : now (matches access list)"
+msgstr ""
+
+#: modules/nickserv/info.c:165 modules/nickserv/info.c:226
+msgid "Last seen  : now"
+msgstr "마지막 활동: 바로 지금"
+
+#: modules/nickserv/info.c:171 modules/nickserv/info.c:186
+#, c-format
+msgid "Last seen  : (about %d weeks ago)"
+msgstr "마지막 활동: (약 %d주 전)"
+
+#: modules/nickserv/info.c:173 modules/nickserv/info.c:188
+#, c-format
+msgid "Last seen  : %s (%s ago)"
+msgstr "마지막 활동: %s (%s 전)"
+
+#: modules/nickserv/info.c:193
+#, c-format
+msgid "User seen  : (about %d weeks ago)"
+msgstr "최근 활동: (약 %d주 전)"
+
+#: modules/nickserv/info.c:195
+#, c-format
+msgid "User seen  : %s (%s ago)"
+msgstr "최근 활동: %s (%s 전)"
+
+#: modules/nickserv/info.c:208 modules/nickserv/info.c:216
+#, c-format
+msgid "Logins from: %s"
+msgstr "현재 대화명: %s"
+
+#: modules/nickserv/info.c:224
+msgid "User seen  : now"
+msgstr "최근 활동: 바로 지금"
+
+#: modules/nickserv/info.c:239 modules/nickserv/info.c:247
+#, c-format
+msgid "Nicks      : %s"
+msgstr "사용 대화명: %s"
+
+#: modules/nickserv/info.c:253
+#, c-format
+msgid "Email      : %s%s"
+msgstr "메일 주소: %s%s"
+
+#: modules/nickserv/info.c:318
+#, c-format
+msgid "Language   : %s"
+msgstr "사용 언어: %s"
+
+#: modules/nickserv/info.c:324
+#, c-format
+msgid "Oper class : %s"
+msgstr ""
+
+#: modules/nickserv/info.c:340
+#, c-format
+msgid "Channels   : %d founder, %d other"
+msgstr "채널 현황: %d개 채널의 주인이며 다른 %d개 채널에 등록되어 있습니다."
+
+#: modules/nickserv/info.c:358
+#, c-format
+msgid "%s was FROZEN by %s on %s (%s)"
+msgstr ""
+
+#: modules/nickserv/info.c:361 modules/nickserv/sendpass.c:141
+#: modules/nickserv/sendpass_user.c:120
+#, c-format
+msgid "%s has been frozen by the %s administration."
+msgstr ""
+
+#: modules/nickserv/info.c:382
+#, c-format
+msgid "%s has NOT COMPLETED registration verification"
+msgstr ""
+
+#: modules/nickserv/info.c:395
+#, c-format
+msgid "%s has requested an email address change to %s on %s"
+msgstr ""
+
+#: modules/nickserv/info.c:403 modules/operserv/modinspect.c:77
+msgid "*** End of Info ***"
+msgstr "--- 정보 끝 ---"
+
+#: modules/nickserv/list.c:21
+msgid "Lists nicknames registered matching a given pattern."
+msgstr "주어진 패턴을 만족하는 사용자를 나열합니다."
+
+#: modules/nickserv/list.c:92
+msgid "Syntax: LIST <pattern>[!<user@host>]"
+msgstr "사용법: LIST <패턴>[!<사용자@호스트>]"
+
+#: modules/nickserv/list.c:160
+#, c-format
+msgid "No nicknames matched pattern %s"
+msgstr ""
+
+#: modules/nickserv/listchans.c:21
+msgid "Lists channels that you have access to."
+msgstr ""
+
+#: modules/nickserv/listchans.c:87 modules/nickserv/listchans.c:105
+#, c-format
+msgid "No channel access was found for the nickname %s."
+msgstr ""
+
+#: modules/nickserv/listchans.c:97
+#, c-format
+msgid "Access flag(s) %s in %s"
+msgstr ""
+
+#: modules/nickserv/listchans.c:107
+#, c-format
+msgid "%d channel access match for the nickname %s"
+msgstr ""
+
+#: modules/nickserv/listchans.c:108
+#, c-format
+msgid "%d channel access matches for the nickname %s"
+msgstr ""
+
+#: modules/nickserv/listmail.c:20
+msgid "Lists accounts registered to an e-mail address."
+msgstr "등록된 메일 주소로 계정을 찾습니다."
+
+#: modules/nickserv/listmail.c:72
+msgid "Syntax: LISTMAIL <email>"
+msgstr "사용법: LISTMAIL <메일주소>"
+
+#: modules/nickserv/listmail.c:83
+#, c-format
+msgid "No accounts matched e-mail address %s"
+msgstr ""
+
+#: modules/nickserv/listmail.c:85 modules/nickserv/listownmail.c:88
+#, c-format
+msgid "%d match for e-mail address %s"
+msgstr ""
+
+#: modules/nickserv/listmail.c:86 modules/nickserv/listownmail.c:89
+#, c-format
+msgid "%d matches for e-mail address %s"
+msgstr ""
+
+#: modules/nickserv/listownmail.c:20
+msgid "Lists accounts registered to your e-mail address."
+msgstr ""
+
+#: modules/nickserv/listownmail.c:76
+msgid ""
+"You have to verify your email address before you can perform this operation."
+msgstr ""
+
+#: modules/nickserv/logout.c:20
+msgid "Logs your services session out."
+msgstr "서비스 봇에서 로그아웃합니다."
+
+#: modules/nickserv/logout.c:77
+msgid "External logout is not yet implemented."
+msgstr ""
+
+#: modules/nickserv/logout.c:83
+msgid "Syntax: LOGOUT <target> <password>"
+msgstr "사용법: LOGOUT <대상> <암호>"
+
+#: modules/nickserv/logout.c:94
+#, c-format
+msgid "%s has been logged out."
+msgstr "%s 계정 또는 대화명을 사용하던 사용자를 로그아웃시켰습니다."
+
+#: modules/nickserv/logout.c:99
+msgid "You have been logged out."
+msgstr "서비스 봇에서 로그아웃했습니다."
+
+#: modules/nickserv/main.c:61
+msgid "Disconnects an old session."
+msgstr "이전 로그인을 끊습니다."
+
+#: modules/nickserv/main.c:62
+msgid "Registers an account."
+msgstr "서비스 봇에 계정을 등록합니다."
+
+#: modules/nickserv/main.c:63
+msgid "Lists accounts matching a given pattern."
+msgstr "주어진 패턴을 만족하는 계정을 나열합니다."
+
+#: modules/nickserv/main.c:66 modules/operserv/override.c:207
+#, c-format
+msgid "%s is not a registered account."
+msgstr "%s 계정은 등록되어 있지 않습니다."
+
+#: modules/nickserv/main.c:67
+msgid "Syntax: INFO <account>"
+msgstr "사용법: INFO <계정명>"
+
+#: modules/nickserv/main.c:68
+#, c-format
+msgid "No accounts matched pattern %s"
+msgstr ""
+
+#: modules/nickserv/main.c:69
+#, c-format
+msgid ""
+"An email containing account activation instructions has been sent to %s."
+msgstr ""
+
+#: modules/nickserv/main.c:70
+msgid ""
+"If you do not complete registration within one day your account will expire."
+msgstr ""
+
+#: modules/nickserv/main.c:71
+#, c-format
+msgid "%s registered the account %s and gained services operator privileges."
+msgstr ""
+
+#: modules/nickserv/main.c:72
+msgid "You cannot use your account name as a password."
+msgstr "암호를 계정명과 똑같이 정할 수 없습니다."
+
+#: modules/nickserv/main.c:118
+#, c-format
+msgid "Please identify via /%s%s identify <password>."
+msgstr "/%s%s identify <암호> 명령으로 로그인해 주세요."
+
+#: modules/nickserv/main.c:123
+#, c-format
+msgid ""
+"This nickname is registered. Please choose a different nickname, or identify "
+"via /%s%s identify <password>."
+msgstr ""
+"이 대화명은 등록되어 있습니다. 다른 대화명을 선택하거나, /%s%s identify <암호> "
+"명령으로 대화명의 소유권을 증명해 주세요."
+
+#: modules/nickserv/mark.c:20
+msgid "Adds a note to a user."
+msgstr "사용자에게 모든 사용자가 볼 수 있는 메모를 남깁니다."
+
+#: modules/nickserv/mark.c:50 modules/nickserv/mark.c:111
+msgid "Usage: MARK <target> <ON|OFF> [note]"
+msgstr "사용법: MARK <대상> <ON|OFF> [메모]"
+
+#: modules/nickserv/mark.c:74
+msgid "Usage: MARK <target> ON <note>"
+msgstr "사용법: MARK <대상> ON <메모>"
+
+#: modules/nickserv/register.c:23
+msgid "Registers a nickname."
+msgstr "대화명을 등록합니다."
+
+#: modules/nickserv/register.c:76
+#, c-format
+msgid "Use %s to register %s to your account."
+msgstr "%s 명령으로 %s 대화명을 계정에 연결할 수 있습니다."
+
+#: modules/nickserv/register.c:89 modules/nickserv/register.c:127
+msgid "Syntax: REGISTER <account> <password> <email>"
+msgstr "사용법: REGISTER <계정명> <암호> <메일주소>"
+
+#: modules/nickserv/register.c:91 modules/nickserv/register.c:129
+msgid "Syntax: REGISTER <password> <email>"
+msgstr "사용법: REGISTER <암호> <메일주소>"
+
+#: modules/nickserv/register.c:103
+msgid "A user matching this account is already on IRC."
+msgstr "이 계정을 사용하는 사용자가 이미 IRC에 존재합니다."
+
+#: modules/nickserv/register.c:110
+# probably the only instance that "nickname" translates to "별명"
+msgid "Please change to a real nickname, and try again."
+msgstr "진짜 별명을 사용해서 다시 시도해 주세요."
+
+#: modules/nickserv/register.c:118
+#, c-format
+msgid "The account name %s is invalid."
+msgstr "%s 계정명은 사용할 수 없습니다."
+
+#: modules/nickserv/register.c:125 modules/nickserv/setpass.c:79
+#: modules/nickserv/set_password.c:69
+msgid "You cannot use your nickname as a password."
+msgstr "암호를 대화명과 똑같이 정할 수 없습니다."
+
+#: modules/nickserv/register.c:168 modules/nickserv/set_email.c:80
+#, c-format
+msgid "%s is not a valid email address."
+msgstr "%s은(는) 잘못된 메일 주소입니다."
+
+#: modules/nickserv/register.c:180
+#, c-format
+msgid "%s has too many accounts registered."
+msgstr "%s 메일 주소로 등록된 계정이 너무 많습니다."
+
+#: modules/nickserv/register.c:218
+msgid "Sending email failed, sorry! Registration aborted."
+msgstr "죄송합니다! 메일을 보낼 수 없어서 계정 등록이 중단되었습니다."
+
+#: modules/nickserv/register.c:224
+#, c-format
+msgid ""
+"An email containing nickname activation instructions has been sent to %s."
+msgstr ""
+
+#: modules/nickserv/register.c:225
+msgid ""
+"If you do not complete registration within one day, your nickname will "
+"expire."
+msgstr ""
+
+#: modules/nickserv/register.c:254
+#, c-format
+msgid "%s is now registered to %s, with the password %s."
+msgstr "%s 대화명을 %s 메일 주소로 등록했습니다. (암호 %s)"
+
+#: modules/nickserv/resetpass.c:20
+msgid "Resets an account password."
+msgstr "계정 암호를 재설정합니다."
+
+#: modules/nickserv/resetpass.c:49
+msgid "Syntax: RESETPASS <account>"
+msgstr "사용법: RESETPASS <계정명>"
+
+#: modules/nickserv/resetpass.c:62
+#, c-format
+msgid ""
+"%s belongs to a services operator; you need %s privilege to reset the "
+"password."
+msgstr ""
+
+#: modules/nickserv/resetpass.c:69 modules/nickserv/sendpass.c:163
+#: modules/nickserv/sendpass.c:187 modules/nickserv/vhost.c:180
+#: modules/nickserv/vhost.c:204
+#, c-format
+msgid "Overriding MARK placed by %s on the account %s."
+msgstr ""
+
+#: modules/nickserv/resetpass.c:71 modules/nickserv/resetpass.c:86
+#, c-format
+msgid "The password for the account %s has been changed to %s."
+msgstr "%s 계정의 암호를 %s(으)로 변경했습니다."
+
+#: modules/nickserv/resetpass.c:81 modules/nickserv/sendpass.c:103
+#: modules/nickserv/vhost.c:143
+#, c-format
+msgid ""
+"This operation cannot be performed on %s, because the account has been "
+"marked by %s."
+msgstr ""
+
+#: modules/nickserv/return.c:21
+msgid "Returns an account to its owner."
+msgstr "계정을 원래 주인에게 돌려 줍니다."
+
+#: modules/nickserv/return.c:53
+msgid "Usage: RETURN <account> <e-mail address>"
+msgstr "사용법: RETURN <계정명> <메일주소>"
+
+#: modules/nickserv/return.c:66
+#, c-format
+msgid "%s belongs to a services operator; it cannot be returned."
+msgstr ""
+
+#: modules/nickserv/return.c:83
+#, c-format
+msgid "Sending email failed, account %s remains with %s."
+msgstr ""
+
+#: modules/nickserv/return.c:113
+#, c-format
+msgid "The e-mail address for %s has been set to %s"
+msgstr ""
+
+#: modules/nickserv/return.c:115
+#, c-format
+msgid "A random password has been set; it has been sent to %s."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:20 modules/nickserv/sendpass_user.c:20
+msgid "Email registration passwords."
+msgstr "계정 암호를 메일로 보냅니다."
+
+#: modules/nickserv/sendpass.c:60 modules/nickserv/sendpass_user.c:58
+msgid "Syntax: SENDPASS <account>"
+msgstr "사용법: SENDPASS <계정명>"
+
+#: modules/nickserv/sendpass.c:73 modules/nickserv/sendpass_user.c:76
+msgid "Syntax: SENDPASS <account> [FORCE|CLEAR]"
+msgstr "사용법: SENDPASS <계정명> [FORCE|CLEAR]"
+
+#: modules/nickserv/sendpass.c:87
+#, c-format
+msgid ""
+"%s belongs to a services operator; you need %s privilege to send the "
+"password."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:93 modules/nickserv/sendpass_user.c:89
+#, c-format
+msgid "%s is not verified."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:108 modules/nickserv/vhost.c:154
+#, c-format
+msgid "Use %s to override this restriction."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:126 modules/nickserv/sendpass_user.c:105
+#, c-format
+msgid "The password change key for %s has been cleared."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:129 modules/nickserv/sendpass_user.c:108
+#, c-format
+msgid "%s did not have a password change key outstanding."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:135 modules/nickserv/sendpass_user.c:114
+#, c-format
+msgid ""
+"This operation cannot be performed on %s, because someone is logged in to it."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:150 modules/nickserv/sendpass_user.c:126
+#, c-format
+msgid "%s already has a password change key outstanding."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:151 modules/nickserv/sendpass_user.c:128
+#, c-format
+msgid "Use SENDPASS %s CLEAR to clear it so that a new one can be sent."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:159
+#, c-format
+msgid "The password change key for %s has been sent to %s."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:167 modules/nickserv/sendpass.c:191
+#: modules/nickserv/sendpass_user.c:141
+msgid "Email send failed."
+msgstr "메일을 보내지 못 했습니다."
+
+#: modules/nickserv/sendpass.c:175
+#, c-format
+msgid ""
+"The password for the account %s is encrypted; a new password will be "
+"assigned and sent."
+msgstr ""
+
+#: modules/nickserv/sendpass.c:183
+#, c-format
+msgid "The password for %s has been sent to %s."
+msgstr ""
+
+#: modules/nickserv/sendpass_user.c:136
+#, c-format
+msgid ""
+"The password change key for %s has been sent to the corresponding email "
+"address."
+msgstr ""
+
+#: modules/nickserv/set_accountname.c:24
+msgid "Changes your account name."
+msgstr "계정명을 바꿉니다."
+
+#: modules/nickserv/set_accountname.c:50
+msgid "Syntax: SET ACCOUNTNAME <nick>"
+msgstr "사용법: SET ACCOUNTNAME <대화명>"
+
+#: modules/nickserv/set_accountname.c:62
+msgid ""
+"You may not modify your account name because your operclass is defined in "
+"the configuration file."
+msgstr ""
+
+#: modules/nickserv/set_accountname.c:80
+#, c-format
+msgid "Your account name is already set to %s."
+msgstr ""
+
+#: modules/nickserv/set_accountname.c:85
+#, c-format
+msgid "Your account name is now set to %s."
+msgstr ""
+
+#: modules/nickserv/set_core.c:32
+msgid ""
+"SET allows you to set various control flags\n"
+"for accounts that change the way certain\n"
+"operations are performed on them."
+msgstr ""
+"SET 명령으로 계정의 각종 옵션을 변경하여 특정 명령이 동작하는\n"
+"방식을 변경할 수 있습니다."
+
+#: modules/nickserv/set_core.c:36
+msgid ""
+"SET allows you to set various control flags\n"
+"for nicknames that change the way certain\n"
+"operations are performed on them."
+msgstr ""
+"SET 명령으로 등록된 대화명의 각종 옵션을 변경하여 특정 명령이\n"
+"동작하는 방식을 변경할 수 있습니다."
+
+#: modules/nickserv/set_core.c:42
+#, c-format
+msgid "For more information, use /msg %s HELP SET command."
+msgstr "세부 사용법은 /msg %s HELP SET 명령으로 확인하세요."
+
+#: modules/nickserv/set_core.c:60
+msgid "Syntax: SET <setting> <parameters>"
+msgstr "사용법: SET <설정> <인자들>"
+
+#: modules/nickserv/set_core.c:71
+#, c-format
+msgid "Invalid set command. Use /%s%s HELP SET for a command listing."
+msgstr "잘못된 명령입니다. 사용 가능한 명령은 /%s%s HELP SET으로 확인하세요."
+
+#: modules/nickserv/set_email.c:24
+msgid "Changes your e-mail address."
+msgstr "메일 주소를 변경합니다."
+
+#: modules/nickserv/set_email.c:53
+msgid "Syntax: SET EMAIL <new e-mail>"
+msgstr "사용법: SET EMAIL <새메일주소>"
+
+#: modules/nickserv/set_email.c:59
+msgid ""
+"Please verify your original registration before changing your e-mail address."
+msgstr ""
+
+#: modules/nickserv/set_email.c:68
+#, c-format
+msgid "The email address change to %s has been cancelled."
+msgstr ""
+
+#: modules/nickserv/set_email.c:74
+#, c-format
+msgid "The email address for account %s is already set to %s."
+msgstr ""
+
+#: modules/nickserv/set_email.c:94
+msgid "Sending email failed, sorry! Your email address is unchanged."
+msgstr ""
+
+#: modules/nickserv/set_email.c:102
+#, c-format
+msgid "An email containing email changing instructions has been sent to %s."
+msgstr ""
+
+#: modules/nickserv/set_email.c:103
+msgid ""
+"Your email address will not be changed until you follow these instructions."
+msgstr ""
+
+#: modules/nickserv/set_email.c:111
+#, c-format
+msgid "The email address for account %s has been changed to %s."
+msgstr ""
+
+#: modules/nickserv/set_emailmemos.c:24
+msgid "Forwards incoming memos to your e-mail address."
+msgstr "받은 쪽지를 메일로 전달합니다."
+
+#: modules/nickserv/set_emailmemos.c:51
+msgid ""
+"You have to verify your email address before you can enable emailing memos."
+msgstr ""
+
+#: modules/nickserv/set_emailmemos.c:65
+msgid "Sending email is administratively disabled."
+msgstr ""
+
+#: modules/nickserv/set_hidemail.c:24
+msgid "Hides your e-mail address."
+msgstr "메일 주소를 비공개로 가립니다."
+
+#: modules/nickserv/set_language.c:26
+msgid "Changes the language services uses to talk to you."
+msgstr "서비스 봇이 사용할 언어를 바꿉니다."
+
+#: modules/nickserv/set_language.c:55 modules/nickserv/set_language.c:65
+#, c-format
+msgid "Valid languages are: %s"
+msgstr "사용할 수 있는 언어: %s"
+
+#: modules/nickserv/set_language.c:64
+#, c-format
+msgid "Invalid language %s."
+msgstr "%s은(는) 사용할 수 없는 언어입니다."
+
+#: modules/nickserv/set_language.c:73
+#, c-format
+msgid "The language for %s has been changed to %s."
+msgstr "지금부터 %s 계정에서는 %s 언어를 사용합니다."
+
+#: modules/nickserv/set_neverop.c:24
+msgid "Prevents you from being added to access lists."
+msgstr "채널 권한 목록에 등록되지 않도록 합니다."
+
+#: modules/nickserv/set_nomemo.c:24
+msgid "Disables the ability to receive memos."
+msgstr "쪽지를 받지 않도록 합니다."
+
+#: modules/nickserv/set_noop.c:24
+msgid "Prevents services from setting modes upon you automatically."
+msgstr "서비스 봇이 채널에서 자동으로 옵 등의 모드를 주지 않도록 합니다."
+
+#: modules/nickserv/setpass.c:21
+msgid "Changes a password using an authcode."
+msgstr "메일로 인증코드를 받아서 암호를 변경합니다."
+
+#: modules/nickserv/setpass.c:54 modules/nickserv/setpass.c:61
+#: modules/nickserv/setpass.c:80
+msgid "Syntax: SETPASS <account> <key> <newpass>"
+msgstr "사용법: SETPASS <계정명> <인증코드> <새암호>"
+
+#: modules/nickserv/setpass.c:91 modules/nickserv/set_password.c:78
+#, c-format
+msgid "The password for %s has been changed to %s."
+msgstr ""
+
+#: modules/nickserv/setpass.c:100 modules/nickserv/verify.c:112
+#: modules/nickserv/verify.c:143
+#, c-format
+msgid "Verification failed. Invalid key for %s."
+msgstr ""
+
+#: modules/nickserv/set_password.c:24
+msgid "Changes the password associated with your account."
+msgstr "계정 암호를 변경합니다."
+
+#: modules/nickserv/set_password.c:51
+msgid "You must change the password in the external system."
+msgstr ""
+
+#: modules/nickserv/set_password.c:70
+msgid "Syntax: SET PASSWORD <new password>"
+msgstr "사용법: SET PASSWORD <새암호>"
+
+#: modules/nickserv/set_private.c:73
+msgid "Hides information about you from other users."
+msgstr "사용자 정보를 비공개로 숨깁니다."
+
+#: modules/nickserv/set_privmsg.c:72
+msgid "Uses private messages instead of notices if enabled."
+msgstr "서비스 봇이 응답할 때 노티스 대신 일반 쿼리를 쓰게 합니다."
+
+#: modules/nickserv/set_property.c:24
+msgid "Manipulates metadata entries associated with an account."
+msgstr "계정의 세부 속성을 변경합니다."
+
+#: modules/nickserv/set_property.c:56
+msgid "Syntax: SET PROPERTY <property> [value]"
+msgstr "사용법: SET PROPERTY <속성> [설정할 값]"
+
+#: modules/nickserv/set_quietchg.c:24
+msgid "Allows you to opt-out of channel change messages."
+msgstr "채널에서 권한 변경과 관련된 메시지를 받지 않게 합니다."
+
+#: modules/nickserv/status.c:21
+msgid "Displays session information."
+msgstr "계정 정보를 보여 줍니다."
+
+#: modules/nickserv/status.c:22
+msgid "Displays parsable session information"
+msgstr "기계가 인식할 수 있는 계정 정보를 보여 줍니다."
+
+#: modules/nickserv/status.c:63
+#, c-format
+msgid "%s%s%s ACC 0 (offline)"
+msgstr ""
+
+#: modules/nickserv/status.c:76
+#, c-format
+msgid "%s%s%s ACC 0 (not registered)"
+msgstr ""
+
+#: modules/nickserv/subscribe.c:53
+msgid "Syntax: SUBSCRIBE [-]username [tags]"
+msgstr "사용법: SUBSCRIBE [-]사용자명 [태그들]"
+
+#: modules/nickserv/subscribe.c:111
+#, c-format
+msgid "%s has been removed from your subscriptions."
+msgstr ""
+
+#: modules/nickserv/subscribe.c:115
+#, c-format
+msgid "%s was not found on your subscription list."
+msgstr ""
+
+#: modules/nickserv/subscribe.c:123
+msgid "Syntax: SUBSCRIBE [-]username tags"
+msgstr "사용법: SUBSCRIBE [-]사용자명 태그들"
+
+#: modules/nickserv/subscribe.c:139
+#, c-format
+msgid "%s has been added to your subscriptions."
+msgstr ""
+
+#: modules/nickserv/subscribe.c:142
+msgid "Manages your subscription list."
+msgstr ""
+
+#: modules/nickserv/taxonomy.c:20
+msgid "Displays a user's metadata."
+msgstr "사용자의 세부 속성을 보여 줍니다."
+
+#: modules/nickserv/taxonomy.c:51
+msgid "Syntax: TAXONOMY <nick>"
+msgstr "사용법: TAXONOMY <대화명>"
+
+#: modules/nickserv/vacation.c:32
+#, c-format
+msgid ""
+"You must be registered for at least %d days in order to enable VACATION mode."
+msgstr ""
+
+#: modules/nickserv/vacation.c:42
+#, c-format
+msgid ""
+"Your account is now marked as being on vacation.\n"
+"Please be aware that this will be automatically removed the next time you "
+"identify to %s."
+msgstr ""
+
+#: modules/nickserv/vacation.c:46
+#, c-format
+msgid "Your account will automatically expire in %d days if you do not return."
+msgstr ""
+
+#: modules/nickserv/vacation.c:50
+msgid "Sets an account as being on vacation."
+msgstr "계정을 휴가 모드로 설정합니다."
+
+#: modules/nickserv/vacation.c:57
+msgid "Your account is no longer marked as being on vacation."
+msgstr ""
+
+#: modules/nickserv/verify.c:21
+msgid "Verifies an account registration."
+msgstr "계정 등록 및 정보 변경을 확인합니다."
+
+#: modules/nickserv/verify.c:22
+msgid "Forcefully verifies an account registration."
+msgstr "강제로 계정 등록 및 정보 변경을 확인합니다."
+
+#: modules/nickserv/verify.c:58
+msgid "Syntax: VERIFY <operation> <account> <key>"
+msgstr "사용법: VERIFY <명령> <계정명> <인증코드>"
+
+#: modules/nickserv/verify.c:73
+msgid "Please log in before attempting to verify your registration."
+msgstr ""
+
+#: modules/nickserv/verify.c:81 modules/nickserv/verify.c:121
+#: modules/nickserv/verify.c:182 modules/nickserv/verify.c:212
+#, c-format
+msgid "%s is not awaiting authorization."
+msgstr ""
+
+#: modules/nickserv/verify.c:94 modules/nickserv/verify.c:137
+#: modules/nickserv/verify.c:193 modules/nickserv/verify.c:226
+#, c-format
+msgid "%s has now been verified."
+msgstr ""
+
+#: modules/nickserv/verify.c:95
+msgid ""
+"Thank you for verifying your e-mail address! You have taken steps in "
+"ensuring that your registrations are not exploited."
+msgstr ""
+
+#: modules/nickserv/verify.c:150
+msgid "Invalid operation specified for VERIFY."
+msgstr ""
+
+#: modules/nickserv/verify.c:151
+msgid "Please double-check your verification e-mail."
+msgstr ""
+
+#: modules/nickserv/verify.c:168
+msgid "Syntax: FVERIFY <operation> <account>"
+msgstr "사용법: FVERIFY <명령> <계정명>"
+
+#: modules/nickserv/verify.c:232
+msgid "Invalid operation specified for FVERIFY."
+msgstr ""
+
+#: modules/nickserv/verify.c:233
+msgid "Valid operations are REGISTER and EMAILCHG."
+msgstr ""
+
+#: modules/nickserv/vhost.c:24
+msgid "Manages user virtualhosts."
+msgstr "가상 호스트 목록을 관리합니다."
+
+#: modules/nickserv/vhost.c:25
+msgid "Lists user virtualhosts."
+msgstr "가상 호스트 목록을 보여 줍니다."
+
+#: modules/nickserv/vhost.c:85 modules/nickserv/vhost.c:134
+msgid "Syntax: VHOST <account> ON|OFF [vhost]"
+msgstr "사용법: VHOST <계정명> ON|OFF [가상호스트]"
+
+#: modules/nickserv/vhost.c:106 modules/nickserv/vhost.c:115
+msgid "Syntax: VHOST <account> ON <vhost> [FORCE]"
+msgstr "사용법: VHOST <계정명> ON <가상호스트> [FORCE]"
+
+#: modules/nickserv/vhost.c:127
+msgid "Syntax: VHOST <account> OFF [FORCE]"
+msgstr "사용법: VHOST <계정명> OFF [FORCE]"
+
+#: modules/nickserv/vhost.c:171
+#, c-format
+msgid "%s does not have a vhost set."
+msgstr ""
+
+#: modules/nickserv/vhost.c:192
+#, c-format
+msgid "%s already has the given vhost set."
+msgstr ""
+
+#: modules/operserv/akill.c:29
+msgid "Manages network bans."
+msgstr ""
+
+#: modules/operserv/akill.c:31
+msgid "Adds a network ban"
+msgstr ""
+
+#: modules/operserv/akill.c:32
+msgid "Deletes a network ban"
+msgstr ""
+
+#: modules/operserv/akill.c:33
+msgid "Lists all network bans"
+msgstr ""
+
+#: modules/operserv/akill.c:34
+msgid "Synchronises network bans to servers"
+msgstr ""
+
+#: modules/operserv/akill.c:107
+msgid "Syntax: AKILL ADD|DEL|LIST"
+msgstr ""
+
+#: modules/operserv/akill.c:136 modules/operserv/akill.c:176
+#: modules/operserv/akill.c:182 modules/operserv/clones.c:460
+msgid "Syntax: AKILL ADD <nick|hostmask> [!P|!T <minutes>] <reason>"
+msgstr ""
+
+#: modules/operserv/akill.c:175 modules/operserv/clones.c:452
+#: modules/operserv/sgline.c:177 modules/operserv/sqline.c:205
+msgid "Invalid duration given."
+msgstr ""
+
+#: modules/operserv/akill.c:202
+#, c-format
+msgid "Invalid character '%c' in user@host."
+msgstr ""
+
+#: modules/operserv/akill.c:210 modules/operserv/specs.c:109
+#, c-format
+msgid "%s is not on IRC."
+msgstr ""
+
+#: modules/operserv/akill.c:231 modules/operserv/akill.c:238
+msgid "Syntax: AKILL ADD <user>@<host> [options] <reason>"
+msgstr ""
+
+#: modules/operserv/akill.c:237
+#, c-format
+msgid "Too many '%c' in user@host."
+msgstr ""
+
+#: modules/operserv/akill.c:257
+#, c-format
+msgid ""
+"Invalid user@host: %s@%s. At least four non-wildcard characters are required."
+msgstr ""
+
+#: modules/operserv/akill.c:275
+#, c-format
+msgid "Invalid user@host: %s@%s. This mask is unsafe."
+msgstr ""
+
+#: modules/operserv/akill.c:283
+#, c-format
+msgid "AKILL %s@%s is already matched in the database."
+msgstr ""
+
+#: modules/operserv/akill.c:290
+#, c-format
+msgid "Timed AKILL on %s@%s was successfully added and will expire in %s."
+msgstr ""
+
+#: modules/operserv/akill.c:292
+#, c-format
+msgid "AKILL on %s@%s was successfully added."
+msgstr ""
+
+#: modules/operserv/akill.c:314
+msgid "Syntax: AKILL DEL <hostmask>"
+msgstr ""
+
+#: modules/operserv/akill.c:347 modules/operserv/akill.c:366
+#: modules/operserv/akill.c:406 modules/operserv/akill.c:425
+#, c-format
+msgid "No such AKILL with number %d."
+msgstr ""
+
+#: modules/operserv/akill.c:351 modules/operserv/akill.c:370
+#: modules/operserv/akill.c:410 modules/operserv/akill.c:429
+#: modules/operserv/akill.c:448
+#, c-format
+msgid "AKILL on %s@%s has been successfully removed."
+msgstr ""
+
+#: modules/operserv/akill.c:444
+#, c-format
+msgid "No such AKILL: %s@%s."
+msgstr ""
+
+#: modules/operserv/akill.c:492
+msgid "AKILL list matching given criteria (with reasons):"
+msgstr ""
+
+#: modules/operserv/akill.c:494
+msgid "AKILL list (with reasons):"
+msgstr ""
+
+#: modules/operserv/akill.c:496
+msgid "AKILL list:"
+msgstr ""
+
+#: modules/operserv/akill.c:510
+#, c-format
+msgid "%lu: %s@%s - by %s - expires in %s - (%s)"
+msgstr ""
+
+#: modules/operserv/akill.c:512
+#, c-format
+msgid "%lu: %s@%s - by %s - expires in %s"
+msgstr ""
+
+#: modules/operserv/akill.c:514
+#, c-format
+msgid "%lu: %s@%s - by %s - permanent - (%s)"
+msgstr ""
+
+#: modules/operserv/akill.c:516
+#, c-format
+msgid "%lu: %s@%s - by %s - permanent"
+msgstr ""
+
+#: modules/operserv/akill.c:520
+msgid "End of AKILL list."
+msgstr ""
+
+#: modules/operserv/akill.c:522
+#, c-format
+msgid "Total of %d %s in AKILL list."
+msgstr ""
+
+#: modules/operserv/akill.c:552
+msgid "AKILL list synchronized to servers."
+msgstr ""
+
+#: modules/operserv/clearchan.c:24
+msgid "Clears a channel via KICK, KILL or GLINE"
+msgstr ""
+
+#: modules/operserv/clearchan.c:60
+msgid "Syntax: CLEARCHAN KICK|KILL|AKILL <#channel> <reason>"
+msgstr ""
+
+#: modules/operserv/clearchan.c:68 modules/operserv/mode.c:58
+#, c-format
+msgid "Channel %s does not exist."
+msgstr ""
+
+#: modules/operserv/clearchan.c:82
+#, c-format
+msgid "%s is not a valid action"
+msgstr ""
+
+#: modules/operserv/clearchan.c:99
+#, c-format
+msgid "Clearing %s with %s"
+msgstr ""
+
+#: modules/operserv/clearchan.c:110
+#, c-format
+msgid "CLEARCHAN: Ignoring IRC Operator %s!%s@%s {%s}"
+msgstr ""
+
+#: modules/operserv/clearchan.c:115
+#, c-format
+msgid "CLEARCHAN: %s hit %s!%s@%s {%s}"
+msgstr ""
+
+#: modules/operserv/clearchan.c:128
+#, c-format
+msgid "CLEARCHAN: Not klining exempt user %s!%s@%s"
+msgstr ""
+
+#: modules/operserv/clearchan.c:136
+#, c-format
+msgid "%d matches, %d ignores for %s on %s"
+msgstr ""
+
+#: modules/operserv/clones.c:70
+msgid "Manages network wide clones."
+msgstr ""
+
+#: modules/operserv/clones.c:72
+msgid "Enables/disables klines for excessive clones."
+msgstr ""
+
+#: modules/operserv/clones.c:73
+msgid "Lists clones on the network."
+msgstr ""
+
+#: modules/operserv/clones.c:74
+msgid "Adds a clones exemption."
+msgstr ""
+
+#: modules/operserv/clones.c:75
+msgid "Deletes a clones exemption."
+msgstr ""
+
+#: modules/operserv/clones.c:76
+msgid "Lists clones exemptions."
+msgstr ""
+
+#: modules/operserv/clones.c:77
+msgid "Sets a custom duration to ban clones for."
+msgstr ""
+
+#: modules/operserv/clones.c:317
+msgid "Syntax: CLONES KLINE|LIST|ADDEXEMPT|DELEXEMPT|LISTEXEMPT [parameters]"
+msgstr ""
+
+#: modules/operserv/clones.c:342
+msgid "CLONES klines are already enabled."
+msgstr ""
+
+#: modules/operserv/clones.c:346
+msgid "Enabled CLONES klines."
+msgstr ""
+
+#: modules/operserv/clones.c:355
+msgid "CLONES klines are already disabled."
+msgstr ""
+
+#: modules/operserv/clones.c:359
+msgid "Disabled CLONES klines."
+msgstr ""
+
+#: modules/operserv/clones.c:367
+msgid "CLONES klines are currently enabled."
+msgstr ""
+
+#: modules/operserv/clones.c:369
+msgid "CLONES klines are currently disabled."
+msgstr ""
+
+#: modules/operserv/clones.c:387
+#, c-format
+msgid "%d from %s (EXEMPT; allowed %d)"
+msgstr ""
+
+#: modules/operserv/clones.c:389
+#, c-format
+msgid "%d from %s"
+msgstr ""
+
+#: modules/operserv/clones.c:392
+msgid "End of CLONES LIST"
+msgstr ""
+
+#: modules/operserv/clones.c:411 modules/operserv/clones.c:453
+#: modules/operserv/clones.c:491
+msgid "Syntax: CLONES ADDEXEMPT <ip> <clones> [!P|!T <minutes>] <reason>"
+msgstr ""
+
+#: modules/operserv/clones.c:418
+#, c-format
+msgid "Allowed clones count must be more than %d"
+msgstr ""
+
+#: modules/operserv/clones.c:498
+#, c-format
+msgid "Added %s to clone exempt list."
+msgstr ""
+
+#: modules/operserv/clones.c:507
+#, c-format
+msgid "Updated %s in clone exempt list."
+msgstr ""
+
+#: modules/operserv/clones.c:543
+#, c-format
+msgid "Removed %s from clone exempt list."
+msgstr ""
+
+#: modules/operserv/clones.c:550
+#, c-format
+msgid "%s not found in clone exempt list."
+msgstr ""
+
+#: modules/operserv/clones.c:560
+#, c-format
+msgid "Clone ban duration set to %ld (%ld seconds)"
+msgstr ""
+
+#: modules/operserv/clones.c:585
+#, c-format
+msgid "Clone ban duration set to %s (%ld seconds)"
+msgstr ""
+
+#: modules/operserv/clones.c:609
+msgid "End of CLONES LISTEXEMPT"
+msgstr ""
+
+#: modules/operserv/compare.c:20
+msgid "Compares two users or channels."
+msgstr ""
+
+#: modules/operserv/compare.c:60
+msgid "Syntax: COMPARE <nick|#channel> <nick|#channel>"
+msgstr ""
+
+#: modules/operserv/compare.c:74
+msgid "Both channels must exist for @compare"
+msgstr ""
+
+#: modules/operserv/compare.c:78
+#, c-format
+msgid "Common users in %s and %s"
+msgstr ""
+
+#: modules/operserv/compare.c:115 modules/operserv/compare.c:124
+msgid "Bad syntax for @compare. Use @compare on two channels, or two users."
+msgstr ""
+
+#: modules/operserv/compare.c:135
+msgid "Both users must exist for @compare"
+msgstr ""
+
+#: modules/operserv/compare.c:139
+#, c-format
+msgid "Common channels for %s and %s"
+msgstr ""
+
+#: modules/operserv/compare.c:178
+#, c-format
+msgid "%d matches comparing %s and %s"
+msgstr ""
+
+#: modules/operserv/greplog.c:22
+msgid "Searches through the logs."
+msgstr ""
+
+#: modules/operserv/greplog.c:110
+msgid "Syntax: GREPLOG <service> <pattern> [days]"
+msgstr ""
+
+#: modules/operserv/greplog.c:123
+#, c-format
+msgid "Too many days, maximum is %d."
+msgstr ""
+
+#: modules/operserv/greplog.c:133
+msgid "There is no log file matching your request."
+msgstr ""
+
+#: modules/operserv/greplog.c:213
+#, c-format
+msgid "No lines matched pattern %s"
+msgstr ""
+
+#: modules/operserv/help.c:48 modules/operserv/specs.c:91
+#, c-format
+msgid "You are not authorized to use %s."
+msgstr ""
+
+#: modules/operserv/help.c:55
+#, c-format
+msgid ""
+"%s provides essential network management services, such as\n"
+"routing manipulation and access restriction. Please do not abuse\n"
+"your access to %s!"
+msgstr ""
+
+#: modules/operserv/help.c:60
+msgid "For information on a command, type:"
+msgstr ""
+
+#: modules/operserv/identify.c:20
+msgid "Authenticate for services operator privileges."
+msgstr ""
+
+#: modules/operserv/identify.c:21
+msgid "Alias for IDENTIFY"
+msgstr ""
+
+#: modules/operserv/identify.c:66
+msgid "Syntax: IDENTIFY <password>"
+msgstr ""
+
+#: modules/operserv/identify.c:78
+msgid "You do not have a services operator account."
+msgstr ""
+
+#: modules/operserv/identify.c:84
+msgid "Your services operator account does not have a password set."
+msgstr ""
+
+#: modules/operserv/identify.c:90
+#, c-format
+msgid "You are already identified to %s."
+msgstr ""
+
+#: modules/operserv/identify.c:96
+msgid "Invalid password."
+msgstr ""
+
+#: modules/operserv/identify.c:102
+#, c-format
+msgid "You are now identified to %s."
+msgstr ""
+
+#: modules/operserv/ignore.c:24
+msgid "Ignore a mask from services."
+msgstr ""
+
+#: modules/operserv/ignore.c:25
+msgid "Add services ignore"
+msgstr ""
+
+#: modules/operserv/ignore.c:26
+msgid "Delete services ignore"
+msgstr ""
+
+#: modules/operserv/ignore.c:27
+msgid "List services ignores"
+msgstr ""
+
+#: modules/operserv/ignore.c:28
+msgid "Clear all services ignores"
+msgstr ""
+
+#: modules/operserv/ignore.c:75 modules/operserv/ignore.c:144
+msgid "Syntax: IGNORE ADD|DEL|LIST|CLEAR <mask>"
+msgstr ""
+
+#: modules/operserv/ignore.c:100
+msgid "Syntax: IGNORE ADD <mask> <reason>"
+msgstr ""
+
+#: modules/operserv/ignore.c:106
+#, c-format
+msgid "Invalid host mask, %s"
+msgstr ""
+
+#: modules/operserv/ignore.c:118
+#, c-format
+msgid "The mask %s already exists on the services ignore list."
+msgstr ""
+
+#: modules/operserv/ignore.c:127
+#, c-format
+msgid "%s has been added to the services ignore list."
+msgstr ""
+
+#: modules/operserv/ignore.c:154 modules/operserv/ignore.c:184
+#, c-format
+msgid "%s has been removed from the services ignore list."
+msgstr ""
+
+#: modules/operserv/ignore.c:165
+#, c-format
+msgid "%s was not found on the services ignore list."
+msgstr ""
+
+#: modules/operserv/ignore.c:176
+msgid "Services ignore list is empty."
+msgstr ""
+
+#: modules/operserv/ignore.c:193
+msgid "Services ignore list has been wiped!"
+msgstr ""
+
+#: modules/operserv/ignore.c:212
+msgid "The services ignore list is empty."
+msgstr ""
+
+#: modules/operserv/ignore.c:216
+msgid "Current Ignore list entries:"
+msgstr ""
+
+#: modules/operserv/ignore.c:226
+#, c-format
+msgid "%d: %s by %s on %s (Reason: %s)"
+msgstr ""
+
+#: modules/operserv/info.c:20
+msgid "Shows some useful information about the current settings of services."
+msgstr ""
+
+#: modules/operserv/info.c:44
+#, c-format
+msgid "How often services writes changes to the database: %d minutes"
+msgstr ""
+
+#: modules/operserv/info.c:45
+#, c-format
+msgid "Default kline time: %d days"
+msgstr ""
+
+#: modules/operserv/info.c:46
+#, c-format
+msgid "Will services be sending WALLOPS/GLOBOPS about various things: %s"
+msgstr ""
+
+#: modules/operserv/info.c:47
+#, c-format
+msgid ""
+"How many messages before a flood is triggered, (if 0, flood protection is "
+"disabled): %d"
+msgstr ""
+
+#: modules/operserv/info.c:48
+#, c-format
+msgid "How long before the flood counter resets: %d seconds"
+msgstr ""
+
+#: modules/operserv/info.c:49
+#, c-format
+msgid ""
+"Number of commands used before ratelimiting starts, (if 0, ratelimiting is "
+"disabled): %d"
+msgstr ""
+
+#: modules/operserv/info.c:50
+#, c-format
+msgid ""
+"How long before ratelimiting counter resets, (if 0, ratelimiting is "
+"disabled): %d seconds"
+msgstr ""
+
+#: modules/operserv/info.c:51
+#, c-format
+msgid "No nick ownership enabled: %s"
+msgstr ""
+
+#: modules/operserv/info.c:52
+#, c-format
+msgid "Nickname expiration time: %d days"
+msgstr ""
+
+#: modules/operserv/info.c:53
+#, c-format
+msgid "Nickname enforce expiry time: %d days"
+msgstr ""
+
+#: modules/operserv/info.c:54
+#, c-format
+msgid "Nickname enforce delay: %d seconds"
+msgstr ""
+
+#: modules/operserv/info.c:55
+#, c-format
+msgid "Nickname enforce prefix: %s"
+msgstr ""
+
+#: modules/operserv/info.c:56
+#, c-format
+msgid "Maximum number of logins allowed per username: %d"
+msgstr ""
+
+#: modules/operserv/info.c:57
+#, c-format
+msgid ""
+"Maximum number of usernames that can be registered to one email address: %d"
+msgstr ""
+
+#: modules/operserv/info.c:59
+#, c-format
+msgid "Maximum number of nicknames that one user can own: %d"
+msgstr ""
+
+#: modules/operserv/info.c:60
+#, c-format
+msgid "Maximum number of channels that one user can own: %d"
+msgstr ""
+
+#: modules/operserv/info.c:61
+#, c-format
+msgid "Channel expiration time: %d days"
+msgstr ""
+
+#: modules/operserv/info.c:63
+#, c-format
+msgid "Channel fantasy trigger: %s"
+msgstr ""
+
+#: modules/operserv/info.c:64
+#, c-format
+msgid ""
+"Maximum number of entries allowed in a channel access list (if 0, "
+"unlimited): %d"
+msgstr ""
+
+#: modules/operserv/info.c:65
+#, c-format
+msgid "Maximum number of founders allowed per channel: %d"
+msgstr ""
+
+#: modules/operserv/info.c:71
+msgid ""
+"Services is presently TAINTED, no support will be given for this "
+"configuration."
+msgstr ""
+
+#: modules/operserv/info.c:72
+msgid "List of active taints:"
+msgstr ""
+
+#: modules/operserv/info.c:78
+#, c-format
+msgid "Taint Condition: %s"
+msgstr ""
+
+#: modules/operserv/info.c:79
+#, c-format
+msgid "Taint Location: %s:%d"
+msgstr ""
+
+#: modules/operserv/info.c:80
+#, c-format
+msgid "Taint Explanation: %s"
+msgstr ""
+
+#: modules/operserv/inject.c:22
+msgid "Fakes data from the uplink (debugging tool)."
+msgstr ""
+
+#: modules/operserv/inject.c:54
+msgid "Syntax: INJECT <parameters>"
+msgstr ""
+
+#: modules/operserv/inject.c:65
+msgid "You cannot inject an INJECT command."
+msgstr ""
+
+#: modules/operserv/jupe.c:20
+msgid "Jupiters a server."
+msgstr ""
+
+#: modules/operserv/jupe.c:49
+msgid "Usage: JUPE <server> <reason>"
+msgstr ""
+
+#: modules/operserv/jupe.c:57
+#, c-format
+msgid "%s is not a valid server name."
+msgstr ""
+
+#: modules/operserv/jupe.c:63
+#, c-format
+msgid "%s is the services server; it cannot be jupitered!"
+msgstr ""
+
+#: modules/operserv/jupe.c:69
+#, c-format
+msgid "%s is the current uplink; it cannot be jupitered!"
+msgstr ""
+
+#: modules/operserv/jupe.c:74
+#, c-format
+msgid "%s jupitered server %s (%s)."
+msgstr ""
+
+#: modules/operserv/jupe.c:80
+#, c-format
+msgid "%s has been jupitered."
+msgstr ""
+
+#: modules/operserv/mode.c:20
+msgid "Changes modes on channels."
+msgstr ""
+
+#: modules/operserv/mode.c:51
+msgid "Syntax: MODE <channel> <parameters>"
+msgstr ""
+
+#: modules/operserv/mode.c:69
+#, c-format
+msgid "Set modes %s on %s."
+msgstr ""
+
+#: modules/operserv/modinspect.c:23
+msgid "Displays information about loaded modules."
+msgstr ""
+
+#: modules/operserv/modinspect.c:48
+msgid "Syntax: MODINSPECT <module>"
+msgstr ""
+
+#: modules/operserv/modinspect.c:58 modules/operserv/modreload.c:53
+#, c-format
+msgid "%s is not loaded."
+msgstr ""
+
+#: modules/operserv/modinspect.c:65
+#, c-format
+msgid "%s cannot be inspected."
+msgstr ""
+
+#: modules/operserv/modinspect.c:70
+#, c-format
+msgid "Name       : %s"
+msgstr ""
+
+#: modules/operserv/modinspect.c:71
+#, c-format
+msgid "Address    : %p"
+msgstr ""
+
+#: modules/operserv/modinspect.c:72
+#, c-format
+msgid "Entry point: %p"
+msgstr ""
+
+#: modules/operserv/modinspect.c:73
+#, c-format
+msgid "Exit point : %p"
+msgstr ""
+
+#: modules/operserv/modinspect.c:74
+#, c-format
+msgid "Version    : %s"
+msgstr ""
+
+#: modules/operserv/modinspect.c:75
+#, c-format
+msgid "Vendor     : %s"
+msgstr ""
+
+#: modules/operserv/modinspect.c:76
+#, c-format
+msgid "Permanent  : %s"
+msgstr ""
+
+#: modules/operserv/modlist.c:20
+msgid "Lists loaded modules."
+msgstr ""
+
+#: modules/operserv/modlist.c:45
+msgid "Loaded modules:"
+msgstr ""
+
+#: modules/operserv/modlist.c:51
+#, c-format
+msgid "%2d: %-20s [loaded at 0x%lx]"
+msgstr ""
+
+#: modules/operserv/modlist.c:55
+#, c-format
+msgid "%d modules loaded."
+msgstr ""
+
+#: modules/operserv/modload.c:21
+msgid "Loads a module."
+msgstr ""
+
+#: modules/operserv/modload.c:51
+msgid "Syntax: MODLOAD <module...>"
+msgstr ""
+
+#: modules/operserv/modload.c:60
+#, c-format
+msgid "%s is already loaded."
+msgstr ""
+
+#: modules/operserv/modload.c:75
+#, c-format
+msgid "Module %s loaded."
+msgstr ""
+
+#: modules/operserv/modload.c:77
+#, c-format
+msgid "Module %s failed to load."
+msgstr ""
+
+#: modules/operserv/modload.c:84 modules/operserv/rehash.c:56 src/signal.c:164
+#, c-format
+msgid ""
+"REHASH of %s failed. Please correct any errors in the file and try again."
+msgstr ""
+
+#: modules/operserv/modreload.c:15
+msgid "Reloads a module."
+msgstr ""
+
+#: modules/operserv/modreload.c:47
+msgid "Syntax: MODRELOAD <module...>"
+msgstr ""
+
+#: modules/operserv/modreload.c:59
+#, c-format
+msgid "%s is a permanent module; it cannot be reloaded."
+msgstr ""
+
+#: modules/operserv/modreload.c:66
+#, c-format
+msgid "Refusing to reload %s."
+msgstr ""
+
+#: modules/operserv/modreload.c:82
+#, c-format
+msgid "Module %s reloaded."
+msgstr ""
+
+#: modules/operserv/modreload.c:86
+#, c-format
+msgid "Module %s failed to reload."
+msgstr ""
+
+#: modules/operserv/modunload.c:20
+msgid "Unloads a module."
+msgstr ""
+
+#: modules/operserv/modunload.c:50
+msgid "Syntax: MODUNLOAD <module...>"
+msgstr ""
+
+#: modules/operserv/modunload.c:61
+#, c-format
+msgid "%s is not loaded; it cannot be unloaded."
+msgstr ""
+
+#: modules/operserv/modunload.c:69
+#, c-format
+msgid "%s is a permanent module; it cannot be unloaded."
+msgstr ""
+
+#: modules/operserv/modunload.c:75
+#, c-format
+msgid "Refusing to unload %s."
+msgstr ""
+
+#: modules/operserv/modunload.c:84
+#, c-format
+msgid "Module %s unloaded."
+msgstr ""
+
+#: modules/operserv/noop.c:35
+msgid "Restricts IRCop access."
+msgstr ""
+
+#: modules/operserv/noop.c:183 modules/operserv/noop.c:195
+#: modules/operserv/noop.c:359
+msgid "Syntax: NOOP <ADD|DEL|LIST> <HOSTMASK|SERVER> <mask> [reason]"
+msgstr ""
+
+#: modules/operserv/noop.c:205 modules/operserv/noop.c:231
+msgid "There is already a NOOP entry covering this target."
+msgstr ""
+
+#: modules/operserv/noop.c:223
+#, c-format
+msgid "Added %s to the hostmask NOOP list."
+msgstr ""
+
+#: modules/operserv/noop.c:249
+#, c-format
+msgid "Added %s to the server NOOP list."
+msgstr ""
+
+#: modules/operserv/noop.c:260
+msgid "There is no NOOP hostmask entry for this target."
+msgstr ""
+
+#: modules/operserv/noop.c:265
+#, c-format
+msgid "Removed %s from the hostmask NOOP list."
+msgstr ""
+
+#: modules/operserv/noop.c:283
+msgid "There is no NOOP server entry for this target."
+msgstr ""
+
+#: modules/operserv/noop.c:288
+#, c-format
+msgid "Removed %s from the server NOOP list."
+msgstr ""
+
+#: modules/operserv/noop.c:320
+#, c-format
+msgid "Hostmask NOOP list (%d entries):"
+msgstr ""
+
+#: modules/operserv/noop.c:322 modules/operserv/noop.c:341
+msgid "Entry Hostmask                        Adder                 Reason"
+msgstr ""
+
+#: modules/operserv/noop.c:334
+msgid "End of Hostmask NOOP list."
+msgstr ""
+
+#: modules/operserv/noop.c:339
+#, c-format
+msgid "Server NOOP list (%d entries):"
+msgstr ""
+
+#: modules/operserv/noop.c:353
+msgid "End of Server NOOP list."
+msgstr ""
+
+#: modules/operserv/override.c:20
+msgid "Perform a transaction on another user's account"
+msgstr ""
+
+#: modules/operserv/override.c:169
+msgid "Syntax: OVERRIDE <account> <service> <command> [params]"
+msgstr ""
+
+#: modules/operserv/override.c:199
+#, c-format
+msgid "%s doesn't have any founders."
+msgstr ""
+
+#: modules/operserv/override.c:215
+#, c-format
+msgid "%s is not a valid service."
+msgstr ""
+
+#: modules/operserv/override.c:221
+#, c-format
+msgid "%s cannot be used as an override service."
+msgstr ""
+
+#: modules/operserv/override.c:228
+#, c-format
+msgid "%s is not a valid command."
+msgstr ""
+
+#: modules/operserv/rakill.c:28
+msgid "Sets a group of AKILLs against users matching a specific regex pattern."
+msgstr ""
+
+#: modules/operserv/rakill.c:68 modules/operserv/rakill.c:76
+#: modules/operserv/rakill.c:86
+msgid "Syntax: RAKILL /<regex>/[i] <reason>"
+msgstr ""
+
+#: modules/operserv/rakill.c:93 modules/operserv/rmatch.c:91
+#: modules/operserv/rwatch.c:263
+#, c-format
+msgid "The provided regex %s is invalid."
+msgstr ""
+
+#: modules/operserv/rakill.c:106
+msgid "The provided regex matches you, refusing RAKILL."
+msgstr ""
+
+#: modules/operserv/rakill.c:120
+#, c-format
+msgid "Match:  %s!%s@%s %s - akilling"
+msgstr ""
+
+#: modules/operserv/rakill.c:127
+#, c-format
+msgid "%d matches for %s akilled."
+msgstr ""
+
+#: modules/operserv/raw.c:21
+msgid "Sends data to the uplink."
+msgstr ""
+
+#: modules/operserv/raw.c:51
+msgid "Syntax: RAW <parameters>"
+msgstr ""
+
+#: modules/operserv/rehash.c:21
+msgid "Reload the configuration data."
+msgstr ""
+
+#: modules/operserv/rehash.c:54
+msgid "REHASH completed."
+msgstr ""
+
+#: modules/operserv/restart.c:20
+msgid "Restart services."
+msgstr ""
+
+#: modules/operserv/rmatch.c:28
+msgid "Scans the network for users based on a specific regex pattern."
+msgstr ""
+
+#: modules/operserv/rmatch.c:61 modules/operserv/rmatch.c:69
+#: modules/operserv/rmatch.c:83
+msgid "Syntax: RMATCH /<regex>/[i] [FORCE]"
+msgstr ""
+
+#: modules/operserv/rmatch.c:103
+#, c-format
+msgid "Match:  %s!%s@%s %s"
+msgstr ""
+
+#: modules/operserv/rmatch.c:106
+msgid "Too many matches, not displaying any more"
+msgstr ""
+
+#: modules/operserv/rmatch.c:107
+msgid "Add the FORCE keyword to see them all"
+msgstr ""
+
+#: modules/operserv/rmatch.c:113
+#, c-format
+msgid "%d matches for %s"
+msgstr ""
+
+#: modules/operserv/rnc.c:20
+msgid "Shows the most frequent realnames on the network"
+msgstr ""
+
+#: modules/operserv/rnc.c:107
+#, c-format
+msgid "%d: %d matches for realname %s"
+msgstr ""
+
+#: modules/operserv/rwatch.c:49
+msgid "Performs actions on connecting clients matching regexes."
+msgstr ""
+
+#: modules/operserv/rwatch.c:51
+msgid "Adds an entry to the regex watch list."
+msgstr ""
+
+#: modules/operserv/rwatch.c:52
+msgid "Removes an entry from the regex watch list."
+msgstr ""
+
+#: modules/operserv/rwatch.c:53
+msgid "Displays the regex watch list."
+msgstr ""
+
+#: modules/operserv/rwatch.c:54
+msgid "Changes actions on an entry in the regex watch list"
+msgstr ""
+
+#: modules/operserv/rwatch.c:200
+msgid "Syntax: RWATCH ADD|DEL|LIST|SET"
+msgstr ""
+
+#: modules/operserv/rwatch.c:227 modules/operserv/rwatch.c:235
+#: modules/operserv/rwatch.c:245
+msgid "Syntax: RWATCH ADD /<regex>/[i] <reason>"
+msgstr ""
+
+#: modules/operserv/rwatch.c:255
+#, c-format
+msgid "%s already found in regex watch list; not adding."
+msgstr ""
+
+#: modules/operserv/rwatch.c:275
+#, c-format
+msgid "Added %s to regex watch list."
+msgstr ""
+
+#: modules/operserv/rwatch.c:290 modules/operserv/rwatch.c:298
+msgid "Syntax: RWATCH DEL /<regex>/[i]"
+msgstr ""
+
+#: modules/operserv/rwatch.c:324
+#, c-format
+msgid "Removed %s from regex watch list."
+msgstr ""
+
+#: modules/operserv/rwatch.c:331 modules/operserv/rwatch.c:439
+#, c-format
+msgid "%s not found in regex watch list."
+msgstr ""
+
+#: modules/operserv/rwatch.c:350
+msgid "End of RWATCH LIST"
+msgstr ""
+
+#: modules/operserv/rwatch.c:366 modules/operserv/rwatch.c:374
+#: modules/operserv/rwatch.c:383 modules/operserv/rwatch.c:402
+msgid "Syntax: RWATCH SET /<regex>/[i] [KLINE] [NOKLINE] [SNOOP] [NOSNOOP]"
+msgstr ""
+
+#: modules/operserv/rwatch.c:423
+#, c-format
+msgid "Options for %s unchanged."
+msgstr ""
+
+#: modules/operserv/rwatch.c:428
+#, c-format
+msgid "Set options %s on %s."
+msgstr ""
+
+#: modules/operserv/sgline.c:28
+msgid "Manages network realname bans."
+msgstr ""
+
+#: modules/operserv/sgline.c:30
+msgid "Adds a network realname ban"
+msgstr ""
+
+#: modules/operserv/sgline.c:31
+msgid "Deletes a network realname ban"
+msgstr ""
+
+#: modules/operserv/sgline.c:32
+msgid "Lists all network realname bans"
+msgstr ""
+
+#: modules/operserv/sgline.c:33
+msgid "Synchronises network realname bans to servers"
+msgstr ""
+
+#: modules/operserv/sgline.c:112
+msgid "Syntax: SGLINE ADD|DEL|LIST"
+msgstr ""
+
+#: modules/operserv/sgline.c:138 modules/operserv/sgline.c:178
+#: modules/operserv/sgline.c:184
+msgid "Syntax: SGLINE ADD <gecos> [!P|!T <minutes>] <reason>"
+msgstr ""
+
+#: modules/operserv/sgline.c:215
+#, c-format
+msgid "Invalid gecos: %s. At least three non-wildcard characters are required."
+msgstr ""
+
+#: modules/operserv/sgline.c:221
+msgid "The mask provided is too long."
+msgstr ""
+
+#: modules/operserv/sgline.c:227
+#, c-format
+msgid "SGLINE %s is already matched in the database."
+msgstr ""
+
+#: modules/operserv/sgline.c:234
+#, c-format
+msgid "Timed SGLINE on %s was successfully added and will expire in %s."
+msgstr ""
+
+#: modules/operserv/sgline.c:236
+#, c-format
+msgid "SGLINE on %s was successfully added."
+msgstr ""
+
+#: modules/operserv/sgline.c:253
+msgid "Syntax: SGLINE DEL <gecos>"
+msgstr ""
+
+#: modules/operserv/sgline.c:286 modules/operserv/sgline.c:305
+#, c-format
+msgid "No such SGLINE with number %d."
+msgstr ""
+
+#: modules/operserv/sgline.c:290 modules/operserv/sgline.c:309
+#: modules/operserv/sgline.c:326
+#, c-format
+msgid "SGLINE on %s has been successfully removed."
+msgstr ""
+
+#: modules/operserv/sgline.c:322
+#, c-format
+msgid "No such SGLINE: %s."
+msgstr ""
+
+#: modules/operserv/sgline.c:346
+msgid "SGLINE list (with reasons):"
+msgstr ""
+
+#: modules/operserv/sgline.c:348
+msgid "SGLINE list:"
+msgstr ""
+
+#: modules/operserv/sgline.c:355 modules/operserv/sqline.c:380
+#, c-format
+msgid "%d: %s - by %s - expires in %s - (%s)"
+msgstr ""
+
+#: modules/operserv/sgline.c:357 modules/operserv/sqline.c:382
+#, c-format
+msgid "%d: %s - by %s - expires in %s"
+msgstr ""
+
+#: modules/operserv/sgline.c:359 modules/operserv/sqline.c:384
+#, c-format
+msgid "%d: %s - by %s - permanent - (%s)"
+msgstr ""
+
+#: modules/operserv/sgline.c:361 modules/operserv/sqline.c:386
+#, c-format
+msgid "%d: %s - by %s - permanent"
+msgstr ""
+
+#: modules/operserv/sgline.c:364
+#, c-format
+msgid "Total of %d %s in SGLINE list."
+msgstr ""
+
+#: modules/operserv/sgline.c:385
+msgid "SGLINE list synchronized to servers."
+msgstr ""
+
+#: modules/operserv/shutdown.c:20
+msgid "Shuts down services."
+msgstr ""
+
+#: modules/operserv/soper.c:25
+msgid "Shows and changes services operator privileges."
+msgstr ""
+
+#: modules/operserv/soper.c:27
+msgid "Lists services operators."
+msgstr ""
+
+#: modules/operserv/soper.c:28
+msgid "Lists operclasses."
+msgstr ""
+
+#: modules/operserv/soper.c:29
+msgid "Grants services operator privileges to an account."
+msgstr ""
+
+#: modules/operserv/soper.c:30
+msgid "Removes services operator privileges from an account."
+msgstr ""
+
+#: modules/operserv/soper.c:31
+msgid "Changes a password for services operator privileges."
+msgstr ""
+
+#: modules/operserv/soper.c:76
+msgid "Syntax: SOPER LIST|LISTCLASS|ADD|DEL [account] [operclass]"
+msgstr ""
+
+#: modules/operserv/soper.c:97
+msgid "Account"
+msgstr ""
+
+#: modules/operserv/soper.c:97
+msgid "Type"
+msgstr ""
+
+#: modules/operserv/soper.c:97
+msgid "Operclass"
+msgstr ""
+
+#: modules/operserv/soper.c:114
+msgid "End of services operator list"
+msgstr ""
+
+#: modules/operserv/soper.c:123
+msgid "Oper class list:"
+msgstr ""
+
+#: modules/operserv/soper.c:132
+msgid "End of oper class list"
+msgstr ""
+
+#: modules/operserv/soper.c:143
+msgid "Syntax: SOPER ADD <account> <operclass>"
+msgstr ""
+
+#: modules/operserv/soper.c:156 modules/operserv/soper.c:213
+#: modules/operserv/soper.c:258
+#, c-format
+msgid ""
+"You may not modify %s's operclass as it is defined in the configuration file."
+msgstr ""
+
+#: modules/operserv/soper.c:163 modules/operserv/specs.c:128
+#, c-format
+msgid "No such oper class %s."
+msgstr ""
+
+#: modules/operserv/soper.c:168
+#, c-format
+msgid "Oper class for %s is already set to %s."
+msgstr ""
+
+#: modules/operserv/soper.c:174
+#, c-format
+msgid "Oper class %s has more privileges than you."
+msgstr ""
+
+#: modules/operserv/soper.c:179 modules/operserv/soper.c:224
+#: modules/operserv/soper.c:270
+#, c-format
+msgid "Oper class for %s is set to %s which you are not authorized to change."
+msgstr ""
+
+#: modules/operserv/soper.c:190
+#, c-format
+msgid "Set class for %s to %s."
+msgstr ""
+
+#: modules/operserv/soper.c:200
+msgid "Syntax: SOPER DEL <account>"
+msgstr ""
+
+#: modules/operserv/soper.c:219 modules/operserv/soper.c:264
+#, c-format
+msgid "%s does not have an operclass set."
+msgstr ""
+
+#: modules/operserv/soper.c:233
+#, c-format
+msgid "Removed class for %s."
+msgstr ""
+
+#: modules/operserv/soper.c:245
+msgid "Syntax: SOPER SETPASS <account> [password]"
+msgstr ""
+
+#: modules/operserv/soper.c:280
+#, c-format
+msgid ""
+"Refusing to set a services operator password if %s IDENTIFY is not loaded."
+msgstr ""
+
+#: modules/operserv/soper.c:289
+#, c-format
+msgid "Set password for %s to %s."
+msgstr ""
+
+#: modules/operserv/soper.c:308
+#, c-format
+msgid "Cleared password for %s."
+msgstr ""
+
+#: modules/operserv/specs.c:20
+msgid "Shows oper flags."
+msgstr ""
+
+#: modules/operserv/specs.c:114
+#, c-format
+msgid "%s is unprivileged."
+msgstr ""
+
+#: modules/operserv/specs.c:119
+#, c-format
+msgid "%s is an internal client."
+msgstr ""
+
+#: modules/operserv/specs.c:134
+msgid "Valid target types: USER, OPERCLASS."
+msgstr ""
+
+#: modules/operserv/specs.c:176 modules/operserv/specs.c:178
+#, c-format
+msgid "Privileges for %s:"
+msgstr ""
+
+#: modules/operserv/specs.c:180
+#, c-format
+msgid "Privileges for oper class %s:"
+msgstr ""
+
+#: modules/operserv/specs.c:183
+#, c-format
+msgid "Nicknames/accounts: %s"
+msgstr ""
+
+#: modules/operserv/specs.c:185
+#, c-format
+msgid "Channels: %s"
+msgstr ""
+
+#: modules/operserv/specs.c:187
+#, c-format
+msgid "General: %s"
+msgstr ""
+
+#: modules/operserv/specs.c:189
+#, c-format
+msgid "OperServ: %s"
+msgstr ""
+
+#: modules/operserv/specs.c:190
+msgid "End of privileges"
+msgstr ""
+
+#: modules/operserv/sqline.c:30
+msgid "Manages network name bans."
+msgstr ""
+
+#: modules/operserv/sqline.c:32
+msgid "Adds a network name ban"
+msgstr ""
+
+#: modules/operserv/sqline.c:33
+msgid "Deletes a network name ban"
+msgstr ""
+
+#: modules/operserv/sqline.c:34
+msgid "Lists all network name bans"
+msgstr ""
+
+#: modules/operserv/sqline.c:35
+msgid "Synchronises network name bans to servers"
+msgstr ""
+
+#: modules/operserv/sqline.c:140
+msgid "Syntax: SQLINE ADD|DEL|LIST"
+msgstr ""
+
+#: modules/operserv/sqline.c:166 modules/operserv/sqline.c:206
+#: modules/operserv/sqline.c:212
+msgid "Syntax: SQLINE ADD <nick|chan> [!P|!T <minutes>] <reason>"
+msgstr ""
+
+#: modules/operserv/sqline.c:245
+#, c-format
+msgid ""
+"Invalid target: %s. At least three non-wildcard characters are required."
+msgstr ""
+
+#: modules/operserv/sqline.c:252
+#, c-format
+msgid "SQLINE %s is already matched in the database."
+msgstr ""
+
+#: modules/operserv/sqline.c:259
+#, c-format
+msgid "Timed SQLINE on %s was successfully added and will expire in %s."
+msgstr ""
+
+#: modules/operserv/sqline.c:261
+#, c-format
+msgid "SQLINE on %s was successfully added."
+msgstr ""
+
+#: modules/operserv/sqline.c:278
+msgid "Syntax: SQLINE DEL <nick|chan>"
+msgstr ""
+
+#: modules/operserv/sqline.c:311 modules/operserv/sqline.c:330
+#, c-format
+msgid "No such SQLINE with number %d."
+msgstr ""
+
+#: modules/operserv/sqline.c:315 modules/operserv/sqline.c:334
+#: modules/operserv/sqline.c:351
+#, c-format
+msgid "SQLINE on %s has been successfully removed."
+msgstr ""
+
+#: modules/operserv/sqline.c:347
+#, c-format
+msgid "No such SQLINE: %s."
+msgstr ""
+
+#: modules/operserv/sqline.c:371
+msgid "SQLINE list (with reasons):"
+msgstr ""
+
+#: modules/operserv/sqline.c:373
+msgid "SQLINE list:"
+msgstr ""
+
+#: modules/operserv/sqline.c:389
+#, c-format
+msgid "Total of %d %s in SQLINE list."
+msgstr ""
+
+#: modules/operserv/sqline.c:410
+msgid "SQLINE list synchronized to servers."
+msgstr ""
+
+#: modules/operserv/update.c:20
+msgid "Flushes services database to disk."
+msgstr ""
+
+#: modules/operserv/update.c:48
+msgid "UPDATE completed."
+msgstr ""
+
+#: modules/operserv/uptime.c:20
+msgid "Shows services uptime and the number of registered nicks and channels."
+msgstr ""
+
+#: modules/operserv/uptime.c:45
+#, c-format
+msgid "Services have been up for %s"
+msgstr ""
+
+#: modules/operserv/uptime.c:46
+#, c-format
+msgid "Registered accounts: %d"
+msgstr ""
+
+#: modules/operserv/uptime.c:48
+#, c-format
+msgid "Registered nicknames: %d"
+msgstr ""
+
+#: modules/operserv/uptime.c:49
+#, c-format
+msgid "Registered channels: %d"
+msgstr ""
+
+#: modules/operserv/uptime.c:50
+#, c-format
+msgid "Users currently online: %d"
+msgstr ""
+
+#: src/account.c:209
+#, c-format
+msgid "SUCCESSION: %s to %s from %s"
+msgstr ""
+
+#: src/account.c:226 src/account.c:277 src/account.c:289
+#, c-format
+msgid "DELETE: %s from %s"
+msgstr ""
+
+#: src/account.c:853
+#, c-format
+msgid ""
+"Not restoring mark \"%s\" for account %s (name %s) which is already marked"
+msgstr ""
+
+#: src/account.c:854
+#, c-format
+msgid "MARK:FORGET: \"%s\" for %s (%s) (already marked)"
+msgstr ""
+
+#: src/account.c:860
+#, c-format
+msgid "MARK:RESTORE: \"%s\" for %s (%s)"
+msgstr ""
+
+#: src/account.c:1821
+#, c-format
+msgid "EXPIRE: %s from %s "
+msgstr ""
+
+#: src/account.c:1875 src/account.c:1913
+#, c-format
+msgid "EXPIRE: %s from %s"
+msgstr ""
+
+#: src/commandtree.c:181 src/commandtree.c:240
+msgid "The following commands are available:"
+msgstr "다음 명령을 쓸 수 있습니다:"
+
+#: src/commandtree.c:183 src/commandtree.c:242
+msgid "The following subcommands are available:"
+msgstr "다음 부명령을 쓸 수 있습니다:"
+
+#: src/commandtree.c:256
+msgid "Other commands: "
+msgstr "다른 명령들: "
+
+#: src/function.c:451
+#, c-format
+msgid "Rejecting email for %s[%s@%s] due to too high load (type %d to %s <%s>)"
+msgstr ""
+
+#: src/help.c:49 src/help.c:202
+#, c-format
+msgid "No help available for %s."
+msgstr "%s 명령에 대한 도움말이 없습니다."
+
+#: src/help.c:53
+#, c-format
+msgid ""
+"If you're having trouble, you may want to join the help channel %s or visit "
+"the help webpage %s"
+msgstr ""
+
+#: src/help.c:55
+#, c-format
+msgid "If you're having trouble, you may want to join the help channel %s"
+msgstr ""
+
+#: src/help.c:57
+#, c-format
+msgid "If you're having trouble, you may want to visit the help webpage %s"
+msgstr ""
+
+#: src/help.c:147
+#, c-format
+msgid "Could not get help file for %s."
+msgstr ""
+
+#: src/logger.c:328
+#, c-format
+msgid "Could not open log file (%s), log entries will be missing!"
+msgstr ""
+
+#: src/module.c:164
+#, c-format
+msgid "Module %s loaded [at 0x%lx; MAPI version %d]"
+msgstr ""
+
+#: src/module.c:165
+#, c-format
+msgid "MODLOAD: %s [at 0x%lx; MAPI version %d]"
+msgstr ""
+
+#: src/module.c:289
+#, c-format
+msgid "Module %s unloaded."
+msgstr ""
+
+#: src/node.c:241
+#, c-format
+msgid "KLINE:EXPIRE: %s@%s set %s ago by %s"
+msgstr ""
+
+#: src/node.c:244
+#, c-format
+msgid "AKILL expired on %s@%s, set by %s"
+msgstr ""
+
+#: src/node.c:378
+#, c-format
+msgid "XLINE:EXPIRE: %s set %s ago by %s"
+msgstr ""
+
+#: src/node.c:381
+#, c-format
+msgid "XLINE expired on %s, set by %s"
+msgstr ""
+
+#: src/node.c:537
+#, c-format
+msgid "QLINE:EXPIRE: %s set %s ago by %s"
+msgstr ""
+
+#: src/node.c:540
+#, c-format
+msgid "QLINE expired on %s, set by %s"
+msgstr ""
+
+#: src/ptasks.c:741
+#, c-format
+msgid "Services kill fight (%s -> %s), shutting down!"
+msgstr ""
+
+#: src/ptasks.c:831
+msgid "You are on services ignore. You may not use any service."
+msgstr ""
+
+#: src/ptasks.c:878 src/ptasks.c:893
+msgid "You have triggered services flood protection."
+msgstr ""
+
+#: src/ptasks.c:879
+msgid "This is your first offense. You will be ignored for 30 seconds."
+msgstr ""
+
+#: src/ptasks.c:894
+msgid "This is your last warning. You will be ignored for 30 seconds."
+msgstr ""
+
+#: src/services.c:420
+#, c-format
+msgid "Account %s dropped, forcing logout"
+msgstr ""
+
+#: src/services.c:440
+#, c-format
+msgid "Login to account %s is stale, forcing logout"
+msgstr ""
+
+#: src/services.c:451
+#, c-format
+msgid "Login to account %s seems invalid, forcing logout"
+msgstr ""
+
+#: src/services.c:843
+#, c-format
+msgid "Output limit (%u) exceeded, halting output"
+msgstr ""
+
+#: src/services.c:1051
+msgid "The vhost provided contains invalid characters."
+msgstr ""
+
+#: src/services.c:1056
+msgid "The vhost provided is too long."
+msgstr ""
+
+#: src/services.c:1062
+msgid "The vhost provided looks like a CIDR mask."
+msgstr ""
+
+#: src/services.c:1068
+msgid "The vhost provided is invalid."
+msgstr ""
+
+#: src/signal.c:150
+#, c-format
+msgid "Got SIGHUP; reloading %s."
+msgstr "SIGHUP 시그널을 받았으므로 %s 파일을 다시 불러들입니다."
+
+#: src/signal.c:155
+#, c-format
+msgid "Updating database by request of %s."
+msgstr "%s 사용자의 요청으로 데이터베이스를 갱신하고 있습니다."
+
+#: src/signal.c:160
+#, c-format
+msgid "Rehashing %s by request of %s."
+msgstr "%s 봇이 %s 사용자의 요청으로 재기동되고 있습니다."
+
+#: src/signal.c:173 src/signal.c:194
+#, c-format
+msgid "Exiting on signal %d."
+msgstr "시그널 %d을(를) 받아 종료합니다."
+
+#: src/signal.c:183
+msgid "Got SIGINT; restarting."
+msgstr "SIGINT 시그널을 받았으므로 재시작합니다."
+
+#: src/signal.c:186 src/signal.c:205
+#, c-format
+msgid "Restarting by request of %s."
+msgstr "%s 사용자의 요청으로 재시작하고 있습니다."
+
+#: src/signal.c:202
+msgid "Got SIGUSR2; restarting."
+msgstr "SIGUSR2 시그널을 받았으므로 재시작합니다."
+
+#: src/users.c:316
+#, c-format
+msgid "user_find(): found user %s by nick!"
+msgstr ""
+
+#: include/services.h:135
+#, c-format
+msgid "Insufficient parameters for %s."
+msgstr "%s 명령에 인자가 부족합니다."
+
+#: include/services.h:136
+#, c-format
+msgid "Invalid parameters for %s."
+msgstr "%s 명령이 잘못된 인자를 받았습니다."
+
+#: include/services.h:137
+#, c-format
+msgid "You do not have the %s privilege."
+msgstr "%s 권한을 가지고 있지 않아 명령을 실행할 수 없습니다."
+

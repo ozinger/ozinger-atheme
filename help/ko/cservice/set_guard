@@ -1,0 +1,8 @@
+SET GUARD 명령 도움말:
+
+SET GUARD 명령은 &nick& 봇이 채널에 상주하도록 합니다.
+
+사용법: SET <#채널> GUARD ON|OFF
+
+예:
+    /msg &nick& SET #내채널 GUARD ON
